@@ -22,5 +22,5 @@ jobs:
           api_token: 6fbdae48cb5a01baf07dfe6336d65d347db902c4
           project_id: 440878166791b5d76be464.89002884
           file_format: po
-          translations_path: '/en.po'
+          translations_path: 'Locales/en'
           base_lang: en
