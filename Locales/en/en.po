@@ -15,3 +15,6 @@ msgstr "Mount Everest"
 
 msgid "tallest_mountain_height"
 msgstr "Some"
+
+msgid "tallest_mountain_height_2"
+msgstr "Some"
