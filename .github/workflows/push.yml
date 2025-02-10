@@ -1,5 +1,9 @@
 name: Push to Lokalise
 
+permissions:
+  contents: read
+  pull-requests: read
+
 on:
   workflow_dispatch:
     inputs:
