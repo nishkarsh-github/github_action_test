@@ -1,39 +1,22 @@
-name: Push to Lokalise
-
-permissions:
-  contents: read
-  pull-requests: read
-
-on:
+name: Push to Lokalise  
+on:  
   workflow_dispatch:
-    inputs:
-      job_to_run:
-        description: 'Select job to run'
-        required: true
-        type: choice
-        options:
-          - push-translations
-          - all
-  push:
-    branches:
-      - main
 
-jobs:
-  push-translations:
-    if: github.event.inputs.job_to_run == 'push-translations' || github.event.inputs.job_to_run == 'all' || github.event_name == 'push'
+jobs:  
+  build:  
     runs-on: ubuntu-latest
-    
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout Repo
+        uses: actions/checkout@v4
         with:
-          fetch-depth: 2
-          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
 
       - name: Push files to Lokalise
-        uses: lokalise/lokalise-push-action@v3.1.1
+        uses: lokalise/lokalise-push-action@v3.0.0
         with:
           api_token: 6fbdae48cb5a01baf07dfe6336d65d347db902c4
           project_id: 440878166791b5d76be464.89002884
-          base_lang: en
           file_format: po
-          translations_path: '/en.po'
+          translations_path: |
+            '/en.po'
+          base_lang: en
