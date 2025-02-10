@@ -1,6 +1,10 @@
 name: Test Push to Lokalise  
+
 on:  
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:  
   build:  
@@ -18,6 +22,5 @@ jobs:
           api_token: 6fbdae48cb5a01baf07dfe6336d65d347db902c4
           project_id: 440878166791b5d76be464.89002884
           file_format: po
-          translations_path: |
-            '/'
+          translations_path: '/en.po'
           base_lang: en
