@@ -31,4 +31,4 @@ jobs:
           project_id: 440878166791b5d76be464.89002884
           base_lang: en
           file_format: po
-          translations_path: 'en.po'
+          translations_path: '/en.po'
