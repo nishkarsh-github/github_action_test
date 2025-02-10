@@ -1,4 +1,4 @@
-name: Push to Lokalise  
+name: Test Push to Lokalise  
 on:  
   workflow_dispatch:
 
@@ -10,13 +10,14 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Push files to Lokalise
-        uses: lokalise/lokalise-push-action@v3.0.0
+        uses: lokalise/lokalise-push-action@v3.1.1
         with:
           api_token: 6fbdae48cb5a01baf07dfe6336d65d347db902c4
           project_id: 440878166791b5d76be464.89002884
           file_format: po
           translations_path: |
-            '/en.po'
+            '/'
           base_lang: en
