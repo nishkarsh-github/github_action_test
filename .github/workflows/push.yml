@@ -24,3 +24,4 @@ jobs:
           file_format: po
           translations_path: 'Locales/en'
           base_lang: en
+          rambo_mode: true
