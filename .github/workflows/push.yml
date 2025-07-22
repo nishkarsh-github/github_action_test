@@ -25,3 +25,5 @@ jobs:
           translations_path: Locales/en/*.po
           file_format: po
           rambo_mode: true
+          replace_modified: true
+          include_path: true
