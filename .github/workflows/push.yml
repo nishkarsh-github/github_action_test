@@ -27,7 +27,8 @@ jobs:
           api_token: db92319ee7d5a58062192edaf4ea2866fbf64daa
           project_id: 7324349368679d64e90596.42179787
           base_lang: en
-          translations_path: Locales/en/*.po
+          translations_path: |
+            Locales
           file_format: po
           rambo_mode: true
           additional_params: "--include-path, --replace-modified"
