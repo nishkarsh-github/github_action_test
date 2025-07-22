@@ -25,7 +25,7 @@ jobs:
         uses: lokalise/lokalise-push-action@v3.6.0
         with:
           api_token: db92319ee7d5a58062192edaf4ea2866fbf64daa
-          project_id: 440878166791b5d76be464.89002884
+          project_id: 7324349368679d64e90596.42179787
           base_lang: en
           translations_path: Locales/en/*.po
           file_format: po
