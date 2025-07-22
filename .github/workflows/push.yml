@@ -1,11 +1,8 @@
 name: Test Push to Lokalise  
-
 on:  
   workflow_dispatch:
-
 permissions:
   contents: write
-
 jobs:  
   build:  
     runs-on: ubuntu-latest
@@ -15,13 +12,19 @@ jobs:
         with:
           fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
-
+      
+      - name: List files in Locales/en (debug)
+        run: |
+          echo "Files in Locales/en:"
+          find Locales/en -name "*.po" -type f
+          ls -la Locales/en/
+      
       - name: Push files to Lokalise
         uses: lokalise/lokalise-push-action@v3.6.0
         with:
           api_token: db92319ee7d5a58062192edaf4ea2866fbf64daa
           project_id: 440878166791b5d76be464.89002884
           file_format: po
-          translations_path: 'Locales/en'
+          translations_path: 'Locales/en/*.po'
           base_lang: en
           rambo_mode: true
