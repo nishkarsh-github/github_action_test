@@ -13,7 +13,7 @@ msgid "auth.password"
 msgstr "Password"
 
 msgid "auth.email"
-msgstr "Email Address"
+msgstr "Email address"
 
 msgid "auth.login_button"
 msgstr "Log In"
