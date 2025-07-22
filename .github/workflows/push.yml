@@ -22,15 +22,6 @@ jobs:
           api_token: db92319ee7d5a58062192edaf4ea2866fbf64daa
           project_id: 440878166791b5d76be464.89002884
           base_lang: en
-          translations_path: |
-            Locales/en/email.po
-            Locales/en/notification.po
-            Locales/en/forms.po
-            Locales/en/common.po
-            Locales/en/en.po
-            Locales/en/auth.po
-            Locales/en/navigation.po
-            Locales/en/ecommerce.po
-            Locales/en/dashboard.po
+          translations_path: Locales/en/*.po
           file_format: po
           rambo_mode: true
