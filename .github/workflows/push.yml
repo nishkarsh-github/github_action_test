@@ -1,49 +1,36 @@
-name: Test Push to Lokalise  
-on:  
+name: Test Push to Lokalise
+on:
   workflow_dispatch:
+
 permissions:
   contents: write
-jobs:  
-  build:  
+
+jobs:
+  build:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
-      
-      - name: List files in Locales/en (debug)
-        run: |
-          echo "Files in Locales/en:"
-          find Locales/en -name "*.po" -type f
-          ls -la Locales/en/
-      
-      - name: Push files to Lokalise (attempt 1)
+
+      - name: Push to Lokalise
         uses: lokalise/lokalise-push-action@v3.6.0
         with:
           api_token: db92319ee7d5a58062192edaf4ea2866fbf64daa
           project_id: 440878166791b5d76be464.89002884
-          file_format: po
-          translations_path: Locales/en
           base_lang: en
-          
-      - name: Push files to Lokalise (attempt 2 - if first fails)
-        if: failure()
-        run: |
-          echo "First attempt failed, trying individual file uploads..."
-          cd Locales/en
-          for file in *.po; do
-            if [ -f "$file" ]; then
-              echo "Processing $file..."
-              # Use lokalise CLI or API directly
-              curl -X POST https://api.lokalise.com/api2/projects/${{ secrets.PROJECT_ID }}/files/upload \
-                -H "X-Api-Token: ${{ secrets.API_TOKEN }}" \
-                -H "Content-Type: application/json" \
-                -d "{
-                  \"data\": \"$(base64 -w 0 "$file")\",
-                  \"filename\": \"$file\",
-                  \"lang_iso\": \"en\"
-                }"
-            fi
-          done
+          translations_path: |
+            Locales/en/email.po
+            Locales/en/notification.po
+            Locales/en/forms.po
+            Locales/en/common.po
+            Locales/en/en.po
+            Locales/en/auth.po
+            Locales/en/navigation.po
+            Locales/en/ecommerce.po
+            Locales/en/dashboard.po
+          file_format: po
+          rambo_mode: true
