@@ -31,4 +31,3 @@ jobs:
             Locales
           file_format: po
           rambo_mode: true
-          additional_params: "--include-path, --replace-modified"
