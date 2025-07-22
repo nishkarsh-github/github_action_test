@@ -1,0 +1,40 @@
+# Notification Messages Translations
+# Copyright (C) 2025
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+
+msgid "notify.success"
+msgstr "Success!"
+
+msgid "notify.error"
+msgstr "Error"
+
+msgid "notify.warning"
+msgstr "Warning"
+
+msgid "notify.info"
+msgstr "Information"
+
+msgid "notify.file_uploaded"
+msgstr "File uploaded successfully"
+
+msgid "notify.profile_updated"
+msgstr "Profile updated"
+
+msgid "notify.password_changed"
+msgstr "Password changed successfully"
+
+msgid "notify.email_sent"
+msgstr "Email sent"
+
+msgid "notify.data_saved"
+msgstr "Data has been saved"
+
+msgid "notify.connection_lost"
+msgstr "Connection lost. Please check your internet connection."
+
+msgid "notify.session_expired"
+msgstr "Your session has expired. Please log in again."

@@ -1,0 +1,37 @@
+# Navigation Menu Translations
+# Copyright (C) 2025
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+
+msgid "nav.home"
+msgstr "Home"
+
+msgid "nav.about"
+msgstr "About Us"
+
+msgid "nav.services"
+msgstr "Services"
+
+msgid "nav.contact"
+msgstr "Contact"
+
+msgid "nav.blog"
+msgstr "Blog"
+
+msgid "nav.portfolio"
+msgstr "Portfolio"
+
+msgid "nav.login"
+msgstr "Sign In"
+
+msgid "nav.logout"
+msgstr "Sign Out"
+
+msgid "nav.dashboard"
+msgstr "Dashboard"
+
+msgid "nav.settings"
+msgstr "Settings"

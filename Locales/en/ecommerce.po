@@ -1,0 +1,43 @@
+# E-commerce Platform Translations
+# Copyright (C) 2025
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+
+msgid "shop.add_to_cart"
+msgstr "Add to Cart"
+
+msgid "shop.view_cart"
+msgstr "View Cart"
+
+msgid "shop.checkout"
+msgstr "Checkout"
+
+msgid "shop.price"
+msgstr "Price"
+
+msgid "shop.quantity"
+msgstr "Quantity"
+
+msgid "shop.total"
+msgstr "Total"
+
+msgid "shop.shipping"
+msgstr "Shipping"
+
+msgid "shop.tax"
+msgstr "Tax"
+
+msgid "shop.discount"
+msgstr "Discount"
+
+msgid "shop.order_summary"
+msgstr "Order Summary"
+
+msgid "shop.payment_method"
+msgstr "Payment Method"
+
+msgid "shop.place_order"
+msgstr "Place Order"

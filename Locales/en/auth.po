@@ -1,0 +1,40 @@
+# Authentication System Translations
+# Copyright (C) 2025
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+
+msgid "auth.username"
+msgstr "Username"
+
+msgid "auth.password"
+msgstr "Password"
+
+msgid "auth.email"
+msgstr "Email Address"
+
+msgid "auth.login_button"
+msgstr "Log In"
+
+msgid "auth.register_button"
+msgstr "Create Account"
+
+msgid "auth.forgot_password"
+msgstr "Forgot Password?"
+
+msgid "auth.reset_password"
+msgstr "Reset Password"
+
+msgid "auth.confirm_password"
+msgstr "Confirm Password"
+
+msgid "auth.remember_me"
+msgstr "Remember me"
+
+msgid "auth.invalid_credentials"
+msgstr "Invalid username or password"
+
+msgid "auth.account_created"
+msgstr "Account successfully created"

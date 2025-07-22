@@ -1,0 +1,52 @@
+# Common UI Elements Translations
+# Copyright (C) 2025
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+
+msgid "common.yes"
+msgstr "Yes"
+
+msgid "common.no"
+msgstr "No"
+
+msgid "common.ok"
+msgstr "OK"
+
+msgid "common.close"
+msgstr "Close"
+
+msgid "common.delete"
+msgstr "Delete"
+
+msgid "common.edit"
+msgstr "Edit"
+
+msgid "common.save"
+msgstr "Save"
+
+msgid "common.cancel"
+msgstr "Cancel"
+
+msgid "common.loading"
+msgstr "Loading..."
+
+msgid "common.search"
+msgstr "Search"
+
+msgid "common.filter"
+msgstr "Filter"
+
+msgid "common.sort"
+msgstr "Sort"
+
+msgid "common.next"
+msgstr "Next"
+
+msgid "common.previous"
+msgstr "Previous"
+
+msgid "common.back"
+msgstr "Back"

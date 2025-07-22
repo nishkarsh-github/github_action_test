@@ -1,0 +1,40 @@
+# Email Template Translations
+# Copyright (C) 2025
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+
+msgid "email.welcome_subject"
+msgstr "Welcome to Our Platform!"
+
+msgid "email.welcome_greeting"
+msgstr "Hello and welcome!"
+
+msgid "email.password_reset_subject"
+msgstr "Password Reset Request"
+
+msgid "email.password_reset_body"
+msgstr "Click the link below to reset your password"
+
+msgid "email.order_confirmation"
+msgstr "Order Confirmation"
+
+msgid "email.shipping_notification"
+msgstr "Your order has been shipped"
+
+msgid "email.newsletter_subject"
+msgstr "Monthly Newsletter"
+
+msgid "email.account_verification"
+msgstr "Please verify your account"
+
+msgid "email.footer_unsubscribe"
+msgstr "Unsubscribe from these emails"
+
+msgid "email.footer_contact"
+msgstr "Contact us if you have any questions"
+
+msgid "email.best_regards"
+msgstr "Best regards"

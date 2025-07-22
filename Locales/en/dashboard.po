@@ -1,0 +1,43 @@
+# Dashboard Interface Translations
+# Copyright (C) 2025
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+
+msgid "dashboard.welcome"
+msgstr "Welcome to your Dashboard"
+
+msgid "dashboard.overview"
+msgstr "Overview"
+
+msgid "dashboard.analytics"
+msgstr "Analytics"
+
+msgid "dashboard.reports"
+msgstr "Reports"
+
+msgid "dashboard.users"
+msgstr "Users"
+
+msgid "dashboard.total_sales"
+msgstr "Total Sales"
+
+msgid "dashboard.new_orders"
+msgstr "New Orders"
+
+msgid "dashboard.active_users"
+msgstr "Active Users"
+
+msgid "dashboard.revenue"
+msgstr "Revenue"
+
+msgid "dashboard.last_7_days"
+msgstr "Last 7 days"
+
+msgid "dashboard.view_details"
+msgstr "View Details"
+
+msgid "dashboard.export_data"
+msgstr "Export Data"

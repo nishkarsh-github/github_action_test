@@ -1,0 +1,40 @@
+# Form Validation Translations
+# Copyright (C) 2025
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+
+msgid "form.required_field"
+msgstr "This field is required"
+
+msgid "form.invalid_email"
+msgstr "Please enter a valid email address"
+
+msgid "form.password_too_short"
+msgstr "Password must be at least 8 characters long"
+
+msgid "form.passwords_dont_match"
+msgstr "Passwords do not match"
+
+msgid "form.save_changes"
+msgstr "Save Changes"
+
+msgid "form.cancel"
+msgstr "Cancel"
+
+msgid "form.submit"
+msgstr "Submit"
+
+msgid "form.reset"
+msgstr "Reset Form"
+
+msgid "form.loading"
+msgstr "Please wait..."
+
+msgid "form.success_message"
+msgstr "Form submitted successfully"
+
+msgid "form.error_message"
+msgstr "An error occurred. Please try again."
