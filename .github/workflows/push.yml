@@ -16,6 +16,11 @@ jobs:
           fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: List translation files
+        run: |
+          echo "Looking for files matching: Locales/en/*.po"
+          ls -la Locales/en/*.po || echo "No .po files found!"
+
       - name: Push to Lokalise
         uses: lokalise/lokalise-push-action@v3.6.0
         with:
@@ -25,6 +30,4 @@ jobs:
           translations_path: Locales/en/*.po
           file_format: po
           rambo_mode: true
-          additional_params: |
-            --include-path
-            --replace-modified
+          additional_params: "--include-path, --replace-modified"
