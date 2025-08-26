@@ -25,6 +25,7 @@ jobs:
           translations_path: |
             Locales_2
           file_format: json
+          flat_naming: true
           file_ext: json
           use_tag_tracking: true
           skip_default_flags: true
