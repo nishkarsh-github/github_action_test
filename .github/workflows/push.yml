@@ -25,6 +25,7 @@ jobs:
           translations_path: |
             NewLocales
           file_format: json
+          file_ext: json
           name_pattern: |
             NewLocales/*/*.json
           use_tag_tracking: true
