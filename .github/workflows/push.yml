@@ -23,7 +23,7 @@ jobs:
           project_id: 45297207687e0592a89eb0.41949853
           base_lang: en
           translations_path: |
-            NewLocales
+            Locales_2
           file_format: json
           file_ext: json
           use_tag_tracking: true
