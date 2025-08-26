@@ -23,9 +23,9 @@ jobs:
           project_id: 45297207687e0592a89eb0.41949853
           base_lang: en
           translations_path: |
-            Locales
-          file_format: po
-          file_ext: po
+            NewLocales
+          file_format: json
+          file_ext: json
           use_tag_tracking: true
           skip_default_flags: true
           rambo_mode: true
