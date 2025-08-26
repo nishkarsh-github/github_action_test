@@ -26,8 +26,6 @@ jobs:
             NewLocales
           file_format: json
           file_ext: json
-          name_pattern: |
-            NewLocales/*/*.json
           use_tag_tracking: true
           skip_default_flags: true
           rambo_mode: true
