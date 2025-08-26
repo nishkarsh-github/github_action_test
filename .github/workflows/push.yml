@@ -16,18 +16,21 @@ jobs:
           fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: List translation files
-        run: |
-          echo "Looking for files matching: Locales/en/*.po"
-          ls -la Locales/en/*.po || echo "No .po files found!"
-
       - name: Push to Lokalise
-        uses: lokalise/lokalise-push-action@v3.6.0
+        uses: lokalise/lokalise-push-action@v3.8.1
         with:
-          api_token: db92319ee7d5a58062192edaf4ea2866fbf64daa
-          project_id: 7324349368679d64e90596.42179787
+          api_token: fb6ca3c2cbb968bba7bd69b8eb7bd28e257efd6c
+          project_id: 45297207687e0592a89eb0.41949853
           base_lang: en
           translations_path: |
             Locales
           file_format: po
+          file_ext: po
+          use_tag_tracking: true
+          skip_default_flags: true
           rambo_mode: true
+          additional_params: |
+            --convert-placeholders
+            --replace-modified
+            --distinguish-by-file=false
+            ${{ inputs.force && '--cleanup-mode' || '' }}
