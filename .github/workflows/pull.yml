@@ -6,6 +6,10 @@ on:
     # Run daily at 2 AM UTC
     - cron: '0 2 * * *'
 
+permissions:
+  contents: write
+  pull-requests: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -14,7 +18,7 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.LOKALISE_PAT }}  # Use PAT instead of default token
+          token: ${{ secrets.LOKALISE_PAT }}
           fetch-depth: 0
 
       - name: Pull from Lokalise for login translations
@@ -22,7 +26,6 @@ jobs:
         with:
           api_token: fb6ca3c2cbb968bba7bd69b8eb7bd28e257efd6c
           project_id: 9816395968b17983c7aa09.92256776
-          github_token: ${{ secrets.LOKALISE_PAT }}  # Add this line
           async_mode: true
           translations_path: static/labels/json
           file_format: json
@@ -56,7 +59,6 @@ jobs:
         with:
           api_token: fb6ca3c2cbb968bba7bd69b8eb7bd28e257efd6c
           project_id: 9816395968b17983c7aa09.92256776
-          github_token: ${{ secrets.LOKALISE_PAT }}  # Add this line
           async_mode: true
           translations_path: static/labels/json
           file_format: json
