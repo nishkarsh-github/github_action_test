@@ -23,7 +23,11 @@ jobs:
           file_format: strings
           base_lang: en
           file_ext: strings
-          additional_params: "--all-platforms=true --format=strings --original-filenames=false --bundle-structure=%LANG_ISO%.%FORMAT%"
+          additional_params: |
+            --all-platforms
+            --format=strings
+            --original-filenames=false
+            --bundle-structure=%LANG_ISO%.%FORMAT%
           always_pull_base: true
           git_commit_message: 'Update translations'
           override_branch_name: 'github_action_test/lokalise-update'
