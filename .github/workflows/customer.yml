@@ -18,8 +18,8 @@ jobs:
           fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Pull from Lokalise
-        uses: lokalise/lokalise-push-action@v3.8.1
+      - name: Fetch data, commit and push changes and create a PR
+        uses: lokalise/lokalise-pull-action@v3.14.0
         with:
           api_token: fb6ca3c2cbb968bba7bd69b8eb7bd28e257efd6c
           project_id: 5873672068b7ec104f9f20.86313302
