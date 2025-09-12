@@ -27,6 +27,11 @@ jobs:
             en.lproj
           flat_naming: true
           file_format: strings
+          additional_params: |
+            --all-platforms=false
+            --format=strings
+            --original-filenames=false
+            --bundle-structure=%LANG_ISO%.%FORMAT%
           always_pull_base: true
           git_commit_message: 'Update translations'
           override_branch_name: 'github_action_test/lokalise-update'
