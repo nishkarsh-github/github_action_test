@@ -21,6 +21,10 @@ jobs:
             FBApp/Resources/Localization/en.lproj
           file_format: strings
           base_lang: en
+          additional_params: |
+            --all-platforms
+            --export-empty-as=base
+            --filter-langs=en
           always_pull_base: true
           git_commit_message: 'Update translations'
           override_branch_name: 'github_action_test/lokalise-update'
