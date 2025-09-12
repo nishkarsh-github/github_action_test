@@ -25,8 +25,8 @@ jobs:
           additional_params: |
             --all-platforms
             --format=strings
-            --original-filenames=false
-            --bundle-structure=%LANG_ISO%.%FORMAT%
+            --original-filenames=true
+            --directory-prefix=/
           always_pull_base: true
           git_commit_message: 'Update translations'
           override_branch_name: 'github_action_test/lokalise-update'
