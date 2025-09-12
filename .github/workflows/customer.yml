@@ -17,9 +17,7 @@ jobs:
         with:
           api_token: fb6ca3c2cbb968bba7bd69b8eb7bd28e257efd6c
           project_id: 5873672068b7ec104f9f20.86313302
-          translations_path: |
-            en.lproj
-          flat_naming: true
+          translations_path: FBApp/Resources/Localization/en.lproj
           file_format: strings
           base_lang: en
           file_ext: strings
