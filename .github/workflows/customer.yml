@@ -19,6 +19,8 @@ jobs:
           project_id: 5873672068b7ec104f9f20.86313302
           flat_naming: true
           file_format: strings
+          translations_path: |
+            FBApp/Resources/Localization/*.lproj
           base_lang: en
           additional_params: |
             --all-platforms
