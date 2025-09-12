@@ -27,6 +27,8 @@ jobs:
             en.lproj
           flat_naming: true
           file_format: strings
+          base_lang: en
+          file_ext: strings
           additional_params: |
             --all-platforms=false
             --format=strings
