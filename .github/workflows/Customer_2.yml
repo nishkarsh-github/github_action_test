@@ -16,7 +16,7 @@ jobs:
         uses: lokalise/lokalise-pull-action@v3.14.0
         with:
           api_token: fb6ca3c2cbb968bba7bd69b8eb7bd28e257efd6c
-          project_id: 5873672068b7ec104f9f20.86313302
+          project_id: 9816395968b17983c7aa09.92256776
           flat_naming: true
           file_format: strings
           translations_path: |
