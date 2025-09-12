@@ -20,11 +20,13 @@ jobs:
           flat_naming: true
           file_format: strings
           translations_path: |
-            FBApp/Resources/Localization/*.lproj
+            Localization/en.lproj
           base_lang: en
           additional_params: |
             --all-platforms
             --format=strings
+            --original-filenames=false
+            --bundle-structure=%LANG_ISO%.%FORMAT%
           always_pull_base: true
           git_commit_message: 'Update translations'
           override_branch_name: 'github_action_test/lokalise-update'
