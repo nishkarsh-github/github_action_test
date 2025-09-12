@@ -30,7 +30,7 @@ jobs:
           base_lang: en
           file_ext: strings
           additional_params: |
-            --all-platforms=false
+            --all-platforms=true
             --format=strings
             --original-filenames=false
             --bundle-structure=%LANG_ISO%.%FORMAT%
