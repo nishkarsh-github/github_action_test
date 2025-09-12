@@ -1,0 +1,46 @@
+name: Import content from Lokalise
+on:
+  workflow_dispatch:
+    inputs:
+        base_branch:
+            description: 'The base branch that will be used for the PR'
+            type: string
+            required: true
+            default: 'develop'
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: linux-small-runner
+    steps:
+      - name: Use Github App to generate checkout token
+        id: token_for_checkout
+        uses: actions/create-github-app-token@v1
+        with:
+          app-id: ${{ secrets.IOS_DEPENDENCY_APP_ID }}
+          private-key: ${{ secrets.IOS_DEPENDENCY_APP_PRIVATE_KEY }}
+          owner: ${{ github.repository_owner }}
+          
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ steps.token_for_checkout.outputs.token }}
+          ref: ${{ inputs.base_branch }}
+
+      - name: Fetch data, commit and push changes and create a PR
+        uses: lokalise/lokalise-pull-action@v3.14.0
+        with:
+          api_token: fb6ca3c2cbb968bba7bd69b8eb7bd28e257efd6c
+          project_id: 5873672068b7ec104f9f20.86313302
+          file_format: strings
+          translations_path: |
+            FBApp/Resources/Localization/en.lproj
+          base_lang: "en"
+          always_pull_base: true
+          custom_github_token: ${{ secrets.GITHUB_TOKEN }}
+          git_commit_message: 'Update translations'
+          override_branch_name: 'feature/lokalise-update'
+          pr_title: 'Update translations from Lokalise'
+          pr_body: 'This PR updates translations from Lokalise'
