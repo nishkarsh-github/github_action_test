@@ -21,6 +21,9 @@ jobs:
           file_format: strings
           translations_path: |
             Localization/en.lproj
+            Localization/de.lproj
+            Localization/es.lproj
+            Localization/th.lproj
           base_lang: en
           additional_params: |
             --all-platforms
