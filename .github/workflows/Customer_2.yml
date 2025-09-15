@@ -17,10 +17,12 @@ jobs:
         with:
           api_token: fb6ca3c2cbb968bba7bd69b8eb7bd28e257efd6c
           project_id: 9816395968b17983c7aa09.92256776
-          flat_naming: true
           file_format: strings
+          flat_naming: true
+          base_lang: en
+          skip_include_tags: true
           translations_path: |
-            FBApp/Resources/Localization/en.lproj
+            FBApp/Resources/Localization/en.lproj/en.strings
           always_pull_base: true
           git_commit_message: 'Update translations'
           override_branch_name: 'github_action_test/lokalise-update'
