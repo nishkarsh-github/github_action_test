@@ -12,6 +12,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          
       - name: Fetch data, commit and push changes and create a PR
         uses: lokalise/lokalise-pull-action@v3.14.0
         with:
