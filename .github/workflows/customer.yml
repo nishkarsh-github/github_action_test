@@ -1,4 +1,4 @@
-name: Nish Test Import content from Lokalise
+name: Nish Test 2 Import content from Lokalise
 
 on:
   workflow_dispatch:
@@ -12,24 +12,21 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          
       - name: Fetch data, commit and push changes and create a PR
         uses: lokalise/lokalise-pull-action@v3.14.0
         with:
-          api_token: fb6ca3c2cbb968bba7bd69b8eb7bd28e257efd6c
-          project_id: 5873672068b7ec104f9f20.86313302
-          flat_naming: true
+          api_token: ed8245efe57aebc94f96316afce43cf6815ad230
+          project_id: 11903289678e62095fbc32.57116050
           file_format: strings
-          translations_path: |
-            Localization/en.lproj
-            Localization/de.lproj
-            Localization/es.lproj
-            Localization/th.lproj
           base_lang: en
-          additional_params: |
-            --all-platforms
-            --format=strings
-            --original-filenames=true
-            --directory-prefix=/
+          skip_include_tags: true
+          translations_path: |
+            FBApp/Resources/Localization/en.lproj
           always_pull_base: true
           git_commit_message: 'Update translations'
           override_branch_name: 'github_action_test/lokalise-update'
