@@ -1,4 +1,4 @@
-name: Nish Test 2 Import content from Lokalise
+name: Nish Test 2 (Customer Data) Import content from Lokalise
 
 on:
   workflow_dispatch:
