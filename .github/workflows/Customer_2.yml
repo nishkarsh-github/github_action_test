@@ -18,7 +18,6 @@ jobs:
           api_token: fb6ca3c2cbb968bba7bd69b8eb7bd28e257efd6c
           project_id: 9816395968b17983c7aa09.92256776
           file_format: strings
-          flat_naming: true
           base_lang: en
           skip_include_tags: true
           translations_path: |
