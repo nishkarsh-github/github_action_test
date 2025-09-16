@@ -27,6 +27,10 @@ jobs:
           skip_include_tags: true
           translations_path: |
             FBApp/Resources/Localization/en.lproj
+          additional_params: |
+            --format=strings
+            --original-filenames=false
+            --bundle-structure=FBApp/Resources/Localization/%LANG_ISO%.lproj/Localizable.strings
           always_pull_base: true
           git_commit_message: 'Update translations'
           override_branch_name: 'github_action_test/lokalise-update'
