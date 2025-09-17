@@ -26,7 +26,7 @@ jobs:
           base_lang: en
           skip_include_tags: true
           translations_path: |
-            FBApp/Resources/Localization/en.lproj
+            FBApp/Resources/Localization
           always_pull_base: true
           force_download: true
           git_commit_message: 'Update translations'
