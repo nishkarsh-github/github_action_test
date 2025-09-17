@@ -20,8 +20,8 @@ jobs:
       - name: Fetch data, commit and push changes and create a PR
         uses: lokalise/lokalise-pull-action@v3.14.0
         with:
-          api_token: ed8245efe57aebc94f96316afce43cf6815ad230
-          project_id: 11903289678e62095fbc32.57116050
+          api_token: fb6ca3c2cbb968bba7bd69b8eb7bd28e257efd6c
+          project_id: 5873672068b7ec104f9f20.86313302
           file_format: strings
           base_lang: en
           skip_include_tags: true
@@ -33,6 +33,5 @@ jobs:
             --bundle-structure=FBApp/Resources/Localization/%LANG_ISO%.lproj/Localizable.strings
           always_pull_base: true
           git_commit_message: 'Update translations'
-          override_branch_name: 'github_action_test/lokalise-update'
           pr_title: 'Update translations from Lokalise'
           pr_body: 'This PR updates translations from Lokalise'
