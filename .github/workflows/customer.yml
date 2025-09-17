@@ -30,6 +30,7 @@ jobs:
           additional_params: |
             --format=strings
             --original-filenames=false
+            --filter-langs=en
             --bundle-structure=FBApp/Resources/Localization/%LANG_ISO%.lproj/Localizable.strings
           always_pull_base: true
           git_commit_message: 'Update translations'
