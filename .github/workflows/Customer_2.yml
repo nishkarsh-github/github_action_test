@@ -28,6 +28,7 @@ jobs:
           translations_path: |
             FBApp/Resources/Localization/en.lproj
           always_pull_base: true
+          force_download: true
           git_commit_message: 'Update translations'
           override_branch_name: 'github_action_test/lokalise-update'
           pr_title: 'Update translations from Lokalise'
