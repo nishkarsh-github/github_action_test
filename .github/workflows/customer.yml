@@ -28,7 +28,6 @@ jobs:
           translations_path: |
             FBApp/Resources/Localization
           additional_params: |
-            --format=strings
             --original-filenames=true
             --filter-langs=en
             --directory-prefix=FBApp/Resources/Localization/%LANG_ISO%.lproj
