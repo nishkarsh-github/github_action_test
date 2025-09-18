@@ -21,7 +21,7 @@ jobs:
         uses: lokalise/lokalise-pull-action@v3.14.0
         with:
           api_token: fb6ca3c2cbb968bba7bd69b8eb7bd28e257efd6c
-          project_id: 5873672068b7ec104f9f20.86313302
+          project_id: 9816395968b17983c7aa09.92256776
           file_format: strings
           base_lang: en
           skip_include_tags: true
@@ -29,9 +29,9 @@ jobs:
             FBApp/Resources/Localization
           additional_params: |
             --format=strings
-            --original-filenames=false
+            --original-filenames=true
             --filter-langs=en
-            --bundle-structure=FBApp/Resources/Localization/%LANG_ISO%.lproj/Localizable.strings
+            --directory-prefix=FBApp/Resources/Localization/%LANG_ISO%.lproj
           always_pull_base: true
           git_commit_message: 'Update translations'
           pr_title: 'Update translations from Lokalise'
