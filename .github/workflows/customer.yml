@@ -26,7 +26,8 @@ jobs:
           file_format: strings,stringsdict
           skip_include_tags: true
           translations_path: |
-            FBApp/Resources/Localization
+            FBApp/Resources/Localization/%LANG_ISO%.lproj/%LANG_ISO%.strings
+            FBApp/Resources/Localization/%LANG_ISO%.lproj/%LANG_ISO%.stringsdict
           additional_params: |
             --original-filenames=true
             --filter-langs=en
