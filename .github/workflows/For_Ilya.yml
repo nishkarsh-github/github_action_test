@@ -13,25 +13,30 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           fetch-depth: 0
           
       - name: Fetch data, commit and push changes and create a PR
-        uses: lokalise/lokalise-pull-action@v3.14.0
+        uses: lokalise/lokalise-pull-action@additional_file_ext
         with:
           api_token: fb6ca3c2cbb968bba7bd69b8eb7bd28e257efd6c
           project_id: 9816395968b17983c7aa09.92256776
           base_lang: en
           file_format: strings
+          file_ext: |
+            strings
+            stringsdict
           skip_include_tags: true
           skip_original_filenames: true
           translations_path: |
             FBApp/Resources/Localization
-          additional_params: |
-            --original-filenames=true
-            --filter-langs=en
-            --directory-prefix=FBApp/Resources/Localization/%LANG_ISO%.lproj
+          additional_params: >
+            {
+              "original_filenames": true,
+              "filter_langs": ["en"],
+              "directory_prefix": "FBApp/Resources/Localization/%LANG_ISO%.lproj"
+            }
           always_pull_base: true
           git_commit_message: 'Update translations'
           pr_title: 'Update translations from Lokalise'
