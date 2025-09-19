@@ -29,9 +29,9 @@ jobs:
           translations_path: |
             FBApp/Resources/Localization
           additional_params: |
-            --original-filenames=false
+            --original-filenames=true
             --filter-langs=en
-            --bundle-structure=FBApp/Resources/Localization/%LANG_ISO%.lproj/Localization.%FORMAT%
+            --directory-prefix=FBApp/Resources/Localization/%LANG_ISO%.lproj
           always_pull_base: true
           git_commit_message: 'Update translations'
           pr_title: 'Update translations from Lokalise'
