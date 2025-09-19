@@ -1,4 +1,4 @@
-name: Nish Test 2 Import content from Lokalise
+name: Ilya Test
 
 on:
   workflow_dispatch:
@@ -22,14 +22,17 @@ jobs:
         with:
           api_token: fb6ca3c2cbb968bba7bd69b8eb7bd28e257efd6c
           project_id: 9816395968b17983c7aa09.92256776
-          file_format: strings
           base_lang: en
+          file_format: strings
           skip_include_tags: true
+          skip_original_filenames: true
           translations_path: |
             FBApp/Resources/Localization
+          additional_params: |
+            --original-filenames=true
+            --filter-langs=en
+            --directory-prefix=FBApp/Resources/Localization/%LANG_ISO%.lproj
           always_pull_base: true
-          force_download: true
           git_commit_message: 'Update translations'
-          override_branch_name: 'github_action_test/lokalise-update'
           pr_title: 'Update translations from Lokalise'
           pr_body: 'This PR updates translations from Lokalise'
