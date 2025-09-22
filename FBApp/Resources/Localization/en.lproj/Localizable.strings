@@ -1,7 +1,9 @@
 "6JQ-tV-H0G" = "You are about to publish <b>{0}</b>.<br/>This action will:<br/><br/>\n<ul>\n <li>Publish this campaign immediately, and</li>\n <li>Automatically create and publish a linked individual Assessment Campaign using the same campaign details</li>\n</ul>\n<br/>\nBoth campaigns will be active once you proceed.<br/><br/>\nWould you like to continue?";
+"New test key" = "Some nre";
 "Some more" = "Some more to understand";
 "SomeKeyname" = "Keyname";
 "Something more" = "Something more";
+"new key" = "Some more value";
 "tallest_mountain" = "Mount Everest";
 "test_key" = "Standard Account";
 "test_key_2" = "Standard Account 2";
