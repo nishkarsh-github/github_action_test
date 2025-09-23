@@ -1,0 +1,44 @@
+name: Nish Sept 23th Test with GHA
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  fetch-commit-push-pr:
+    runs-on: [self-hosted, macOS, arm64, osx]
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - name: Fetch data, commit and push changes and create a PR
+        uses: lokalise/lokalise-pull-action@additional_file_ext
+        with:
+          os_platform: mac_arm64
+          api_token: fb6ca3c2cbb968bba7bd69b8eb7bd28e257efd6c
+          project_id: 9816395968b17983c7aa09.92256776
+          file_format: strings
+          file_ext: |
+            strings
+            stringsdict
+          skip_include_tags: true
+          skip_original_filenames: true
+          force_push: true
+          translations_path: |
+            FBApp/Resources/Localization
+          additional_params: >
+            {
+                "original_filesnames": true,
+                "filter-langs": ["en"],
+                "directory-prefix": "FBApp/Resources/Localization/%LANG_ISO%.lproj",
+                "include-description": false
+            }
+          always_pull_base: true
+          git_commit_message: 'Update translations'
+          pr_title: 'Update translations from Lokalise'
+          pr_body: 'This PR updates translations from Lokalise'
