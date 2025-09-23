@@ -34,7 +34,7 @@ jobs:
           additional_params: >
             {
                 "original_filesnames": true,
-                "filter-langs": ["en"],
+                "filter_langs": ["en"],
                 "directory-prefix": "FBApp/Resources/Localization/%LANG_ISO%.lproj",
                 "include-description": false
             }
