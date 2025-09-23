@@ -35,7 +35,7 @@ jobs:
             {
                 "original_filesnames": true,
                 "filter_langs": ["en"],
-                "directory-prefix": "FBApp/Resources/Localization/%LANG_ISO%.lproj",
+                "directory_prefix": "FBApp/Resources/Localization/%LANG_ISO%.lproj",
                 "include-description": false
             }
           always_pull_base: true
