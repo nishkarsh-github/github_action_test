@@ -2,9 +2,9 @@ name: Pull Translations from Lokalise
 
 on:
   workflow_dispatch:
-  schedule:
+  # schedule:
     # Run daily at 2 AM UTC
-    - cron: '0 2 * * *'
+    # - cron: '0 2 * * *'
 
 permissions:
   contents: write
