@@ -15,8 +15,8 @@ jobs:
       - name: Pull from Lokalise
         uses: lokalise/lokalise-pull-action@v4.3.0
         with:
-          api_token: c5ff2cf775946e5737afa61b4001a3bf31a31de4
-          project_id: 92108255691a9c1be7f854.41386006
+          api_token: 68fc0b4c09df8c55eff80990202a332dd7a26008
+          project_id: 9278010967bc5abb540ab3.21650092
           async_mode: true
           translations_path: src/i18n/messages
           base_lang: en_GB
