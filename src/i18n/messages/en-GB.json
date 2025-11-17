@@ -1,0 +1,614 @@
+{
+  "analyse": {
+    "findOutMore": {
+      "contactUs": "Still need help? <link> Contact us <\/link>",
+      "description": {
+        "paragraph1": "Remote sensing technology in agriculture refers to the use of sensors (e.g. satellites) and imaging systems to collect and analyse data about crops, soil, and environmental conditions without direct physical contact.",
+        "paragraph2": "By integrating satellite imagery, artificial intelligence (AI), and machine learning, Agreena is able to offer farmers an efficient way to monitor their farm from space.",
+        "paragraph3": "Key Applications of our remote sensing technology include field boundary detection, cover crop detection, tillage detection as well as crop rotation detection to name a few.",
+        "paragraph4": "Find out more about <technologyLink> Agreena's technology <\/technologyLink> on <websiteLink> Agreena.com. <\/websiteLink>"
+      },
+      "headline": "What is remote sensing technology within agriculture?",
+      "infoText": "Remote sensing technlogy"
+    },
+    "form": {
+      "description": "Auto-detect the crops and practices applied to your fields for a quicker setup.",
+      "footer": {
+        "continueButton": "Continue"
+      },
+      "heading": "Analyse your fields using remote sensing",
+      "infoPanelButton": "Find out more",
+      "listItem1": "Stay in control of your farm data",
+      "listItem2": "See your fields grouped by crop type",
+      "listItem3": "Quickly identify tillage type across your fields",
+      "listItem4": "Spot if any cover crops were grown",
+      "listItem5": "Save time with auto-populated field data",
+      "summary": {
+        "area": "Area",
+        "fields": "Fields",
+        "fieldsCount": "{count, plural, =1 {# field} other {# fields}}",
+        "fieldsHa": "{{value}} ha"
+      }
+    },
+    "modal": {
+      "comingSoon": "Coming soon",
+      "communityCTADescription": "Have farming questions? Connect with pioneer regenerative farmers.",
+      "communityCTATitle": "Connect with regen farmers",
+      "earningsCTADescription": "You could earn money based on the impact of your farming practices.",
+      "earningsCTATitle": "Earn money",
+      "fieldsCTADescription": "Your detected farming practices from remote sensing technology.",
+      "fieldsCTATitle": "Your farm and fields",
+      "heading": "Farm setup complete.<br><\/br>Discover your farm.",
+      "insightsCTADescription": "See insights based on your detected crops and farming practices.",
+      "insightsCTATitle": "Regen ag score and insights"
+    },
+    "pending": {
+      "description": "This may take a few minutes",
+      "heading": "Setting up your farm...",
+      "listItem1": "Checking field boundaries",
+      "listItem2": "Identifying crops grown",
+      "listItem3": "Detecting field practices"
+    }
+  },
+  "boundaryDetection": {
+    "card": {
+      "comingSoon": "Coming soon",
+      "description": "Select fields from auto-detected boundaries",
+      "heading": "Select fields on the map"
+    },
+    "form": {
+      "continueButton": "Continue with selected fields",
+      "continueToScan": "Continue to select fields",
+      "continueWithSelectedFields": "Continue with selected fields",
+      "description": "Select your fields from auto-detected boundaries.",
+      "empty": {
+        "heading": "You haven’t selected any fields",
+        "info": "0 fields selected",
+        "listItem1": "Locate your fields on the map",
+        "listItem2": "Search an area to detect boundaries",
+        "listItem3": "Select your field boundaries"
+      },
+      "heading": "Select your fields on the map",
+      "headingCrop": "Select all your <highlight>{{crop}}<\/highlight> fields",
+      "selectAFieldToContinue": "Select a field to continue",
+      "summary": {
+        "area": "Area",
+        "fieldsHa": "{{value}} ha",
+        "selected": "Selected",
+        "selectedCount": "{count, plural, =1 {# field} other {# fields}}",
+        "topCount": "{count, plural, =1 {# field selected} other {# fields selected}}",
+        "topHa": "{value, plural, =1 {# total ha} other {# total ha}}"
+      }
+    },
+    "map": {
+      "addDescription": "Click a boundary to add it",
+      "cantFindAddressText": "Can’t find your address? <button>Use map instead<\/button>",
+      "detectingBoundaries": "Detecting boundaries...",
+      "fieldHa": "{{value}} ha",
+      "geolocationNotSupported": "Geolocation is not supported by your browser",
+      "geolocationPermissionDenied": "Geolocation permission has been denied. Please enable it in your browser settings.",
+      "locationSearchTooltip": "Search for your farm",
+      "moveTooltip": "Move the map then scan an area to detect boundaries.",
+      "scanButton": "Scan for boundaries",
+      "searchPlaceholder": "Map search",
+      "searchTooltip": "Search to detect boundaries",
+      "selectTooltip": "Select your fields from the outlined boundaries.",
+      "tinyFieldHa": "<1 ha",
+      "tooZoomedOut": "Map area is too large<br\/>Zoom in on map to search.",
+      "unableToRetrieveLocation": "Unable to retrieve your location",
+      "useMyLocationButton": "Use my current location",
+      "zoomInToScanAssistiveText": "Zoom in closer to scan for boundaries",
+      "zoomInToScanButton": "Zoom in to scan"
+    }
+  },
+  "countries": {
+    "BG": "Bulgaria",
+    "CZ": "Czechia",
+    "DE": "Germany",
+    "DK": "Denmark",
+    "FR": "France",
+    "GB": "United Kingdom",
+    "HU": "Hungary",
+    "LT": "Lithuania",
+    "MD": "Moldova",
+    "PL": "Poland",
+    "RO": "Romania",
+    "SK": "Slovakia",
+    "UA": "Ukraine"
+  },
+  "cropGroups": {
+    "barley_spring": "Spring barley",
+    "barley_winter": "Winter barley",
+    "beans": "Beans",
+    "cereals_unknown": "Unknown cereals",
+    "corn": "Corn",
+    "grapes": "Grapes",
+    "grasses": "Grasses",
+    "no_data": "No crop found",
+    "no_majority_type": "No majority crop",
+    "not_agriculture": "Not agricultural",
+    "oats": "Oats",
+    "other": "Other",
+    "other_cereals": "Other cereals",
+    "other_cereals_spring": "Spring other cereals",
+    "other_cereals_winter": "Winter other cereals",
+    "peas": "Peas",
+    "potato": "Potato",
+    "rapeseed_spring": "Spring rapeseed",
+    "rapeseed_unknown": "Unknown rapeseed",
+    "rapeseed_winter": "Winter rapeseed",
+    "rye": "Rye",
+    "soybeans": "Soybeans",
+    "sugar_beet": "Sugar beet",
+    "sunflower": "Sunflower",
+    "unknown": "Unknown",
+    "wheat_spring": "Spring wheat",
+    "wheat_winter": "Winter wheat"
+  },
+  "cvrImport": {
+    "card": {
+      "description": "Connect to the CVR to import your boundaries",
+      "heading": "Select your fields from the CVR"
+    },
+    "form": {
+      "description": "Connect to the CVR to import your field boundaries.",
+      "errors": {
+        "allFieldsDuplicate": "You have already added all the fields matching this CVR number",
+        "cvrNumberRequired": "CVR number is required",
+        "generic": "An error occurred while importing your fields",
+        "noFieldsFound": "No fields found for the given CVR number"
+      },
+      "heading": "Import CVR field boundaries",
+      "importButton": "Import CVR boundaries",
+      "infoBox": "Connect to the CVR to import your field boundaries.",
+      "input": {
+        "cvrNumberLabel": "Your 8 digit CVR number",
+        "roleRadioGroup": {
+          "errors": {
+            "required": "Please select your role"
+          },
+          "label": "What is your role to the farm?",
+          "options": {
+            "contractor": "I'm an agent (e.g. agronomist or contractor)",
+            "farmer": "I'm the farm owner\/directly employed by the farm"
+          }
+        }
+      }
+    }
+  },
+  "exploreFlow": {
+    "confirmBoundariesForEstimate": {
+      "continueButton": "Calculate estimate",
+      "description": "We’ll calculate your environmental impact and it’s estimated value based on this crop, area size and practices.",
+      "heading": "Review your details",
+      "pending": {
+        "heading": "Analysing fields and calculating estimate",
+        "listItem1": "Checking fields and practices",
+        "listItem2": "Calculating environmental impact",
+        "listItem3": "Generating earnings estimate"
+      },
+      "summary": {
+        "crop": "Crop",
+        "editLink": "Edit",
+        "fields": "Fields",
+        "fieldsCount": "{count, plural, =1 {# field} other {# fields}}",
+        "fieldsHa": "{{value}} ha",
+        "heading": "Crop details for estimate",
+        "totalArea": "Area"
+      },
+      "whatNext": {
+        "heading": "How your estimate is calculated",
+        "listItem1": "We analyse your fields with remote sensing",
+        "listItem2": "We calculate your environmental impact",
+        "listItem3": "We estimate your potential earnings"
+      }
+    },
+    "createFarm": {
+      "description": "Enter your farm’s location to find it on the map.",
+      "editLocation": "Edit location",
+      "locateFarm": "Locate your farm"
+    },
+    "cropForEstimate": {
+      "continueButton": "Select crop to continue",
+      "subTitle": "We'll calculate your estimate earnings using the farming practices and total area size for this crop",
+      "title": "What crop would you like your earnings estimate to be based on?"
+    },
+    "cropSelection": {
+      "continueButton": "Select crops to continue",
+      "cropFilterPlaceholder": "Search for crop",
+      "errors": {
+        "atLeastOneCropRequired": "Please select at least one crop",
+        "mustSelectCrop": "Please select a crop you wish to estimate earnings for",
+        "noCropsFoundMatching": "No crops found matching"
+      },
+      "subTitle": "We'll calculate your environmental impact based on this crop's practices.",
+      "title": "Select a crop that you grew in 2024"
+    },
+    "estimate": {
+      "cropDetails": {
+        "basedOnFields": "Based on {count, plural, =1 {# field} other {# fields}}, {{area}} ha",
+        "editLink": "Edit",
+        "forCrop": "For your {{crop}}"
+      },
+      "detectablePractices": {
+        "coverCrop": {
+          "count": "<bold>{{coverCropHa}} ha<\/bold> of {{totalHa}} ha",
+          "title": "Cover crop"
+        },
+        "description": "Farming practice data detected using satellite sensing.",
+        "tillage": {
+          "count": "<bold>{{reducedNoTillHa}} ha<\/bold> of {{totalHa}} ha",
+          "title": "Reduced\/no-till"
+        },
+        "title": "Detected practices"
+      },
+      "earnings": {
+        "averagePerHa": "That's an average of {{amount}}\/ha",
+        "disclaimer": "Amounts are not guaranteed and are estimates only. Find out more about calculations.",
+        "perYear": "\/ year",
+        "title": "Your environmental impact could be valued at"
+      },
+      "eligible": {
+        "description": "Your farming practices have a positive environmental impact that you could get paid for.",
+        "title": "Looks like you're eligible!"
+      },
+      "footer": {
+        "createAccountButton": "Create a free account",
+        "eligible": {
+          "description": "Setup your farm to start earnings in minutes.",
+          "title": "Get paid for your farm's environmental impact"
+        },
+        "notEligible": {
+          "description": "Get farm insights, accurate estimates and more.",
+          "title": "Maximise your farm's earning potential"
+        }
+      },
+      "loadingSkeleton": {
+        "createAccountButton": "Create a free account",
+        "earningsDisclaimer": "Earnings are estimates only and are not guaranteed. Based on detectable practices (tillage and cover crops) using remote sensing. For residue management and fertiliser use, reasonable assumptions have been made.",
+        "earningsText": "Your environmental impact could be valued at",
+        "metrics": {
+          "analysedArea": "Analysed area",
+          "avgEarnings": "Avg. earnings",
+          "regenScore": "Regen score"
+        },
+        "pending": {
+          "heading": "Calculating estimate...",
+          "listItem1": "Checking fields and practices",
+          "listItem2": "Calculating environmental impact",
+          "listItem3": "Generating earnings estimate"
+        },
+        "perYear": "\/ year"
+      },
+      "map": {
+        "fieldHa": "{{value}} ha",
+        "overlay": {
+          "coverCropLabel": "Cover crop grown",
+          "cropResidueLabel": "Crop residue",
+          "estimatedEarnings": "Estimated earnings {{value}}",
+          "fertiliserLabel": "Fertiliser",
+          "fieldHa": "{{value}} ha",
+          "practicesHeadline": "Satellite detected field practices",
+          "tillageLabel": "Tillage type",
+          "tinyFieldHa": "<1 ha",
+          "undetectedValue": "Undetected",
+          "yes": "Yes"
+        },
+        "selectTooltip": "Select a boundary to see details",
+        "tinyFieldHa": "<1 ha"
+      },
+      "notAccurate": "Practices not accurate? <link>Create an account<\/link> to edit practices.",
+      "notEligible": {
+        "description": "When you incorporate more environmentally friendly practices.",
+        "title": "Maximise your earnings potential."
+      },
+      "practices": {
+        "coverCrop": {
+          "count": "<bold>{{coverCropHa}} ha<\/bold> of {{totalHa}} ha",
+          "title": "Cover crop"
+        },
+        "description": "Non-detectable practices like residue mulching and organic\/mixed fertiliser usage have been assumed using national averages.",
+        "notAccurate": "Not accurate? Edit your practives when you <link>create an account<\/link>",
+        "tillage": {
+          "count": "<bold>{{reducedNoTillHa}} ha<\/bold> of {{totalHa}} ha",
+          "title": "Reduced\/no-till"
+        },
+        "title": "High-impacting detected practices"
+      },
+      "undetectablePractices": {
+        "description": "Residue mulching and fertiliser cannot be detected using satellite imagery and the following assumptions have been made.",
+        "fertiliser": {
+          "count": "{{fertiliserHa}} ha of {{totalHa}} ha",
+          "title": "Mixed\/organic fertiliser"
+        },
+        "residueMulching": {
+          "count": "{{residueMulchingHa}} ha of {{totalHa}} ha",
+          "title": "Crop residue mulching"
+        },
+        "title": "Other practices"
+      }
+    },
+    "exploreBoundaryDetection": {
+      "continueButton": "Continue with selected fields",
+      "continueToScan": "Continue to select fields",
+      "continueWithSelectedFields": "Continue with selected fields",
+      "description": "Scan an area on the map then select your Alfalfa fields.",
+      "empty": {
+        "heading": "You haven’t selected any fields",
+        "listItem1": "Locate your fields on the map",
+        "listItem2": "Search an area to detect boundaries",
+        "listItem3": "Select your field boundaries"
+      },
+      "heading": "Scan and select your {{crop}} fields",
+      "map": {
+        "addDescription": "Click a boundary to add it",
+        "moveTooltip": "Click and drag to pan the map view",
+        "scanButton": "Scan boundaries",
+        "searchTooltip": "Search to detect boundaries",
+        "selectTooltip": "Tap to select boundary, Tap to deselect",
+        "tinyFieldHa": "<1 ha",
+        "tooZoomedOut": "Map area is too large<br\/>Zoom in on map to search.",
+        "zoomInToScanButton": "Zoom in to scan"
+      },
+      "selectAFieldToContinue": "Select a field to continue",
+      "summary": {
+        "area": "Area",
+        "fieldsHa": "{{value}} ha",
+        "selected": "Selected",
+        "selectedCount": "{count, plural, =1 {# field} other {# fields}}"
+      },
+      "summaryMobile": {
+        "fieldsHa": "{{value}} total ha",
+        "selectedCount": "{count, plural, =1 {# field selected} other {# fields selected}}"
+      }
+    },
+    "getStarted": {
+      "cta": {
+        "button": "Get started",
+        "subtext": "Get an estimate in minutes"
+      },
+      "description": "British farmers can earn up to <bold>{{amount}}\/ha for positive environmental practices.<\/bold> See what you could earn.",
+      "disclaimer": "Projected values are estimates only and are not guaranteed. <button>Find out more<\/button>",
+      "earningsDisclaimerPanel": {
+        "contactUs": "Still need help? <link> Contact Agreena <\/link>",
+        "description": {
+          "section1": {
+            "content": "This is an early-stage tool designed to give you a quick, indicative estimate based on one crop and the practices detected on your selected fields. It combines satellite data with assumptions to show what you could earn through regenerative farming. Earnings estimates are indicative and are not guaranteed.",
+            "heading": "About the calculator"
+          },
+          "section2": {
+            "content": "<p>We estimate your environmental impact and earnings based on the follwing farming practices:<\/p><ul><li>Tillage method<\/li><li>Cover crop usage<\/li><li>Fertiliser type<\/li><li>Crop residue mulching<\/li><\/ul> <p>These practices — along with your total field area — are used to calculate your field’s GHG emissions (CO₂) and Soil Organic Carbon (SOC). This gives us your net carbon effect, which we translate into potential earnings based on average market values. <\/p>",
+            "heading": "Calculation data"
+          }
+        },
+        "headline": "How earnings estimates are calculated?",
+        "infoText": "About the calculator"
+      },
+      "steps": {
+        "step1": "Pin your farm location",
+        "step2": "Choose a crop",
+        "step3": "Select fields (auto-detected)",
+        "step4": "We analyse your practices using satellite data",
+        "step5": "Get your earnings estimate instantly"
+      },
+      "terms": "Projected values are estimates only and are not guaranteed. <link>Find out more<\/link>",
+      "title": "Calculate your farm's earnings potential"
+    }
+  },
+  "farm": {
+    "form": {
+      "countryMessage": "We currently support farms from the following countries:<br><\/br> {{countries}}.<br><\/br>",
+      "countryPlaceholder": "Select your farm's country",
+      "createFarmButton": "Create farm",
+      "createHeadline": "Your farm",
+      "defaultFarmName": "My farm",
+      "description": "Enter your farm’s name and location",
+      "editLocation": "Edit location",
+      "errors": {
+        "countryRequired": "Country is required.",
+        "locationAddressInvalid": "Please pick a more specific address (street not found)",
+        "locationCityInvalid": "Please pick a valid location (city not found)",
+        "locationCountryCodeInvalid": "We don't support farms from this country at the moment",
+        "locationRegionInvalid": "Please pick a valid location (region not found)",
+        "locationRequired": "Location is required",
+        "locationZipCodeInvalid": "Please pick a more specific address (postcode not found)",
+        "nameRequired": "Farm name is required."
+      },
+      "headline": "Create your farm",
+      "locationLabel": "Farm location",
+      "locationPlaceholder": "Type any address or business name",
+      "nameLabel": "Farm name",
+      "regionMessage": "We currently only support farms based in Denmark, France, Germany, Poland and the UK. As we expand to other regions we’ll let you know.",
+      "submitForm": "Create farm",
+      "successMessage": "Your farm's location has successfully been mapped.",
+      "updateFarmButton": "Update farm",
+      "updateHeadline": "Update your farm"
+    }
+  },
+  "fields": {
+    "description": "How would you like to add your fields?",
+    "heading": "Map your fields",
+    "infoBox": "Your farm's location has successfully been mapped."
+  },
+  "footer": {
+    "farmSwitcher": {
+      "createButton": "Create new farm",
+      "subTitle": "Switch to a different farm or create a new one",
+      "switchButton": "Switch farm",
+      "title": "Your farms"
+    },
+    "signOut": "Sign out"
+  },
+  "navConfig": {
+    "community": "Community",
+    "dashboard": "Dashboard",
+    "earnings": "Earnings",
+    "insights": "Insights",
+    "my-farm": "My Farm"
+  },
+  "navigation": {
+    "analyseStep": "Analyse fields",
+    "back": "Back",
+    "exploreSteps": {
+      "cropsStep": "Select crop",
+      "earningsStep": "Earnings estimate",
+      "estimateStep": "Earnings estimate",
+      "farmStep": "Your farm",
+      "fieldsStep": "Select fields"
+    },
+    "farmStep": "Create farm",
+    "fieldsStep": "Add fields",
+    "restart": "Restart",
+    "steps": {
+      "analyse": "Analyse fields",
+      "crops": "Select crop",
+      "earnings": "Earnings estimate",
+      "estimate": "Earnings summary",
+      "farm": "Your farm",
+      "fields": "Review details"
+    },
+    "viewModeToggle": {
+      "listButton": "List",
+      "mapButton": "Map",
+      "switchToListView": "Switch to list view",
+      "switchToMapView": "Switch to map view"
+    },
+    "wrongStepModal": {
+      "continueToDashboardButton": "Continue to dashboard",
+      "continueToFieldsButton": "Continue to my fields",
+      "description": "It looks like you've already completed this step in setting up your farm.",
+      "heading": "Wait a sec... you're one step ahead."
+    }
+  },
+  "practices": {
+    "coverCropValues": {
+      "no": "No",
+      "yes": "Yes"
+    },
+    "tillage": {
+      "types": {
+        "conventional_till": "Conventional",
+        "min_till": "Minimum",
+        "no_data": "Unknown",
+        "no_majority_type": "Unknown",
+        "no_till": "No till",
+        "not_enough_field_data": "Unknown"
+      }
+    }
+  },
+  "reviewBoundaries": {
+    "form": {
+      "description": "Below are your imported fields. Deselect any fields you don’t want to import.",
+      "footer": {
+        "continueButton": "Continue with selected fields",
+        "deleteButton": "Delete fields",
+        "deleteButtonMobile": "Delete",
+        "deselectButton": "Deselect all",
+        "deselectButtonMobile": "Deselect",
+        "selectedCount": "{count, plural, =1 {# field selected} other {# fields selected}}"
+      },
+      "heading": "Review your fields",
+      "infoBox": "Your fields have successfully been imported.",
+      "list": {
+        "fieldHeader": "Field",
+        "fieldsHa": "{{value}} ha",
+        "sizeHeader": "Size",
+        "tinyFieldHa": "<1 ha"
+      },
+      "summary": {
+        "area": "Area",
+        "fields": "Fields",
+        "fieldsCount": "{count, plural, =1 {# field} other {# fields}}",
+        "fieldsHa": "{{value}} ha"
+      }
+    },
+    "infoBox": "Your fields have successfully been imported."
+  },
+  "rpaImport": {
+    "card": {
+      "description": "Import boundaries from the RPA",
+      "heading": "Select your fields from the RPA"
+    },
+    "form": {
+      "description": "Connect to the Rural Payments Agency to import your field boundaries.",
+      "errors": {
+        "allFieldsDuplicate": "You have already added all the fields matching this SBI number",
+        "generic": "An error occurred while importing your fields",
+        "noFieldsFound": "No fields found for the given SBI number",
+        "sbiNumberRequired": "SBI number is required"
+      },
+      "heading": "Import from RPA",
+      "importButton": "Import RPA boundaries",
+      "infoBox": "Only your boundaries are retrieved from the RPA.<br><\/br> No other data is accessed or shared.",
+      "input": {
+        "sbiNumberLabel": "Your 9 digit SBI number",
+        "termsLabel": "I have read and agree to the Ordinance Survey Public Sector End User License <link>terms and conditions<\/link>"
+      }
+    }
+  },
+  "shapefile": {
+    "buttons": {
+      "continueToImport": "Import fields",
+      "importing": "Importing...",
+      "remove": "Remove"
+    },
+    "dropzone": {
+      "description": "Upload your shapefile zip folder. These usually include a shp, dbf, shx and prj file formats.",
+      "dragText": "Drag and drop shapefile (.zip) folder",
+      "dropText": "Drop files here",
+      "dropToUploadText": "Drop file to upload",
+      "selectButton": "Select shapefile (.zip)"
+    },
+    "errors": {
+      "fileTooLarge": {
+        "description": "Please upload a file smaller than 10MB.",
+        "title": "File too large"
+      },
+      "invalidFileType": {
+        "description": "Please upload a zip folder containing your shapefiles (usually in shp, dbf, shx and prj file formats.) Need help adding your fields, <link>please contact customer support.<\/link>",
+        "title": "Incorrect file form format"
+      },
+      "missingComponents": {
+        "description": "Please upload all SHP, SHX, DBF and PRJ files in the zip folder. Need help adding your fields, <link>please contact customer support.<\/link>",
+        "title": "Missing files detected"
+      },
+      "uploadFailed": {
+        "description": "We encountered an error uploading your shapefiles. Please try again or <link>please contact customer support.<\/link> for help.",
+        "title": "Error uploading shapefiles"
+      }
+    },
+    "import": {
+      "description": "Upload a shapefile of your boundaries.",
+      "downloadPdfButton": "Download PDF Guide",
+      "heading": "Upload a shapefile",
+      "zipHelp": "Not sure how to create a .zip?"
+    },
+    "propertySelect": {
+      "description": "Choose from the available shapefile properties to assign field names.",
+      "heading": "Name your fields",
+      "noPropertiesFound": "No shapefile properties found. Please upload a shapefile with properties."
+    },
+    "uploadCard": {
+      "description": "Import your boundaries from a shapefile",
+      "heading": "Upload shapefile"
+    }
+  },
+  "welcome": {
+    "continueButton": "Create your farm",
+    "heading": "Welcome, {{firstName}}. Let’s get your farm set up.",
+    "listItem1": "Locate farm",
+    "listItem2": "Add fields",
+    "listItem3": "Set up farm",
+    "teaserMessage": "Get set up in just 2 minutes"
+  },
+  "welcomeModal": {
+    "continueButton": "Create your farm",
+    "description": "Setup your farm in minutes using remote sensing technology to detect your fields and practices.",
+    "heading": "Get started by creating your farm.",
+    "listItem1": "Create your farm",
+    "listItem2": "Easily import your fields",
+    "listItem3": "See your detected practices and insights",
+    "listItem4": "Opt in to earn from your farming data",
+    "teaserMessage": "Get set up in 2 minutes"
+  }
+}

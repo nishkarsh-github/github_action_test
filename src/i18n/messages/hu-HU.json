@@ -1,0 +1,614 @@
+{
+  "analyse": {
+    "findOutMore": {
+      "contactUs": "További segítségre van szüksége? <link> Lépjen kapcsolatba velünk! <\/link>",
+      "description": {
+        "paragraph1": "A távérzékelési technológia a mezőgazdaságban olyan érzékelők (például műholdak) és képalkotó rendszerek használatát jelenti, amelyek közvetlen fizikai érintkezés nélkül gyűjtenek és elemeznek adatokat a terményekről, a talajról és a környezeti viszonyokról.",
+        "paragraph2": "A műholdas felvételek, a mesterséges intelligencia (AI) és a gépi tanulás integrálásával az Agreena hatékony módot kínál a gazdálkodóknak arra, hogy a világűrből felügyeljék gazdaságukat.",
+        "paragraph3": "Távérzékelési technológiánk legfontosabb alkalmazásai közé tartozik a szántóföldek határának felismerése, valamint a takarónövények, a talajművelés és a vetésforgó felismerése. Hogy csak néhányat említsünk.",
+        "paragraph4": "Tudjon meg többet az <technologyLink> Agreena technológiájáról <\/technologyLink> az <websiteLink> Agreena.com <\/websiteLink> oldalon!"
+      },
+      "headline": "Mi a távérzékelés a mezőgazdaságban?",
+      "infoText": "Távérzékelési technológia"
+    },
+    "form": {
+      "description": "A gyorsabb beállítás érdekében a rendszer automatikusan felismeri a szántóföldeken alkalmazott növényeket és gyakorlatokat.",
+      "footer": {
+        "continueButton": "Tovább"
+      },
+      "heading": "Elemezze a mezőit távérzékeléssel",
+      "infoPanelButton": "További tudnivalók",
+      "listItem1": "Tartsa kézben gazdasága adatait",
+      "listItem2": "Tekintse meg a mezőket növénytípus szerint csoportosítva",
+      "listItem3": "A szántóföldek talajművelési gyakorlatainak gyors azonosítása",
+      "listItem4": " Takarónövények észlelése",
+      "listItem5": "Takarítson meg időt az automatikusan kitöltött mezőadatokkal",
+      "summary": {
+        "area": "Terület",
+        "fields": "Táblák",
+        "fieldsCount": "{count, plural, =1 {# mező} other {# mező}}",
+        "fieldsHa": "{{value}} ha"
+      }
+    },
+    "modal": {
+      "comingSoon": "Hamarosan",
+      "communityCTADescription": "Mezőgazdasági kérdései vannak? Lépjen kapcsolatba úttörő regeneratív gazdálkodókkal.",
+      "communityCTATitle": "Ismerjen meg hasonló gondolkodású gazdákat",
+      "earningsCTADescription": "Pénzt kereshet gazdálkodási gyakorlatainak hatása alapján.",
+      "earningsCTATitle": "Keressen pénzt a programmal",
+      "fieldsCTADescription": "Tekintse meg a távérzékeléssel észlelt mezőgadzasági gyakorlatait!",
+      "fieldsCTATitle": "Az Ön gazdasága és földjei",
+      "heading": "A gazdaság regisztrációja befejeződött.<br><\/br> Fedezze fel gazdaságát!",
+      "insightsCTADescription": "Megtekintheti az észlelt növényeken és gazdálkodási gyakorlatokon alapuló statisztikákat.",
+      "insightsCTATitle": "Regen ag pontszám és betekintés"
+    },
+    "pending": {
+      "description": "Ez eltarthat néhány percig",
+      "heading": "A gazdaság felállítása...",
+      "listItem1": "A mezőhatárok ellenőrzése",
+      "listItem2": "Termesztett növények azonosítása",
+      "listItem3": "Gazdálkodási gyakorlatok azonosítása"
+    }
+  },
+  "boundaryDetection": {
+    "card": {
+      "comingSoon": "Hamarosan",
+      "description": "Mezők kiválasztása az automatikusan felismert határokból",
+      "heading": "Mezők kiválasztása a térképen"
+    },
+    "form": {
+      "continueButton": "Folytatás a kiválasztott mezőkkel",
+      "continueToScan": "Folytassa a mezők kiválasztását",
+      "continueWithSelectedFields": "Folytatás a kiválasztott mezőkkel",
+      "description": "Válassza ki a mezőit az automatikusan felismert határok közül.",
+      "empty": {
+        "heading": "Nem választott ki egyetlen mezőt sem",
+        "info": "0 kiválasztott mező",
+        "listItem1": "Keresse meg mezőit a térképen",
+        "listItem2": "Terület keresése a határok felderítésére",
+        "listItem3": "Válassza ki a mezőhatárokat"
+      },
+      "heading": "Válassza ki a mezőit a térképen",
+      "headingCrop": "Válassza ki az összes <highlight>{{crop}}<\/highlight> mezőt",
+      "selectAFieldToContinue": "Válasszon ki egy mezőt a folytatáshoz",
+      "summary": {
+        "area": "Terület",
+        "fieldsHa": "{{value}} ha",
+        "selected": "Kiválasztott",
+        "selectedCount": "{count, plural, =1 {# mező} other {# mező}}",
+        "topCount": "{count, plural, =1 {# kiválasztott mező} other {# kiválasztott mező}}",
+        "topHa": "{value, plural, =1 {# összesen ha} other {# összesen ha}}"
+      }
+    },
+    "map": {
+      "addDescription": "Kattintson egy határvonalra a hozzáadáshoz",
+      "cantFindAddressText": "Nem találja a címét? <button>Használja inkább a térképet<\/button>",
+      "detectingBoundaries": "Határok észlelése...",
+      "fieldHa": "{{value}} ha",
+      "geolocationNotSupported": "A geolokáció nem támogatott a böngészője által",
+      "geolocationPermissionDenied": "A geolokációs engedélyt megtagadták. Kérjük, engedélyezze a böngésző beállításaiban.",
+      "locationSearchTooltip": "Keresse meg a gazdaságát",
+      "moveTooltip": "Mozgassa a térképet, majd pásztázzon egy területet a határok felismeréséhez.",
+      "scanButton": "Határok keresése",
+      "searchPlaceholder": "Térképes keresés",
+      "searchTooltip": "Keresés a határok észlelésére",
+      "selectTooltip": "Válassza ki a mezőket a körvonalazott határok közül.",
+      "tinyFieldHa": "<1 ha",
+      "tooZoomedOut": "A térkép területe túl nagy<br\/>Nagyítsa ki a térképet a kereséshez.",
+      "unableToRetrieveLocation": "Nem sikerült lekérdezni a helyét",
+      "useMyLocationButton": "Használja az aktuális helyemet",
+      "zoomInToScanAssistiveText": "Közelítsen közelebb a határok kereséséhez",
+      "zoomInToScanButton": "Nagyítás a beolvasáshoz"
+    }
+  },
+  "countries": {
+    "BG": "Bulgária",
+    "CZ": "Csehország",
+    "DE": "Németország",
+    "DK": "Dánia",
+    "FR": "Franciaország",
+    "GB": "Egyesült Királyság",
+    "HU": "Magyarország",
+    "LT": "Litvánia",
+    "MD": "Moldova",
+    "PL": "Lengyelország",
+    "RO": "Románia",
+    "SK": "Szlovákia",
+    "UA": "Ukrajna"
+  },
+  "cropGroups": {
+    "barley_spring": "Tavaszi árpa",
+    "barley_winter": "Őszi árpa",
+    "beans": "Bab",
+    "cereals_unknown": "Ismeretlen gabonafélék",
+    "corn": "Kukorica",
+    "grapes": "Szőlő",
+    "grasses": "Füvek",
+    "no_data": "Nem található növény",
+    "no_majority_type": "Nincs többségi termés",
+    "not_agriculture": "Nem mezőgazdasági",
+    "oats": "Zab",
+    "other": "Egyéb",
+    "other_cereals": "Egyéb gabonák",
+    "other_cereals_spring": "Egyéb tavaszi gabonák",
+    "other_cereals_winter": "Egyéb őszi gabonák",
+    "peas": "Borsó",
+    "potato": "Burgonya",
+    "rapeseed_spring": "Tavaszi repce",
+    "rapeseed_unknown": "Ismeretlen repce",
+    "rapeseed_winter": "Őszi repce",
+    "rye": "Rozs",
+    "soybeans": "Szója",
+    "sugar_beet": "Cukorrépa",
+    "sunflower": "Napraforgó",
+    "unknown": "Ismeretlen",
+    "wheat_spring": "Tavaszi búza",
+    "wheat_winter": "Őszi búza"
+  },
+  "cvrImport": {
+    "card": {
+      "description": "Hivatkozzon a CVR-re a mezőhatárok importálásához.",
+      "heading": "Válassza ki a mezőit a CVR szám segítségével"
+    },
+    "form": {
+      "description": "Hivatkozzon a CVR-re a mezőhatárok importálásához.",
+      "errors": {
+        "allFieldsDuplicate": "Ön már hozzáadta az összes olyan mezőt, amely megfelel ennek a CVR-számnak",
+        "cvrNumberRequired": "CVR szám szükséges",
+        "generic": "Hiba történt a mezők importálása során",
+        "noFieldsFound": "Nem található mező a megadott CVR-számhoz"
+      },
+      "heading": "CVR mezőhatárok importálása",
+      "importButton": "CVR-határok importálása",
+      "infoBox": "Hivatkozzon a CVR-re a mezőhatárok importálásához.",
+      "input": {
+        "cvrNumberLabel": "Az Ön 8 számjegyű CVR-száma",
+        "roleRadioGroup": {
+          "errors": {
+            "required": "Kérjük, válassza ki a szerepkörét"
+          },
+          "label": "Mi az Ön szerepe a gazdaságban?",
+          "options": {
+            "contractor": "Tanácsadó vagyok (például agronómus vagy vállalkozóllalkozó)",
+            "farmer": "Én vagyok a gazdaság tulajdonosa\/közvetlenül a gazdaság alkalmazottja"
+          }
+        }
+      }
+    }
+  },
+  "exploreFlow": {
+    "confirmBoundariesForEstimate": {
+      "continueButton": "Számítsa ki a becslést",
+      "description": "Kiszámítjuk az Ön környezeti hatását és annak becsült értékét az adott termény, a terület mérete és a gyakorlatok alapján.",
+      "heading": "Tekintse át adatait",
+      "pending": {
+        "heading": "A mezők elemzése és a becslés kiszámítása",
+        "listItem1": "Ellenőrzési területek és gyakorlatok",
+        "listItem2": "A környezeti hatás kiszámítása",
+        "listItem3": "Bevételi becslés készítése"
+      },
+      "summary": {
+        "crop": "Növény",
+        "editLink": "Szerkesztés",
+        "fields": "Táblák",
+        "fieldsCount": "{count, plural, =1 {# mező} other {# mező}}",
+        "fieldsHa": "{{value}} ha",
+        "heading": "A becsléshez szükséges termésadatok",
+        "totalArea": "Terület"
+      },
+      "whatNext": {
+        "heading": "A becslés kiszámításának módja",
+        "listItem1": "Távérzékeléssel elemezzük az Ön földjeit",
+        "listItem2": "Kiszámítjuk környezeti hatását",
+        "listItem3": "Megbecsüljük a potenciális jövedelmét"
+      }
+    },
+    "createFarm": {
+      "description": "A térképen való megtaláláshoz adja meg a gazdaság helyét.",
+      "editLocation": "Helyszín szerkesztése",
+      "locateFarm": "Keresse meg a gazdaságot"
+    },
+    "cropForEstimate": {
+      "continueButton": "A folytatáshoz válassza ki a termesztést",
+      "subTitle": "Kiszámítjuk a becsült jövedelmét a művelési gyakorlat és a teljes terület nagysága alapján erre a növényre vonatkozóan",
+      "title": "Milyen terményre szeretné alapozni a jövedelembecslését?"
+    },
+    "cropSelection": {
+      "continueButton": "A folytatáshoz válassza ki a növényeket",
+      "cropFilterPlaceholder": "Keresés a termény után",
+      "errors": {
+        "atLeastOneCropRequired": "Kérjük, válasszon ki legalább egy növényt",
+        "mustSelectCrop": "Kérjük, válassza ki azt a növénykultúrát, amelynek bevételeit meg kívánja becsülni",
+        "noCropsFoundMatching": "Nem találtak megfelelő terményeket"
+      },
+      "subTitle": "Kiszámítjuk a környezetre gyakorolt hatását az adott növény termesztési gyakorlata alapján.",
+      "title": "Válasszon ki egy növényt, amelyet 2024-ben termesztett"
+    },
+    "estimate": {
+      "cropDetails": {
+        "basedOnFields": "A {count, plural, =1 {# mező alapján} other {# mezők}}, {{area}} ha",
+        "editLink": "Szerkesztés",
+        "forCrop": "Az Ön {{crop}}"
+      },
+      "detectablePractices": {
+        "coverCrop": {
+          "count": "<bold>{{coverCropHa}} ha<\/bold> of {{totalHa}} ha",
+          "title": "Takarónövény"
+        },
+        "description": "Műholdas érzékeléssel észlelt gazdálkodási gyakorlatra vonatkozó adatok.",
+        "tillage": {
+          "count": "<bold>{{reducedNoTillHa}} ha<\/bold> of {{totalHa}} ha",
+          "title": "Csökkentett\/nincs talajművelés"
+        },
+        "title": "Feltárt gyakorlatok"
+      },
+      "earnings": {
+        "averagePerHa": "Ez átlagosan {{amount}}\/ha",
+        "disclaimer": "Az összegek nem garantáltak és csak becslések. Tudjon meg többet a számításokról.",
+        "perYear": "\/ év",
+        "title": "Az Ön környezeti hatását a következőkre lehet értékelni"
+      },
+      "eligible": {
+        "description": "Gazdálkodási gyakorlata pozitív hatással van a környezetre, amiért pénzt kaphat.",
+        "title": "Úgy néz ki, jogosult a bevételekre!"
+      },
+      "footer": {
+        "createAccountButton": "Ingyenes fiók létrehozása",
+        "eligible": {
+          "description": "Állítsa be farmját, hogy percek alatt elkezdhesse a jövedelemszerzést.",
+          "title": "Kapjon pénzt a gazdasága környezeti hatásaiért"
+        },
+        "notEligible": {
+          "description": "Szerezzen bepillantást a gazdaságok működésébe, pontos becsléseket és még többet.",
+          "title": "Maximálja a gazdaság jövedelemtermelő képességét"
+        }
+      },
+      "loadingSkeleton": {
+        "createAccountButton": "Ingyenes fiók létrehozása",
+        "earningsDisclaimer": "Az eredmények csak becslések, és nem garantáltak. Távérzékeléssel kimutatható gyakorlatok (talajművelés és takarónövények) alapján. A maradékanyag-gazdálkodás és a műtrágyahasználat tekintetében ésszerű feltételezésekkel éltünk.",
+        "earningsText": "Az Ön környezeti hatását a következőkre lehet értékelni",
+        "metrics": {
+          "analysedArea": "Elemzett terület",
+          "avgEarnings": "Átlagos kereset",
+          "regenScore": "Regen pontszám"
+        },
+        "pending": {
+          "heading": "A becslés kiszámítása...",
+          "listItem1": "Ellenőrzési területek és gyakorlatok",
+          "listItem2": "A környezeti hatás kiszámítása",
+          "listItem3": "Bevételi becslés készítése"
+        },
+        "perYear": "\/ év"
+      },
+      "map": {
+        "fieldHa": "{{value}} ha",
+        "overlay": {
+          "coverCropLabel": "Termesztett takarónövény",
+          "cropResidueLabel": "Növényi maradványok",
+          "estimatedEarnings": "Becsült bevétel {{value}}",
+          "fertiliserLabel": "Trágya",
+          "fieldHa": "{{value}} ha",
+          "practicesHeadline": "Műholddal észlelt terepi gyakorlatok",
+          "tillageLabel": "A talajművelés típusa",
+          "tinyFieldHa": "<1 ha",
+          "undetectedValue": "Észrevétlen",
+          "yes": "Igen"
+        },
+        "selectTooltip": "Válasszon ki egy határt a részletek megtekintéséhez",
+        "tinyFieldHa": "<1 ha"
+      },
+      "notAccurate": "A gyakorlatok nem pontosak? <link>Hozzon létre egy fiókot<\/link> a gyakorlatok szerkesztéséhez.",
+      "notEligible": {
+        "description": "Ha környezetbarátabb gyakorlatokat alkalmaz.",
+        "title": "Maximalizálja a kereseti lehetőségeit."
+      },
+      "practices": {
+        "coverCrop": {
+          "count": "<bold>{{coverCropHa}} ha<\/bold> of {{totalHa}} ha",
+          "title": "Takarónövény"
+        },
+        "description": "Az olyan nem kimutatható gyakorlatokat, mint a maradékanyagok mulcsozása és a szerves\/kevert trágya használata, az országos átlagok alapján feltételeztük.",
+        "notAccurate": "Nem pontos? Szerkeszd a gyakorlatokat, amikor létrehozol egy fiókot a <link>oldalon<\/link>",
+        "tillage": {
+          "count": "<bold>{{reducedNoTillHa}} ha<\/bold> of {{totalHa}} ha",
+          "title": "Csökkentett\/nincs talajművelés"
+        },
+        "title": "Nagy hatású észlelt gyakorlatok"
+      },
+      "undetectablePractices": {
+        "description": "A maradék mulcsozás és a műtrágya nem mutatható ki a műholdfelvételek segítségével, ezért a következő feltételezésekkel éltünk.",
+        "fertiliser": {
+          "count": "{{fertiliserHa}} ha of {{totalHa}} ha",
+          "title": "Vegyes\/szerves műtrágya"
+        },
+        "residueMulching": {
+          "count": "{{residueMulchingHa}} ha of {{totalHa}} ha",
+          "title": "Növénymaradványok mulcsozása"
+        },
+        "title": "Egyéb gyakorlatok"
+      }
+    },
+    "exploreBoundaryDetection": {
+      "continueButton": "Folytatás a kiválasztott mezőkkel",
+      "continueToScan": "Folytassa a mezők kiválasztását",
+      "continueWithSelectedFields": "Folytatás a kiválasztott mezőkkel",
+      "description": "Szkenneljen be egy területet a térképen, majd válassza ki a lucernaföldeket.",
+      "empty": {
+        "heading": "Nem választott ki egyetlen mezőt sem",
+        "listItem1": "Keresse meg mezőit a térképen",
+        "listItem2": "Terület keresése a határok felderítésére",
+        "listItem3": "Válassza ki a mezőhatárokat"
+      },
+      "heading": "Szkennelje be és válassza ki a {{crop}} mezőit",
+      "map": {
+        "addDescription": "Kattintson egy határvonalra a hozzáadáshoz",
+        "moveTooltip": "Kattintson és húzással pásztázhatja a térképnézetet",
+        "scanButton": "Határok felismerése",
+        "searchTooltip": "Keresés a határok észlelésére",
+        "selectTooltip": "Koppintson a határvonal kiválasztásához, Koppintson a kijelölés megszüntetéséhez",
+        "tinyFieldHa": "<1 ha",
+        "tooZoomedOut": "A térkép területe túl nagy<br\/>Nagyítsa ki a térképet a kereséshez.",
+        "zoomInToScanButton": "Nagyítás a beolvasáshoz"
+      },
+      "selectAFieldToContinue": "Válasszon ki egy mezőt a folytatáshoz",
+      "summary": {
+        "area": "Terület",
+        "fieldsHa": "{{value}} ha",
+        "selected": "Kiválasztott",
+        "selectedCount": "{count, plural, =1 {# mező} other {# mező}}"
+      },
+      "summaryMobile": {
+        "fieldsHa": "{{value}} összes hektár",
+        "selectedCount": "{count, plural, =1 {# kiválasztott mező} other {# kiválasztott mező}}"
+      }
+    },
+    "getStarted": {
+      "cta": {
+        "button": "Kezdés",
+        "subtext": "Kérjen becslést percek alatt"
+      },
+      "description": "A brit gazdák akár <bold>{{amount}}\/ha-t is kereshetnek a pozitív környezetvédelmi gyakorlatokért.<\/bold> Nézze meg, mennyit kereshet.",
+      "disclaimer": "A tervezett értékek csak becslések, és nem garantáltak. <button>Tudjon meg többet<\/button>",
+      "earningsDisclaimerPanel": {
+        "contactUs": "Még mindig segítségre van szüksége? <link> Lépjen kapcsolatba Agreena <\/link>",
+        "description": {
+          "section1": {
+            "content": "Ez egy korai fázisban lévő eszköz, amelyet arra terveztek, hogy gyors, indikatív becslést adjon Önnek egy növénykultúra és az Ön által kiválasztott földeken észlelt gyakorlatok alapján. Műholdas adatokat és feltételezéseket kombinál, hogy megmutassa, mennyit kereshet a regeneratív gazdálkodással. A jövedelembecslések tájékoztató jellegűek és nem garantáltak.",
+            "heading": "A számológépről"
+          },
+          "section2": {
+            "content": "<p>A következő gazdálkodási gyakorlatok alapján becsüljük meg az Ön környezeti hatását és bevételeit:<\/p><ul><li>talajművelési módszer<\/li><li>takarónövények használata<\/li><li>műtrágya típusa<\/li><li>növényi maradványok mulcsozása<\/li><\/ul> <p>Ezeket a gyakorlatokat - a teljes szántóterületével együtt - használjuk a szántóföldje üvegházhatású gázkibocsátásának (CO₂) és a talaj szerves szén-dioxid-kibocsátásának (SOC) kiszámításához. Így kapjuk meg az Ön nettó szénhatását, amelyet az átlagos piaci értékek alapján potenciális jövedelemre fordítunk. <\/p>",
+            "heading": "Számítási adatok"
+          }
+        },
+        "headline": "Hogyan számítják ki az eredménybecsléseket?",
+        "infoText": "A számológépről"
+      },
+      "steps": {
+        "step1": "Tűzd ki a farmod helyét",
+        "step2": "Válasszon növényt",
+        "step3": "Mezők kiválasztása (automatikus felismerés)",
+        "step4": "Műholdas adatok segítségével elemezzük az Ön gyakorlatát",
+        "step5": "Azonnal kapja meg a jövedelembecslését"
+      },
+      "terms": "A tervezett értékek csak becslések, és nem garantáltak. <link>Tudjon meg többet<\/link>",
+      "title": "Számítsa ki gazdasága jövedelmi potenciálját"
+    }
+  },
+  "farm": {
+    "form": {
+      "countryMessage": "Jelenleg a következő országok gazdaságait támogatjuk:<br><\/br> {{countries}}.<br><\/br>",
+      "countryPlaceholder": "Válassza ki a gazdaság országát",
+      "createFarmButton": "Gazdaság létrehozása",
+      "createHeadline": "A farmod",
+      "defaultFarmName": "A farmom",
+      "description": "Adja meg a gazdaság nevét és helyét",
+      "editLocation": "Helyszín szerkesztése",
+      "errors": {
+        "countryRequired": "Ország szükséges.",
+        "locationAddressInvalid": "Kérjük, válasszon egy pontosabb címet (utca nem található)",
+        "locationCityInvalid": "Kérjük, válasszon egy érvényes helyszínt (város nem található)",
+        "locationCountryCodeInvalid": "Jelenleg nem támogatjuk az ebből az országból származó farmokat",
+        "locationRegionInvalid": "Kérjük, válasszon egy érvényes helyet (régió nem található)",
+        "locationRequired": "Helyszín szükség",
+        "locationZipCodeInvalid": "Kérjük, válasszon egy pontosabb címet (az irányítószám nem található)",
+        "nameRequired": "A gazdaság nevének megadása kötelező."
+      },
+      "headline": "Hozza létre gazdaságát",
+      "locationLabel": "A gazdaság helye",
+      "locationPlaceholder": "Írjon be bármilyen címet vagy cégnevet",
+      "nameLabel": "A gazdaság neve",
+      "regionMessage": "Jelenleg csak a dániai, franciaországi, németországi, lengyelországi és egyesült királyságbeli gazdaságokat támogatjuk. Amint más régiókra is kiterjedünk, tájékoztatni fogjuk Önt.",
+      "submitForm": "Gazdaság létrehozása",
+      "successMessage": "A gazdaságait sikeresen feltérképeztük.",
+      "updateFarmButton": "Farm frissítése",
+      "updateHeadline": "Frissítse farmját"
+    }
+  },
+  "fields": {
+    "description": "Hogyan szeretné hozzáadni a mezőit?",
+    "heading": "A mezők felülvizsgálata",
+    "infoBox": "A gazdaságait sikeresen feltérképeztük."
+  },
+  "footer": {
+    "farmSwitcher": {
+      "createButton": "Új farm létrehozása",
+      "subTitle": "Váltson másik farmra, vagy hozzon létre egy újat",
+      "switchButton": "Váltás farmra",
+      "title": "A gazdaságaid"
+    },
+    "signOut": "Kijelentkezés"
+  },
+  "navConfig": {
+    "community": "Közösség",
+    "dashboard": "Kezelőpult",
+    "earnings": "Eredmények",
+    "insights": "Betekintés",
+    "my-farm": "Az én farmom"
+  },
+  "navigation": {
+    "analyseStep": "Mezők elemzése",
+    "back": "Visszalépés",
+    "exploreSteps": {
+      "cropsStep": "Válassza ki a növényeket",
+      "earningsStep": "Eredménybecslés",
+      "estimateStep": "Eredménybecslés",
+      "farmStep": "A farmod",
+      "fieldsStep": "Mezők kiválasztása"
+    },
+    "farmStep": "Gazdaság létrehozása",
+    "fieldsStep": "Mezők hozzáadása",
+    "restart": "Újraindítás",
+    "steps": {
+      "analyse": "Mezők elemzése",
+      "crops": "Válassza ki a növényeket",
+      "earnings": "Eredménybecslés",
+      "estimate": "Eredmény összefoglaló",
+      "farm": "A farmod",
+      "fields": "Részletek áttekintése"
+    },
+    "viewModeToggle": {
+      "listButton": "Lista",
+      "mapButton": "Térkép",
+      "switchToListView": "Listanézetre váltás",
+      "switchToMapView": "Térkép nézetre váltás"
+    },
+    "wrongStepModal": {
+      "continueToDashboardButton": "Tovább a irányítópultra",
+      "continueToFieldsButton": "Tovább a mezőimre",
+      "description": "Úgy tűnik, ezt a lépést már elvégezte a farm regisztrációja során.",
+      "heading": "Várjon egy percet... egy lépéssel előrébb jár."
+    }
+  },
+  "practices": {
+    "coverCropValues": {
+      "no": "Nem",
+      "yes": "Igen"
+    },
+    "tillage": {
+      "types": {
+        "conventional_till": "Hagyományos",
+        "min_till": "Minimum",
+        "no_data": "Ismeretlen",
+        "no_majority_type": "Ismeretlen",
+        "no_till": "Talajművelés elhagyása",
+        "not_enough_field_data": "Ismeretlen"
+      }
+    }
+  },
+  "reviewBoundaries": {
+    "form": {
+      "description": "Az alábbiakban az importált mezők találhatók. Törölje az importálni nem kívánt mezők jelölését.",
+      "footer": {
+        "continueButton": "Folytatás a kiválasztott mezőkkel",
+        "deleteButton": "Mezők törlése",
+        "deleteButtonMobile": "Törlés",
+        "deselectButton": "Összes kijelölés törlése",
+        "deselectButtonMobile": "Kijelölés törlése",
+        "selectedCount": "{count, plural, =1 {# kiválasztott mező} other {# kiválasztott mező}}"
+      },
+      "heading": "A mezők felülvizsgálata",
+      "infoBox": "A mezők importálása sikeresen megtörtént.",
+      "list": {
+        "fieldHeader": "Tábla",
+        "fieldsHa": "{{value}} ha",
+        "sizeHeader": "Méret",
+        "tinyFieldHa": "<1 ha"
+      },
+      "summary": {
+        "area": "Terület",
+        "fields": "Táblák",
+        "fieldsCount": "{count, plural, =1 {# mező} other {# mező}}",
+        "fieldsHa": "{{value}} ha"
+      }
+    },
+    "infoBox": "A mezők importálása sikeresen megtörtént."
+  },
+  "rpaImport": {
+    "card": {
+      "description": "Határok importálása az RPA-ból",
+      "heading": "Válasszon ki mezőket az RPA-ból"
+    },
+    "form": {
+      "description": "Csatlakozzon a Vidéki Kifizetési Ügynökséghez a szántóföldhatárok importálásához.",
+      "errors": {
+        "allFieldsDuplicate": "Ön már hozzáadta az összes olyan mezőt, amely megfelel ennek az SBI számnak",
+        "generic": "Hiba történt a mezők importálása során",
+        "noFieldsFound": "Nem található mező a megadott SBI-számhoz",
+        "sbiNumberRequired": "SBI szám szükséges"
+      },
+      "heading": "Importálás az RPA-ból",
+      "importButton": "RPA határok importálása",
+      "infoBox": "Az RPA-ból csak az Ön határai kerülnek lekérdezésre.<br><\/br> Más adatokhoz nem férünk hozzá, és nem osztjuk meg azokat.",
+      "input": {
+        "sbiNumberLabel": "Az Ön 9 számjegyű SBI-száma",
+        "termsLabel": "Elolvastam és elfogadom a Rendeleti felmérés Közszféra végfelhasználói engedélyét. <link>Általános Szerződési Feltételek<\/link>"
+      }
+    }
+  },
+  "shapefile": {
+    "buttons": {
+      "continueToImport": "Import mezők",
+      "importing": "Importálás...",
+      "remove": "Távolítsa el a"
+    },
+    "dropzone": {
+      "description": "Töltse fel a shapefile zip mappáját. Ezek általában shp, dbf, shx és prj fájlformátumokat tartalmaznak.",
+      "dragText": "Shapefile (.zip) mappa húzása és eldobása",
+      "dropText": "Dobja ide a fájlokat",
+      "dropToUploadText": "Dobja el a fájlt a feltöltéshez",
+      "selectButton": "Shapefile kiválasztása (.zip)"
+    },
+    "errors": {
+      "fileTooLarge": {
+        "description": "Kérjük, töltsön fel 10 MB-nál kisebb fájlt.",
+        "title": "Túl nagy fájl"
+      },
+      "invalidFileType": {
+        "description": "Kérjük, töltsön fel egy zip mappát, amely tartalmazza a shapefájlokat (általában shp, dbf, shx és prj fájlformátumban). Segítségre van szüksége a mezők hozzáadásához, <link>kérjük, forduljon az ügyfélszolgálathoz.<\/link>",
+        "title": "Helytelen fájlformátum"
+      },
+      "missingComponents": {
+        "description": "Kérjük, töltse fel az összes SHP, SHX, DBF és PRJ fájlt a zip mappában. Segítségre van szüksége a mezők hozzáadásához, <link>kérjük, forduljon az ügyfélszolgálathoz.<\/link>",
+        "title": "Hiányzó fájlok észlelése"
+      },
+      "uploadFailed": {
+        "description": "Hiba lépett fel a shapefile-ok feltöltése során. Kérjük, próbálja meg újra, vagy forduljon az <link>ügyfélszolgálathoz.<\/link> segítségért.",
+        "title": "Hiba a shapefile-ok feltöltésében"
+      }
+    },
+    "import": {
+      "description": "Töltse fel a határait tartalmazó shapefile-t.",
+      "downloadPdfButton": "PDF útmutató letöltése",
+      "heading": "Shapefile feltöltése",
+      "zipHelp": "Nem tudja, hogyan hozzon létre egy .zip fájlt?"
+    },
+    "propertySelect": {
+      "description": "Válasszon a rendelkezésre álló shapefile-tulajdonságok közül a mezőnevek hozzárendeléséhez.",
+      "heading": "Nevezze meg a mezőit",
+      "noPropertiesFound": "Nem találtak shapefile tulajdonságokat. Kérjük, töltsön fel egy shapefile-t tulajdonságokkal."
+    },
+    "uploadCard": {
+      "description": "Importálja a határait egy shapefile-ból",
+      "heading": "Shapefile feltöltése"
+    }
+  },
+  "welcome": {
+    "continueButton": "Hozza létre gazdaságát",
+    "heading": "Üdvözöljük, {{firstName}}. Állítsuk be a farmot.",
+    "listItem1": "Farm keresése",
+    "listItem2": "Mezők hozzáadása",
+    "listItem3": "A gazdaság felállítása",
+    "teaserMessage": "Beállítás mindössze 2 perc alatt"
+  },
+  "welcomeModal": {
+    "continueButton": "Hozza létre gazdaságát",
+    "description": "Regisztrálja gazdaságát percek alatt a távérzékelési technológia segítségével, mely észleli a földjeit és a művelési gyakorlatait.",
+    "heading": "Kezdjen a gazdasága létrehozásával.",
+    "listItem1": "Hozza létre gazdaságát",
+    "listItem2": "Könnyen importálhatja tábláit",
+    "listItem3": "Tekintse meg a gyakorlatait és ennek elemzéseit",
+    "listItem4": "Iratkozzon fel, hogy bevételt szerezhessen gazdálkodási adataiból",
+    "teaserMessage": "Regisztráljon mindössze 2 perc alatt"
+  }
+}
