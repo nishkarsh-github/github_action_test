@@ -1,0 +1,614 @@
+{
+  "analyse": {
+    "findOutMore": {
+      "contactUs": "Aveți nevoie de ajutor? <link> Contactați-ne <\/link>",
+      "description": {
+        "paragraph1": "Tehnologia de teledetecției în agricultură se referă la utilizarea senzorilor (de exemplu, sateliți) și a sistemelor de imagistică pentru a colecta și analiza date despre culturi, sol și condițiile de mediu fără contact fizic direct.",
+        "paragraph2": "Prin integrarea imaginilor din satelit, a inteligenței artificiale (AI) și a machine learning, Agreena este în măsură să ofere fermierilor o modalitate eficientă de a-și monitoriza ferma chiar din spațiu.",
+        "paragraph3": "Aplicațiile cheie ale tehnologiei noastre de teledetecție includ detectarea limitelor câmpului, detectarea culturilor de acoperire, detectarea modului de prelucrare a solului, precum și detectarea rotației culturilor, pentru a numi doar câteva.",
+        "paragraph4": "Aflați mai multe despre tehnologia <technologyLink> Agreena <\/technologyLink> pe <websiteLink> Agreena.com. <\/websiteLink>"
+      },
+      "headline": "Ce este tehnologia de teledetecției în agricultură?",
+      "infoText": "Tehnologia de teledetecție"
+    },
+    "form": {
+      "description": "Detectați automat culturile și practicile aplicate pe câmpurile dvs. pentru o configurare mai rapidă.",
+      "footer": {
+        "continueButton": "Continuați"
+      },
+      "heading": "Analizează parcelele tale folosind teledetecția",
+      "infoPanelButton": "Aflați mai multe",
+      "listItem1": "Rămâi în controlul datelor fermei tale",
+      "listItem2": "Vezi parcelele grupate după tipul de cultură",
+      "listItem3": "Identifică rapid tipul de lucrare a solului pe parcele",
+      "listItem4": "Identifică culturile de acoperire cultivate",
+      "listItem5": "Economisește timp cu date auto-completate",
+      "summary": {
+        "area": "Suprafață",
+        "fields": "Parcele",
+        "fieldsCount": "{count, plural, =1 {# câmp } other {# câmpuri }}",
+        "fieldsHa": "{{value}} ha"
+      }
+    },
+    "modal": {
+      "comingSoon": "În curând",
+      "communityCTADescription": "Aveți întrebări legate de agricultură? Intrați în contact cu pionierii agriculturii regenerative.",
+      "communityCTATitle": "Conectați-vă cu fermierii ce practică agricultura regenerativă",
+      "earningsCTADescription": "Ați putea genera venituri în funcție de impactul practicilor agricole.",
+      "earningsCTATitle": "Generați venituri",
+      "fieldsCTADescription": "Practicile agricole detectate cu ajutorul tehnologiei de teledetecție.",
+      "fieldsCTATitle": "Ferma și câmpurile dumneavoastră",
+      "heading": "Configurarea fermei este completă.<br><\/br>Descoperă-ți ferma.",
+      "insightsCTADescription": "Vedeți informații bazate pe culturile și practicile agricole detectate.",
+      "insightsCTATitle": "Scoruri și informații cheie Regen ag"
+    },
+    "pending": {
+      "description": "Acest pas poate dura câteva minute",
+      "heading": "Configurarea fermei dumneavoastră...",
+      "listItem1": "Verificarea limitelor câmpului",
+      "listItem2": "Identificarea culturilor cultivate",
+      "listItem3": "Detectarea practicilor agricole"
+    }
+  },
+  "boundaryDetection": {
+    "card": {
+      "comingSoon": "În curând",
+      "description": "Selectează parcele din limitele detectate automat",
+      "heading": "Selectați câmpurile de pe hartă"
+    },
+    "form": {
+      "continueButton": "Continuă cu parcelele selectate",
+      "continueToScan": "Continuați să selectați câmpurile",
+      "continueWithSelectedFields": "Continuă cu parcelele selectate",
+      "description": "Selectează parcelele din limitele detectate automat.",
+      "empty": {
+        "heading": "Nu ați selectat niciun câmp",
+        "info": "0 câmpuri selectate",
+        "listItem1": "Localizați-vă câmpurile pe hartă",
+        "listItem2": "Căutați o zonă pentru a detecta limitele",
+        "listItem3": "Selectați limitele câmpului"
+      },
+      "heading": "Selectează parcelele pe hartă",
+      "headingCrop": "Selectați toate câmpurile <highlight>{{crop}}<\/highlight> ",
+      "selectAFieldToContinue": "Selectați un câmp pentru a continua",
+      "summary": {
+        "area": "Suprafață",
+        "fieldsHa": "{{value}} ha",
+        "selected": "Selectat",
+        "selectedCount": "{count, plural, =1 {# câmp } other {# câmpuri }}",
+        "topCount": "{count, plural, =1 {# câmp selectat} other {# câmpuri selectate}}",
+        "topHa": "{value, plural, =1 {# total ha} other {# total ha}}"
+      }
+    },
+    "map": {
+      "addDescription": "Faceți clic pe un hotar pentru a-l adăuga",
+      "cantFindAddressText": "Nu vă găsiți adresa? <button>Folosiți harta în schimb<\/button>",
+      "detectingBoundaries": "Detectarea limitelor...",
+      "fieldHa": "{{value}} ha",
+      "geolocationNotSupported": "Geolocalizarea nu este acceptată de browserul dvs",
+      "geolocationPermissionDenied": "Permisiunea de geolocalizare a fost refuzată. Vă rugăm să o activați în setările browserului dvs.",
+      "locationSearchTooltip": "Căutați ferma dvs",
+      "moveTooltip": "Deplasați harta, apoi scanați o zonă pentru a detecta limitele.",
+      "scanButton": "Scanare pentru limite",
+      "searchPlaceholder": "Căutare pe hartă",
+      "searchTooltip": "Căutați pentru a detecta limitele",
+      "selectTooltip": "Selectați câmpurile din limitele delimitate.",
+      "tinyFieldHa": "<1 ha",
+      "tooZoomedOut": "Zona hărții este prea mare<br\/>Mărește pe hartă pentru a căuta.",
+      "unableToRetrieveLocation": "Nu se poate prelua locația dvs",
+      "useMyLocationButton": "Folosește locația mea actuală",
+      "zoomInToScanAssistiveText": "Mărește mai aproape pentru a căuta limitele",
+      "zoomInToScanButton": "Zoom in pentru a scana"
+    }
+  },
+  "countries": {
+    "BG": "Bulgaria",
+    "CZ": "Cehia",
+    "DE": "Germania",
+    "DK": "Danemarca",
+    "FR": "Franța",
+    "GB": "Marea Britanie",
+    "HU": "Ungaria",
+    "LT": "Lituania",
+    "MD": "Moldova",
+    "PL": "Polonia",
+    "RO": "România",
+    "SK": "Slovacia",
+    "UA": "Ucraina"
+  },
+  "cropGroups": {
+    "barley_spring": "Orz de primăvară",
+    "barley_winter": "Orz de iarnă",
+    "beans": "Fasole",
+    "cereals_unknown": "Cereale (necunoscute)",
+    "corn": "Porumb",
+    "grapes": "Struguri",
+    "grasses": "Pajiști",
+    "no_data": "Cultură negăsită",
+    "no_majority_type": "Fără cultură majoritară",
+    "not_agriculture": "Neagricol",
+    "oats": "Ovăz",
+    "other": "Altele",
+    "other_cereals": "Alte cereale",
+    "other_cereals_spring": "Alte cereale de primăvară",
+    "other_cereals_winter": "Alte cereale de iarnă",
+    "peas": "Mazăre",
+    "potato": "Cartofi",
+    "rapeseed_spring": "Rapiță de primăvară",
+    "rapeseed_unknown": "Rapiță (necunoscută)",
+    "rapeseed_winter": "Rapiță de iarnă",
+    "rye": "Secară",
+    "soybeans": "Soia",
+    "sugar_beet": "Sfeclă de zahăr",
+    "sunflower": "Floarea-soarelui",
+    "unknown": "Necunoscut",
+    "wheat_spring": "Grâu de primăvară",
+    "wheat_winter": "Grâu de iarnă"
+  },
+  "cvrImport": {
+    "card": {
+      "description": "Conectare la CVR pentru a importa limitele",
+      "heading": "Selectează parcelele tale din CVR"
+    },
+    "form": {
+      "description": "Conectează-te la CVR pentru a importa limitele parcelelor.",
+      "errors": {
+        "allFieldsDuplicate": "Ați adăugat deja toate câmpurile care corespund acestui număr CVR",
+        "cvrNumberRequired": "Numărul CVR este necesar",
+        "generic": "A apărut o eroare în timpul importării câmpurilor",
+        "noFieldsFound": "Nu s-au găsit câmpuri pentru acest număr CVR"
+      },
+      "heading": "Importă delimitările parcelelor CVR",
+      "importButton": "Importul limitelor CVR",
+      "infoBox": "Conectează-te la CVR pentru a importa limitele parcelelor.",
+      "input": {
+        "cvrNumberLabel": "Numărul tău CVR de 8 cifre",
+        "roleRadioGroup": {
+          "errors": {
+            "required": "Vă rugăm să vă selectați rolul"
+          },
+          "label": "Care este rolul dumneavoastră în cadrul fermei?",
+          "options": {
+            "contractor": "Sunt agent (de exemplu, agronom sau antreprenor)",
+            "farmer": "Sunt proprietarul fermei\/angajat al fermei"
+          }
+        }
+      }
+    }
+  },
+  "exploreFlow": {
+    "confirmBoundariesForEstimate": {
+      "continueButton": "Calculați estimarea",
+      "description": "Vă vom calcula impactul asupra mediului și valoarea estimată a acestuia pe baza acestei culturi, a mărimii suprafeței și a practicilor.",
+      "heading": "Revizuiți detaliile dvs",
+      "pending": {
+        "heading": "Analiza câmpurilor și calcularea estimărilor",
+        "listItem1": "Verificarea câmpurilor și a practicilor",
+        "listItem2": "Calcularea impactului asupra mediului",
+        "listItem3": "Generarea estimării câștigurilor"
+      },
+      "summary": {
+        "crop": "Cultură",
+        "editLink": "Editare",
+        "fields": "Parcele",
+        "fieldsCount": "{count, plural, =1 {# câmp } other {# câmpuri }}",
+        "fieldsHa": "{{value}} ha",
+        "heading": "Detalii privind culturile pentru estimare",
+        "totalArea": "Suprafață"
+      },
+      "whatNext": {
+        "heading": "Cum este calculată estimarea dvs",
+        "listItem1": "Vă analizăm câmpurile cu ajutorul teledetecției",
+        "listItem2": "Vă calculăm impactul asupra mediului",
+        "listItem3": "Vă estimăm veniturile potențiale"
+      }
+    },
+    "createFarm": {
+      "description": "Introduceți locația fermei dvs. pentru a o găsi pe hartă.",
+      "editLocation": "Editați locația",
+      "locateFarm": "Localizați-vă ferma"
+    },
+    "cropForEstimate": {
+      "continueButton": "Selectați cultura pentru a continua",
+      "subTitle": "Vă vom calcula veniturile estimate pe baza practicilor agricole și a suprafeței totale pentru această cultură",
+      "title": "Pe ce cultură ați dori să vă bazați estimarea câștigurilor?"
+    },
+    "cropSelection": {
+      "continueButton": "Selectați culturile pentru a continua",
+      "cropFilterPlaceholder": "Căutare pentru cultură",
+      "errors": {
+        "atLeastOneCropRequired": "Vă rugăm să selectați cel puțin o cultură",
+        "mustSelectCrop": "Vă rugăm să selectați o cultură pentru care doriți să estimați veniturile",
+        "noCropsFoundMatching": "Nu s-au găsit culturi care să corespundă"
+      },
+      "subTitle": "Vă vom calcula impactul asupra mediului pe baza practicilor acestei culturi.",
+      "title": "Selectați o cultură pe care ați cultivat-o în 2024"
+    },
+    "estimate": {
+      "cropDetails": {
+        "basedOnFields": "Pe baza {count, plural, =1 {# câmp} other {# câmpuri}}, {{area}} ha",
+        "editLink": "Editare",
+        "forCrop": "Pentru dvs {{crop}}"
+      },
+      "detectablePractices": {
+        "coverCrop": {
+          "count": "<bold>{{coverCropHa}} ha<\/bold> de {{totalHa}} ha",
+          "title": "Cultură de acoperire"
+        },
+        "description": "Date privind practicile agricole detectate cu ajutorul senzorilor prin satelit.",
+        "tillage": {
+          "count": "<bold>{{reducedNoTillHa}} ha<\/bold> de {{totalHa}} ha",
+          "title": "Rectificare redusă\/no-till"
+        },
+        "title": "Practici detectate"
+      },
+      "earnings": {
+        "averagePerHa": "Asta înseamnă o medie de {{amount}}\/ha",
+        "disclaimer": "Sumele nu sunt garantate și sunt doar estimări. Aflați mai multe despre calcule.",
+        "perYear": "\/ an",
+        "title": "Impactul dumneavoastră asupra mediului ar putea fi evaluat la"
+      },
+      "eligible": {
+        "description": "Practicile tale agricole au un impact pozitiv asupra mediului pentru care ai putea fi plătit.",
+        "title": "Se pare că sunteți eligibil!"
+      },
+      "footer": {
+        "createAccountButton": "Creați un cont gratuit",
+        "eligible": {
+          "description": "Configurați-vă ferma pentru a începe să câștigați în câteva minute.",
+          "title": "Primiți bani pentru impactul fermei dumneavoastră asupra mediului"
+        },
+        "notEligible": {
+          "description": "Obțineți informații despre ferme, estimări precise și multe altele.",
+          "title": "Maximizați potențialul de câștig al fermei dvs"
+        }
+      },
+      "loadingSkeleton": {
+        "createAccountButton": "Creați un cont gratuit",
+        "earningsDisclaimer": "Veniturile sunt doar estimări și nu sunt garantate. Pe baza practicilor detectabile (lucrare a solului și culturi de acoperire) cu ajutorul teledetecției. Pentru gestionarea reziduurilor și utilizarea îngrășămintelor, au fost formulate ipoteze rezonabile.",
+        "earningsText": "Impactul dumneavoastră asupra mediului ar putea fi evaluat la",
+        "metrics": {
+          "analysedArea": "Zona analizată",
+          "avgEarnings": "Câștiguri medii",
+          "regenScore": "Scor Regen"
+        },
+        "pending": {
+          "heading": "Calcularea estimării...",
+          "listItem1": "Verificarea câmpurilor și a practicilor",
+          "listItem2": "Calcularea impactului asupra mediului",
+          "listItem3": "Generarea estimării câștigurilor"
+        },
+        "perYear": "\/ an"
+      },
+      "map": {
+        "fieldHa": "{{value}} ha",
+        "overlay": {
+          "coverCropLabel": "Cultură de acoperire cultivată",
+          "cropResidueLabel": "Resturi de cultură",
+          "estimatedEarnings": "Venituri estimate {{value}}",
+          "fertiliserLabel": "Îngrășământ",
+          "fieldHa": "{{value}} ha",
+          "practicesHeadline": "Practici de teren detectate prin satelit",
+          "tillageLabel": "Tip de lucrare a solului",
+          "tinyFieldHa": "<1 ha",
+          "undetectedValue": "Nedetectat",
+          "yes": "Da"
+        },
+        "selectTooltip": "Selectați un hotar pentru a vedea detalii",
+        "tinyFieldHa": "<1 ha"
+      },
+      "notAccurate": "Practicile nu sunt corecte? <link>Creați un cont<\/link> pentru a edita practicile.",
+      "notEligible": {
+        "description": "Atunci când încorporați practici mai ecologice.",
+        "title": "Maximizați-vă potențialul de câștig."
+      },
+      "practices": {
+        "coverCrop": {
+          "count": "<bold>{{coverCropHa}} ha<\/bold> de {{totalHa}} ha",
+          "title": "Cultură de acoperire"
+        },
+        "description": "Practicile nedetectabile, cum ar fi mulcirea reziduurilor și utilizarea îngrășămintelor organice\/mixte, au fost presupuse folosind mediile naționale.",
+        "notAccurate": "Nu este corect? Editează-ți practicile atunci când <link>îți creezi un cont<\/link>",
+        "tillage": {
+          "count": "<bold>{{reducedNoTillHa}} ha<\/bold> de {{totalHa}} ha",
+          "title": "Rectificare redusă\/no-till"
+        },
+        "title": "Practici detectate cu impact ridicat"
+      },
+      "undetectablePractices": {
+        "description": "Mulcirea reziduurilor și îngrășămintele nu pot fi detectate cu ajutorul imaginilor din satelit și s-au formulat următoarele ipoteze.",
+        "fertiliser": {
+          "count": "{{fertiliserHa}} ha de {{totalHa}} ha",
+          "title": "Îngrășământ mixt\/organic"
+        },
+        "residueMulching": {
+          "count": "{{residueMulchingHa}} ha de {{totalHa}} ha",
+          "title": "Mulcirea reziduurilor de cultură"
+        },
+        "title": "Alte practici"
+      }
+    },
+    "exploreBoundaryDetection": {
+      "continueButton": "Continuă cu parcelele selectate",
+      "continueToScan": "Continuați să selectați câmpurile",
+      "continueWithSelectedFields": "Continuă cu parcelele selectate",
+      "description": "Scanați o zonă de pe hartă, apoi selectați câmpurile de lucernă.",
+      "empty": {
+        "heading": "Nu ați selectat niciun câmp",
+        "listItem1": "Localizați-vă câmpurile pe hartă",
+        "listItem2": "Căutați o zonă pentru a detecta limitele",
+        "listItem3": "Selectați limitele câmpului"
+      },
+      "heading": "Scanați și selectați câmpurile {{crop}} ",
+      "map": {
+        "addDescription": "Faceți clic pe un hotar pentru a-l adăuga",
+        "moveTooltip": "Faceți clic și trageți pentru a deplasa vizualizarea hărții",
+        "scanButton": "Scanează limitele",
+        "searchTooltip": "Căutați pentru a detecta limitele",
+        "selectTooltip": "Atingeți pentru a selecta granița, Atingeți pentru a deselecta",
+        "tinyFieldHa": "<1 ha",
+        "tooZoomedOut": "Zona hărții este prea mare<br\/>Mărește pe hartă pentru a căuta.",
+        "zoomInToScanButton": "Zoom in pentru a scana"
+      },
+      "selectAFieldToContinue": "Selectați un câmp pentru a continua",
+      "summary": {
+        "area": "Suprafață",
+        "fieldsHa": "{{value}} ha",
+        "selected": "Selectat",
+        "selectedCount": "{count, plural, =1 {# câmp } other {# câmpuri }}"
+      },
+      "summaryMobile": {
+        "fieldsHa": "{{value}} total ha",
+        "selectedCount": "{count, plural, =1 {# câmp selectat} other {# câmpuri selectate}}"
+      }
+    },
+    "getStarted": {
+      "cta": {
+        "button": "Începe",
+        "subtext": "Obțineți o estimare în câteva minute"
+      },
+      "description": "Fermierii britanici pot câștiga până la <bold>{{amount}}\/ha pentru practici ecologice pozitive.<\/bold> Vedeți ce ați putea câștiga.",
+      "disclaimer": "Valorile proiectate sunt doar estimări și nu sunt garantate. <button>Aflați mai multe<\/button>",
+      "earningsDisclaimerPanel": {
+        "contactUs": "Mai aveți nevoie de ajutor? <link> Contactați Agreena <\/link>",
+        "description": {
+          "section1": {
+            "content": "Acesta este un instrument în stadiu incipient, conceput pentru a vă oferi o estimare rapidă, orientativă, bazată pe o cultură și pe practicile detectate pe câmpurile selectate. Acesta combină datele din satelit cu ipoteze pentru a arăta ce ați putea câștiga prin agricultura regenerativă. Estimările câștigurilor sunt orientative și nu sunt garantate.",
+            "heading": "Despre calculator"
+          },
+          "section2": {
+            "content": "<p>Vă estimăm impactul asupra mediului și câștigurile pe baza următoarelor practici agricole:<\/p><ul><li>Metoda de lucrare a solului<\/li><li>Utilizarea culturilor de acoperire<\/li><li>Tipul de îngrășământ<\/li><li>Mulcirea reziduurilor de cultură<\/li><\/ul> <p>Aceste practici - împreună cu suprafața totală a terenului - sunt utilizate pentru a calcula emisiile de gaze cu efect de seră (CO₂) și carbonul organic din sol (SOC) ale terenului dumneavoastră. Acest lucru ne oferă efectul net al carbonului, pe care îl traducem în câștiguri potențiale bazate pe valorile medii de piață. <\/p>",
+            "heading": "Date de calcul"
+          }
+        },
+        "headline": "Cum sunt calculate estimările de profit?",
+        "infoText": "Despre calculator"
+      },
+      "steps": {
+        "step1": "Marcați locația fermei dvs",
+        "step2": "Alegeți o cultură",
+        "step3": "Selectați câmpurile (detectate automat)",
+        "step4": "Analizăm practicile dumneavoastră utilizând date din satelit",
+        "step5": "Obțineți instantaneu estimarea câștigurilor dvs"
+      },
+      "terms": "Valorile proiectate sunt doar estimări și nu sunt garantate. <link>Aflați mai multe<\/link>",
+      "title": "Calculați potențialul de câștig al fermei dvs"
+    }
+  },
+  "farm": {
+    "form": {
+      "countryMessage": "În prezent susținem ferme din următoarele țări:<br><\/br> {{countries}}.<br><\/br>",
+      "countryPlaceholder": "Selectați țara fermei dvs",
+      "createFarmButton": "Creează fermă",
+      "createHeadline": "Ferma dvs",
+      "defaultFarmName": "Ferma mea",
+      "description": "Introduceți numele și locația fermei dvs",
+      "editLocation": "Editați locația",
+      "errors": {
+        "countryRequired": "Țara este necesară.",
+        "locationAddressInvalid": "Vă rugăm să alegeți o adresă mai specifică (strada nu a fost găsită)",
+        "locationCityInvalid": "Vă rugăm să alegeți o locație validă (orașul nu a fost găsit)",
+        "locationCountryCodeInvalid": "Momentan, nu oferim suport fermelor din această țară",
+        "locationRegionInvalid": "Vă rugăm să alegeți o locație validă (regiunea nu a fost găsită)",
+        "locationRequired": "Locația este necesară",
+        "locationZipCodeInvalid": "Vă rugăm să alegeți o adresă mai specifică (codul poștal nu a fost găsit)",
+        "nameRequired": "Numele fermei este obligatoriu."
+      },
+      "headline": "Creează ferma ta",
+      "locationLabel": "Locația fermei",
+      "locationPlaceholder": "Introduceți orice adresă sau nume a firmei",
+      "nameLabel": "Numele fermei",
+      "regionMessage": "În prezent, sprijinim doar fermele cu sediul în Danemarca, Franța, Germania, Polonia și Regatul Unit. Pe măsură ce ne extindem în alte regiuni, vă vom anunța.",
+      "submitForm": "Creează fermă",
+      "successMessage": "Locația fermei dvs. a fost cartografiată cu succes.",
+      "updateFarmButton": "Actualizare fermă",
+      "updateHeadline": "Actualizați-vă ferma"
+    }
+  },
+  "fields": {
+    "description": "Cum vrei să adaugi parcelele tale?",
+    "heading": "Marchează parcelele pe hartă",
+    "infoBox": "Locația fermei dvs. a fost cartografiată cu succes."
+  },
+  "footer": {
+    "farmSwitcher": {
+      "createButton": "Creați o fermă nouă",
+      "subTitle": "Treceți la o altă fermă sau creați una nouă",
+      "switchButton": "Schimbați ferma",
+      "title": "Fermele tale"
+    },
+    "signOut": "Deconectare"
+  },
+  "navConfig": {
+    "community": "Comunitate",
+    "dashboard": "Tablou de bord",
+    "earnings": "Venituri",
+    "insights": "Perspective",
+    "my-farm": "Ferma mea"
+  },
+  "navigation": {
+    "analyseStep": "Analizează parcelele",
+    "back": "Înapoi",
+    "exploreSteps": {
+      "cropsStep": "Selectați cultura",
+      "earningsStep": "Estimarea câștigurilor",
+      "estimateStep": "Estimarea câștigurilor",
+      "farmStep": "Ferma dvs",
+      "fieldsStep": "Selectați câmpurile"
+    },
+    "farmStep": "Creează fermă",
+    "fieldsStep": "Adaugă parcele",
+    "restart": "Repornire",
+    "steps": {
+      "analyse": "Analizează parcelele",
+      "crops": "Selectați cultura",
+      "earnings": "Estimarea câștigurilor",
+      "estimate": "Rezumatul câștigurilor",
+      "farm": "Ferma dvs",
+      "fields": "Detalii de revizuire"
+    },
+    "viewModeToggle": {
+      "listButton": "Listă",
+      "mapButton": "Hartă",
+      "switchToListView": "Treceți la vizualizarea listei",
+      "switchToMapView": "Treceți la vizualizarea hărții"
+    },
+    "wrongStepModal": {
+      "continueToDashboardButton": "Continuați la panoul de control",
+      "continueToFieldsButton": "Continuați la câmpurile mele",
+      "description": "Se pare că ați finalizat deja acest pas în configurarea fermei dvs.",
+      "heading": "Stai puțin... ești cu un pas înainte."
+    }
+  },
+  "practices": {
+    "coverCropValues": {
+      "no": "Nu",
+      "yes": "Da"
+    },
+    "tillage": {
+      "types": {
+        "conventional_till": "Lucrări convenționale",
+        "min_till": "Lucrări minime",
+        "no_data": "Necunoscut",
+        "no_majority_type": "Necunoscut",
+        "no_till": "Fără arat",
+        "not_enough_field_data": "Necunoscut"
+      }
+    }
+  },
+  "reviewBoundaries": {
+    "form": {
+      "description": "Mai jos sunt câmpurile importate. Deselectați toate câmpurile pe care nu doriți să le importați.",
+      "footer": {
+        "continueButton": "Continuă cu parcelele selectate",
+        "deleteButton": "Ștergeți câmpurile",
+        "deleteButtonMobile": "Ștergeți",
+        "deselectButton": "Deselectați toate",
+        "deselectButtonMobile": "Deselectați",
+        "selectedCount": "{count, plural, =1 {# câmp selectat} other {# câmpuri selectate}}"
+      },
+      "heading": "Verifică parcelele tale",
+      "infoBox": "Câmpurile dvs. au fost importate cu succes.",
+      "list": {
+        "fieldHeader": "Parcelă",
+        "fieldsHa": "{{value}} ha",
+        "sizeHeader": "Dimensiune",
+        "tinyFieldHa": "<1 ha"
+      },
+      "summary": {
+        "area": "Suprafață",
+        "fields": "Parcele",
+        "fieldsCount": "{count, plural, =1 {# câmp } other {# câmpuri }}",
+        "fieldsHa": "{{value}} ha"
+      }
+    },
+    "infoBox": "Câmpurile dvs. au fost importate cu succes."
+  },
+  "rpaImport": {
+    "card": {
+      "description": "Importul limitelor din RPA",
+      "heading": "Selectează parcelele din APIA"
+    },
+    "form": {
+      "description": "Conectează-te la Rural Payments Agency (RPA) pentru a importa delimitările parcelelor.",
+      "errors": {
+        "allFieldsDuplicate": "Ați adăugat deja toate câmpurile care corespund acestui număr SBI",
+        "generic": "A apărut o eroare în timpul importării câmpurilor",
+        "noFieldsFound": "Nu s-au găsit câmpuri pentru acest număr SBI",
+        "sbiNumberRequired": "Numărul SBI este necesar"
+      },
+      "heading": "Import din RPA",
+      "importButton": "Importul limitelor RPA",
+      "infoBox": "Doar limitele dvs. sunt preluate de la RPA.<br><\/br> Nu sunt accesate sau partajate alte date.",
+      "input": {
+        "sbiNumberLabel": "Numărul dvs. SBI de 9 cifre",
+        "termsLabel": "Am citit și sunt de acord cu Ordinance Survey Public Sector End User License <link>termeni și condiții<\/link>"
+      }
+    }
+  },
+  "shapefile": {
+    "buttons": {
+      "continueToImport": "Importă parcele",
+      "importing": "Importul...",
+      "remove": "Eliminați"
+    },
+    "dropzone": {
+      "description": "Încărcați dosarul dvs. de fișiere shapefile zip. Acestea includ de obicei formate de fișiere shp, dbf, shx și prj.",
+      "dragText": "Trageți și plasați folderul fișier shape (.zip)",
+      "dropText": "Aruncați fișierele aici",
+      "dropToUploadText": "Aruncați fișierul pentru încărcare",
+      "selectButton": "Selectați fișierul shape (.zip)"
+    },
+    "errors": {
+      "fileTooLarge": {
+        "description": "Vă rugăm să încărcați un fișier mai mic de 10MB.",
+        "title": "Fișier prea mare"
+      },
+      "invalidFileType": {
+        "description": "Vă rugăm să încărcați un folder zip care conține fișierele dvs. shape (de obicei în formate de fișiere shp, dbf, shx și prj). Aveți nevoie de ajutor pentru adăugarea câmpurilor, <link>vă rugăm să contactați asistența pentru clienți.<\/link>",
+        "title": "Formatul incorect al fișierului"
+      },
+      "missingComponents": {
+        "description": "Vă rugăm să încărcați toate fișierele SHP, SHX, DBF și PRJ în folderul zip. Aveți nevoie de ajutor pentru adăugarea câmpurilor, <link>vă rugăm să contactați asistența pentru clienți.<\/link>",
+        "title": "Fișiere lipsă detectate"
+      },
+      "uploadFailed": {
+        "description": "Am întâmpinat o eroare la încărcarea fișierelor dvs. shape. Vă rugăm să încercați din nou sau <link>vă rugăm să contactați asistența pentru clienți.<\/link> pentru ajutor.",
+        "title": "Eroare la încărcarea fișierelor shape"
+      }
+    },
+    "import": {
+      "description": "Încărcați un fișier shape al limitelor dvs.",
+      "downloadPdfButton": "Descarcă ghidul PDF",
+      "heading": "Încărcați un fișier shape",
+      "zipHelp": "Nu sunteți sigur cum să creați un fișier .zip?"
+    },
+    "propertySelect": {
+      "description": "Alegeți din proprietățile fișierului shape disponibile pentru a atribui nume de câmp.",
+      "heading": "Numiți câmpurile dvs",
+      "noPropertiesFound": "Nu s-au găsit proprietăți ale fișierului shape. Vă rugăm să încărcați un fișier shape cu proprietăți."
+    },
+    "uploadCard": {
+      "description": "Importați limitele dintr-un fișier shape",
+      "heading": "Încărcați fișierul vectorial"
+    }
+  },
+  "welcome": {
+    "continueButton": "Creează ferma ta",
+    "heading": "Bine ai venit, {{firstName}}. Să vă pregătim ferma.",
+    "listItem1": "Localizați ferma",
+    "listItem2": "Adaugă parcele",
+    "listItem3": "Înființarea fermei",
+    "teaserMessage": "Configurați în doar 2 minute"
+  },
+  "welcomeModal": {
+    "continueButton": "Creează ferma ta",
+    "description": "Configurați-vă ferma în câteva minute folosind tehnologia de teledetecție pentru a detecta câmpurile și practicile dumneavoastră.",
+    "heading": "Începeți prin a vă crea ferma.",
+    "listItem1": "Creează ferma ta",
+    "listItem2": "Importați cu ușurință câmpurile",
+    "listItem3": "Vedeți practicile detectate și informațiile cheie",
+    "listItem4": "Acceptă să valorifici datele tale agricole",
+    "teaserMessage": "Configurează totul în 2 minute"
+  }
+}
