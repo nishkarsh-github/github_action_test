@@ -1,0 +1,48 @@
+name: 17th_NOV_Pull_lokalise_translations
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - name: Pull from Lokalise
+        uses: lokalise/lokalise-pull-action@v4.3.0
+        with:
+          api_token: c5ff2cf775946e5737afa61b4001a3bf31a31de4
+          project_id: 92108255691a9c1be7f854.41386006
+          async_mode: true
+          translations_path: src/i18n/messages
+          base_lang: en_GB
+          flat_naming: true
+          file_ext: json
+          additional_params: >
+            {
+              "language_mapping": [
+                {"original_language_iso": "bg_BG", "custom_language_iso": "bg-BG"},
+                {"original_language_iso": "cs_CZ", "custom_language_iso": "cs-CZ"},
+                {"original_language_iso": "da_DK", "custom_language_iso": "da-DK"},
+                {"original_language_iso": "de_DE", "custom_language_iso": "de-DE"},
+                {"original_language_iso": "en_GB", "custom_language_iso": "en-GB"},
+                {"original_language_iso": "fr_FR", "custom_language_iso": "fr-FR"},
+                {"original_language_iso": "hu_HU", "custom_language_iso": "hu-HU"},
+                {"original_language_iso": "lt_LT", "custom_language_iso": "lt-LT"},
+                {"original_language_iso": "pl_PL", "custom_language_iso": "pl-PL"},
+                {"original_language_iso": "ro_RO", "custom_language_iso": "ro-RO"},
+                {"original_language_iso": "ro_MD", "custom_language_iso": "ro-MD"},
+                {"original_language_iso": "sk_SK", "custom_language_iso": "sk-SK"},
+                {"original_language_iso": "uk_UA", "custom_language_iso": "uk-UA"}
+              ],
+              "indentation": "2sp",
+              "export_empty_as": "skip",
+              "export_sort": "a_z",
+              "add_newline_eof": true,
+              "plural_format": "i18next",
+              "placeholder_format": "i18n"
+            }
