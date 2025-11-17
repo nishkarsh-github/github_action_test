@@ -1,0 +1,614 @@
+{
+  "analyse": {
+    "findOutMore": {
+      "contactUs": "Nadal potrzebujesz pomocy? <link> Skontaktuj się z nami <\/link>",
+      "description": {
+        "paragraph1": "Technologia teledetekcji w rolnictwie odnosi się do wykorzystania czujników (np. satelitów) i systemów obrazowania do gromadzenia i analizowania danych na temat upraw, gleby i warunków środowiskowych bez bezpośredniego kontaktu fizycznego.",
+        "paragraph2": "Integrując zdjęcia satelitarne, sztuczną inteligencję (AI) i uczenie maszynowe, Agreena jest w stanie zaoferować rolnikom skuteczny sposób monitorowania ich gospodarstw z kosmosu.",
+        "paragraph3": "Kluczowe zastosowania naszej technologii teledetekcji obejmują m.in. wykrywanie granic pól, wykrywanie upraw okrywowych, wykrywanie upraw, a także wykrywanie płodozmianu.",
+        "paragraph4": "Dowiedz się więcej o technologii <technologyLink> Agreena <\/technologyLink> na <websiteLink> Agreena.com. <\/websiteLink>"
+      },
+      "headline": "Czym jest technologia teledetekcji w rolnictwie?",
+      "infoText": "Technologia teledetekcji"
+    },
+    "form": {
+      "description": "Automatyczne wykrywanie upraw i praktyk stosowanych na polach w celu szybszej konfiguracji.",
+      "footer": {
+        "continueButton": "Kontynuuj"
+      },
+      "heading": "Analizuj pola dzięki teledetekcji",
+      "infoPanelButton": "Dowiedz się więcej",
+      "listItem1": "Zachowaj kontrolę nad danymi swojego gospodarstwa",
+      "listItem2": "Zobacz swoje pola pogrupowane według rodzaju uprawy",
+      "listItem3": "Szybko identyfikuj rodzaj uprawy na swoich polach",
+      "listItem4": "Sprawdź, czy uprawiano rośliny okrywowe",
+      "listItem5": "Oszczędź czas dzięki automatycznie wypełnionym danym pól",
+      "summary": {
+        "area": "Powierzchnia",
+        "fields": "Pola",
+        "fieldsCount": "{count, plural, =1 {# pole } other {# pola }}",
+        "fieldsHa": "{{value}} ha"
+      }
+    },
+    "modal": {
+      "comingSoon": "Już wkrótce",
+      "communityCTADescription": "Masz pytania dotyczące rolnictwa? Skontaktuj się z pionierami rolnictwa regeneracyjnego.",
+      "communityCTATitle": "Połącz się z rolnikami regeneracyjnymi",
+      "earningsCTADescription": "Możesz zarabiać pieniądze w oparciu o wpływ Twoich praktyk rolniczych.",
+      "earningsCTATitle": "Zarabiaj",
+      "fieldsCTADescription": "Wykryte praktyki rolnicze z wykorzystaniem technologii teledetekcji.",
+      "fieldsCTATitle": "Twoje gospodarstwo i pola",
+      "heading": "Konfiguracja gospodarstwa zakończona.<br><\/br> Odkryj swoje gospodarstwo.",
+      "insightsCTADescription": "Zobacz statystyki oparte na wykrytych uprawach i praktykach rolniczych.",
+      "insightsCTATitle": "Wynik i statystyki  Regen Ag"
+    },
+    "pending": {
+      "description": "Może to zająć kilka minut",
+      "heading": "Konfiguracja farmy...",
+      "listItem1": "Sprawdzanie granic pola",
+      "listItem2": "Identyfikacja uprawianych roślin",
+      "listItem3": "Wykrywanie praktyk terenowych"
+    }
+  },
+  "boundaryDetection": {
+    "card": {
+      "comingSoon": "Już wkrótce",
+      "description": "Wybierz pola z automatycznie wykrytych granic",
+      "heading": "Wybierz pola na mapie"
+    },
+    "form": {
+      "continueButton": "Kontynuuj z wybranymi polami",
+      "continueToScan": "Kontynuuj wybieranie pól",
+      "continueWithSelectedFields": "Kontynuuj z wybranymi polami",
+      "description": "Wybierz pola z automatycznie wykrytych granic",
+      "empty": {
+        "heading": "Nie wybrano żadnych pól",
+        "info": "wybrano 0 pól",
+        "listItem1": "Zlokalizuj swoje pola na mapie",
+        "listItem2": "Przeszukiwanie obszaru w celu wykrycia granic",
+        "listItem3": "Wybierz granice pola"
+      },
+      "heading": "Wybierz swoje pola na mapie",
+      "headingCrop": "Wybierz wszystkie pola <highlight>{{crop}}<\/highlight> ",
+      "selectAFieldToContinue": "Wybierz pole, aby kontynuować",
+      "summary": {
+        "area": "Powierzchnia",
+        "fieldsHa": "{{value}} ha",
+        "selected": "Wybrane",
+        "selectedCount": "{count, plural, =1 {# pole } other {# pola }}",
+        "topCount": "{count, plural, =1 {# wybrane pole} other {# wybrane pola}}",
+        "topHa": "{value, plural, =1 {# ogółem ha} other {# ogółem ha}}"
+      }
+    },
+    "map": {
+      "addDescription": "Kliknij granicę, aby ją dodać",
+      "cantFindAddressText": "Nie możesz znaleźć swojego adresu? <button>Zamiast tego użyj mapy<\/button>",
+      "detectingBoundaries": "Wykrywanie granic...",
+      "fieldHa": "{{value}} ha",
+      "geolocationNotSupported": "Przeglądarka nie obsługuje geolokalizacji",
+      "geolocationPermissionDenied": "Odmówiono zezwolenia na geolokalizację. Włącz je w ustawieniach przeglądarki.",
+      "locationSearchTooltip": "Wyszukaj swoją farmę",
+      "moveTooltip": "Przesuń mapę, a następnie zeskanuj obszar, aby wykryć granice.",
+      "scanButton": "Skanowanie w poszukiwaniu granic",
+      "searchPlaceholder": "Wyszukiwanie na mapie",
+      "searchTooltip": "Wyszukiwanie w celu wykrycia granic",
+      "selectTooltip": "Wybierz pola z zaznaczonych granic.",
+      "tinyFieldHa": "<1 ha",
+      "tooZoomedOut": "Obszar mapy jest zbyt duży<br\/>Powiększ mapę, aby wyszukać.",
+      "unableToRetrieveLocation": "Nie można pobrać lokalizacji użytkownika",
+      "useMyLocationButton": "Użyj mojej aktualnej lokalizacji",
+      "zoomInToScanAssistiveText": "Zbliżenie w celu wyszukania granic",
+      "zoomInToScanButton": "Przybliż, aby skanować"
+    }
+  },
+  "countries": {
+    "BG": "Bułgaria",
+    "CZ": "Czechy",
+    "DE": "Niemcy",
+    "DK": "Dania",
+    "FR": "Francja",
+    "GB": "United Kingdom",
+    "HU": "Węgry",
+    "LT": "Litwa",
+    "MD": "Mołdawia",
+    "PL": "Polska",
+    "RO": "Rumunia",
+    "SK": "Słowacja",
+    "UA": "Ukraina"
+  },
+  "cropGroups": {
+    "barley_spring": "Jęczmień jary",
+    "barley_winter": "Jęczmień ozimy",
+    "beans": "Fasola",
+    "cereals_unknown": "Nieznane zboża",
+    "corn": "Kukurydza",
+    "grapes": "Winogrona",
+    "grasses": "Trawy",
+    "no_data": "Nie znaleziono uprawy",
+    "no_majority_type": "Brak głównej uprawy",
+    "not_agriculture": "Nierolnicze",
+    "oats": "Owies",
+    "other": "Inne",
+    "other_cereals": "Inne zboża",
+    "other_cereals_spring": "Inne zboża jare",
+    "other_cereals_winter": "Inne zboża ozime",
+    "peas": "Groszek",
+    "potato": "Ziemniak",
+    "rapeseed_spring": "Rzepak jary",
+    "rapeseed_unknown": "Nieznany rzepak",
+    "rapeseed_winter": "Rzepak ozimy",
+    "rye": "Żyto",
+    "soybeans": "Soja",
+    "sugar_beet": "Burak cukrowy",
+    "sunflower": "Słonecznik",
+    "unknown": "Nieznany",
+    "wheat_spring": "Pszenica jara",
+    "wheat_winter": "Pszenica ozima"
+  },
+  "cvrImport": {
+    "card": {
+      "description": "Połącz się z CVR, aby zaimportować granice swoich pól.",
+      "heading": "Wybierz swoje pola z CVR"
+    },
+    "form": {
+      "description": "Połącz się z CVR, aby zaimportować granice swoich pól.",
+      "errors": {
+        "allFieldsDuplicate": "Dodałeś już wszystkie pola pasujące do tego numeru CVR",
+        "cvrNumberRequired": "Wymagany jest numer CVR",
+        "generic": "Wystąpił błąd podczas importowania pól",
+        "noFieldsFound": "Nie znaleziono pól dla podanego numeru identyfikacyjnego"
+      },
+      "heading": "Importuj granice pól CVR",
+      "importButton": "Import granic CVR",
+      "infoBox": "Połącz się z CVR, aby zaimportować granice swoich pól.",
+      "input": {
+        "cvrNumberLabel": "Twój 8-cyfrowy numer CVR",
+        "roleRadioGroup": {
+          "errors": {
+            "required": "Wybierz swoją rolę"
+          },
+          "label": "Jaka jest Twoja rola w gospodarstwie?",
+          "options": {
+            "contractor": "Jestem agentem (np. agronomem lub wykonawcą)",
+            "farmer": "Jestem właścicielem gospodarstwa\/jestem bezpośrednio zatrudniony w gospodarstwie"
+          }
+        }
+      }
+    }
+  },
+  "exploreFlow": {
+    "confirmBoundariesForEstimate": {
+      "continueButton": "Obliczanie wartości szacunkowej",
+      "description": "Obliczymy wpływ na środowisko i jego szacunkową wartość na podstawie danej uprawy, wielkości obszaru i stosowanych praktyk.",
+      "heading": "Sprawdź swoje dane",
+      "pending": {
+        "heading": "Analiza pól i obliczanie wartości szacunkowych",
+        "listItem1": "Sprawdzanie pól i praktyk",
+        "listItem2": "Obliczanie wpływu na środowisko",
+        "listItem3": "Generowanie szacunkowych zysków"
+      },
+      "summary": {
+        "crop": "Uprawa",
+        "editLink": "Edytuj",
+        "fields": "Pola",
+        "fieldsCount": "{count, plural, =1 {# pole } other {# pola }}",
+        "fieldsHa": "{{value}} ha",
+        "heading": "Szczegóły uprawy do oszacowania",
+        "totalArea": "Powierzchnia"
+      },
+      "whatNext": {
+        "heading": "Jak obliczana jest wartość szacunkowa",
+        "listItem1": "Analizujemy pola za pomocą teledetekcji",
+        "listItem2": "Obliczamy wpływ na środowisko",
+        "listItem3": "Szacujemy potencjalne zarobki"
+      }
+    },
+    "createFarm": {
+      "description": "Wprowadź lokalizację swojej farmy, aby znaleźć ją na mapie.",
+      "editLocation": "Edytuj lokalizację",
+      "locateFarm": "Zlokalizuj swoją farmę"
+    },
+    "cropForEstimate": {
+      "continueButton": "Wybierz uprawę, aby kontynuować",
+      "subTitle": "Obliczymy szacunkowe zarobki przy użyciu praktyk rolniczych i całkowitej wielkości obszaru dla tej uprawy",
+      "title": "Na jakiej uprawie chciałbyś oprzeć swoje szacunki zysków?"
+    },
+    "cropSelection": {
+      "continueButton": "Wybierz uprawy, aby kontynuować",
+      "cropFilterPlaceholder": "Wyszukiwanie upraw",
+      "errors": {
+        "atLeastOneCropRequired": "Wybierz co najmniej jedną uprawę",
+        "mustSelectCrop": "Wybierz uprawę, dla której chcesz oszacować zarobki",
+        "noCropsFoundMatching": "Nie znaleziono pasujących upraw"
+      },
+      "subTitle": "Obliczymy Twój wpływ na środowisko w oparciu o praktyki tej uprawy.",
+      "title": "Wybierz roślinę uprawianą w 2024 r"
+    },
+    "estimate": {
+      "cropDetails": {
+        "basedOnFields": "Na podstawie {count, plural, =1 {# pola} other {# pola}}, {{area}} ha",
+        "editLink": "Edytuj",
+        "forCrop": "Dla Ciebie {{crop}}"
+      },
+      "detectablePractices": {
+        "coverCrop": {
+          "count": "<bold>{{coverCropHa}} ha<\/bold> z {{totalHa}} ha",
+          "title": "Rośliny okrywowe"
+        },
+        "description": "Dane dotyczące praktyk rolniczych wykryte za pomocą czujników satelitarnych.",
+        "tillage": {
+          "count": "<bold>{{reducedNoTillHa}} ha<\/bold> z {{totalHa}} ha",
+          "title": "Uprawa uproszczona\/bezorkowa"
+        },
+        "title": "Wykryte praktyki"
+      },
+      "earnings": {
+        "averagePerHa": "To średnio {{amount}}\/ha",
+        "disclaimer": "Kwoty nie są gwarantowane i są jedynie szacunkowe. Dowiedz się więcej o obliczeniach.",
+        "perYear": "\/ rok",
+        "title": "Twój wpływ na środowisko może zostać wyceniony na"
+      },
+      "eligible": {
+        "description": "Twoje praktyki rolnicze mają pozytywny wpływ na środowisko, za który możesz otrzymać wynagrodzenie.",
+        "title": "Wygląda na to, że się kwalifikujesz!"
+      },
+      "footer": {
+        "createAccountButton": "Utwórz bezpłatne konto",
+        "eligible": {
+          "description": "Skonfiguruj swoją farmę, aby zacząć zarabiać w ciągu kilku minut.",
+          "title": "Otrzymuj wynagrodzenie za wpływ gospodarstwa na środowisko"
+        },
+        "notEligible": {
+          "description": "Uzyskaj wgląd w gospodarstwo, dokładne szacunki i nie tylko.",
+          "title": "Maksymalizacja potencjału zarobkowego gospodarstwa"
+        }
+      },
+      "loadingSkeleton": {
+        "createAccountButton": "Utwórz bezpłatne konto",
+        "earningsDisclaimer": "Zarobki są jedynie szacunkowe i nie są gwarantowane. W oparciu o wykrywalne praktyki (uprawa i rośliny okrywowe) przy użyciu teledetekcji. W przypadku zarządzania resztkami pożniwnymi i stosowania nawozów przyjęto rozsądne założenia.",
+        "earningsText": "Twój wpływ na środowisko może zostać wyceniony na",
+        "metrics": {
+          "analysedArea": "Analizowany obszar",
+          "avgEarnings": "Średnie zarobki",
+          "regenScore": "Wynik regeneracji"
+        },
+        "pending": {
+          "heading": "Obliczanie szacunków...",
+          "listItem1": "Sprawdzanie pól i praktyk",
+          "listItem2": "Obliczanie wpływu na środowisko",
+          "listItem3": "Generowanie szacunkowych zysków"
+        },
+        "perYear": "\/ rok"
+      },
+      "map": {
+        "fieldHa": "{{value}} ha",
+        "overlay": {
+          "coverCropLabel": "Uprawiana roślina okrywowa",
+          "cropResidueLabel": "Resztki pożniwne",
+          "estimatedEarnings": "Szacowane zarobki {{value}}",
+          "fertiliserLabel": "Nawóz",
+          "fieldHa": "{{value}} ha",
+          "practicesHeadline": "Praktyki terenowe wykryte przez satelitę",
+          "tillageLabel": "Rodzaj uprawy",
+          "tinyFieldHa": "<1 ha",
+          "undetectedValue": "Niewykryte",
+          "yes": "Tak"
+        },
+        "selectTooltip": "Wybierz granicę, aby zobaczyć szczegóły",
+        "tinyFieldHa": "<1 ha"
+      },
+      "notAccurate": "Praktyki nie są dokładne? <link>Utwórz konto<\/link>, aby edytować praktyki.",
+      "notEligible": {
+        "description": "Wdrożenie praktyk bardziej przyjaznych dla środowiska.",
+        "title": "Zmaksymalizuj swój potencjał zarobkowy."
+      },
+      "practices": {
+        "coverCrop": {
+          "count": "<bold>{{coverCropHa}} ha<\/bold> z {{totalHa}} ha",
+          "title": "Rośliny okrywowe"
+        },
+        "description": "Niewykrywalne praktyki, takie jak mulczowanie pozostałości i stosowanie nawozów organicznych\/mieszanych, zostały przyjęte na podstawie średnich krajowych.",
+        "notAccurate": "Niedokładne? Edytuj swoje praktyki po utworzeniu konta <link><\/link>",
+        "tillage": {
+          "count": "<bold>{{reducedNoTillHa}} ha<\/bold> z {{totalHa}} ha",
+          "title": "Uprawa uproszczona\/bezorkowa"
+        },
+        "title": "Wykryte praktyki o dużym wpływie"
+      },
+      "undetectablePractices": {
+        "description": "W związku z tym, że mulczowania i nawożenia nie można wykryć za pomocą zdjęć satelitarnych, przyjęto następujące założenia.",
+        "fertiliser": {
+          "count": "{{fertiliserHa}} ha {{totalHa}} ha",
+          "title": "Nawóz mieszany\/organiczny"
+        },
+        "residueMulching": {
+          "count": "{{residueMulchingHa}} ha {{totalHa}} ha",
+          "title": "Ściółkowanie resztek pożniwnych"
+        },
+        "title": "Inne praktyki"
+      }
+    },
+    "exploreBoundaryDetection": {
+      "continueButton": "Kontynuuj z wybranymi polami",
+      "continueToScan": "Kontynuuj wybieranie pól",
+      "continueWithSelectedFields": "Kontynuuj z wybranymi polami",
+      "description": "Zeskanuj obszar na mapie, a następnie wybierz pola lucerny.",
+      "empty": {
+        "heading": "Nie wybrano żadnych pól",
+        "listItem1": "Zlokalizuj swoje pola na mapie",
+        "listItem2": "Przeszukiwanie obszaru w celu wykrycia granic",
+        "listItem3": "Wybierz granice pola"
+      },
+      "heading": "Zeskanuj i wybierz pola {{crop}} ",
+      "map": {
+        "addDescription": "Kliknij granicę, aby ją dodać",
+        "moveTooltip": "Kliknij i przeciągnij, aby przesunąć widok mapy",
+        "scanButton": "Skanuj granice",
+        "searchTooltip": "Wyszukiwanie w celu wykrycia granic",
+        "selectTooltip": "Stuknij, aby wybrać granicę, stuknij, aby usunąć zaznaczenie",
+        "tinyFieldHa": "<1 ha",
+        "tooZoomedOut": "Obszar mapy jest zbyt duży<br\/>Powiększ mapę, aby wyszukać.",
+        "zoomInToScanButton": "Przybliż, aby skanować"
+      },
+      "selectAFieldToContinue": "Wybierz pole, aby kontynuować",
+      "summary": {
+        "area": "Powierzchnia",
+        "fieldsHa": "{{value}} ha",
+        "selected": "Wybrane",
+        "selectedCount": "{count, plural, =1 {# pole } other {# pola }}"
+      },
+      "summaryMobile": {
+        "fieldsHa": "{{value}} ha ogółem",
+        "selectedCount": "{count, plural, =1 {# wybrane pole} other {# wybrane pola}}"
+      }
+    },
+    "getStarted": {
+      "cta": {
+        "button": "Rozpocznij",
+        "subtext": "Uzyskaj wycenę w kilka minut"
+      },
+      "description": "Brytyjscy rolnicy mogą zarobić do <bold>{{amount}}\/ha za pozytywne praktyki środowiskowe.<\/bold> Zobacz, ile możesz zarobić.",
+      "disclaimer": "Przewidywane wartości są jedynie szacunkowe i nie są gwarantowane. <button>Dowiedz się więcej<\/button>",
+      "earningsDisclaimerPanel": {
+        "contactUs": "Nadal potrzebujesz pomocy? <link> Skontaktuj się z Agreena <\/link>",
+        "description": {
+          "section1": {
+            "content": "Jest to narzędzie na wczesnym etapie, zaprojektowane w celu zapewnienia szybkiego, orientacyjnego oszacowania w oparciu o jedną uprawę i praktyki wykryte na wybranych polach. Łączy dane satelitarne z założeniami, aby pokazać, ile można zarobić dzięki rolnictwu regeneracyjnemu. Szacunkowe zyski mają charakter orientacyjny i nie są gwarantowane.",
+            "heading": "Informacje o kalkulatorze"
+          },
+          "section2": {
+            "content": "<p>Szacujemy wpływ na środowisko i zyski na podstawie następujących praktyk rolniczych:<\/p><ul><li>Metoda uprawy<\/li><li>Stosowanie roślin okrywowych<\/li><li>Rodzaj nawozu<\/li><li>Ściółkowanie resztek pożniwnych<\/li><\/ul> <p>Praktyki te - wraz z całkowitą powierzchnią pola - są wykorzystywane do obliczania emisji gazów cieplarnianych (CO₂) i węgla organicznego w glebie (SOC). Daje nam to efekt węgla netto, który przekładamy na potencjalne zyski w oparciu o średnie wartości rynkowe. <\/p>",
+            "heading": "Dane obliczeniowe"
+          }
+        },
+        "headline": "Jak obliczane są szacunkowe zyski?",
+        "infoText": "Informacje o kalkulatorze"
+      },
+      "steps": {
+        "step1": "Przypnij swoją lokalizację farmy",
+        "step2": "Wybierz uprawę",
+        "step3": "Wybierz pola (wykrywane automatycznie)",
+        "step4": "Analizujemy Twoje praktyki przy użyciu danych satelitarnych",
+        "step5": "Uzyskaj natychmiastowe oszacowanie zarobków"
+      },
+      "terms": "Przewidywane wartości są jedynie szacunkowe i nie są gwarantowane. <link>Dowiedz się więcej<\/link>",
+      "title": "Oblicz potencjał zarobkowy swojej farmy"
+    }
+  },
+  "farm": {
+    "form": {
+      "countryMessage": "Obecnie obsługujemy farmy z następujących krajów:<br><\/br> {{countries}}.<br><\/br>",
+      "countryPlaceholder": "Wybierz kraj swojej farmy",
+      "createFarmButton": "Utwórz gospodarstwo",
+      "createHeadline": "Twoja farma",
+      "defaultFarmName": "Moja farma",
+      "description": "Wprowadź nazwę i lokalizację gospodarstwa",
+      "editLocation": "Edytuj lokalizację",
+      "errors": {
+        "countryRequired": "Wymagany jest kraj.",
+        "locationAddressInvalid": "Wybierz bardziej szczegółowy adres (nie znaleziono ulicy)",
+        "locationCityInvalid": "Wybierz prawidłową lokalizację (nie znaleziono miasta)",
+        "locationCountryCodeInvalid": "Obecnie nie wspieramy farm z tego kraju",
+        "locationRegionInvalid": "Wybierz prawidłową lokalizację (nie znaleziono regionu)",
+        "locationRequired": "Wymagana jest lokalizacja",
+        "locationZipCodeInvalid": "Wybierz bardziej szczegółowy adres (nie znaleziono kodu pocztowego)",
+        "nameRequired": "Nazwa gospodarstwa jest wymagana."
+      },
+      "headline": "Utwórz swoje gospodarstwo",
+      "locationLabel": "Lokalizacja gospodarstwa",
+      "locationPlaceholder": "Wpisz dowolny adres lub nazwę firmy",
+      "nameLabel": "Nazwa gospodarstwa",
+      "regionMessage": "Obecnie obsługujemy tylko farmy z siedzibą w Danii, Francji, Niemczech, Polsce i Wielkiej Brytanii. Gdy rozszerzymy działalność na inne regiony, poinformujemy Cię o tym.",
+      "submitForm": "Utwórz gospodarstwo",
+      "successMessage": "Lokalizacja farmy została pomyślnie zmapowana.",
+      "updateFarmButton": "Aktualizacja farmy",
+      "updateHeadline": "Zaktualizuj swoją farmę"
+    }
+  },
+  "fields": {
+    "description": "W jaki sposób chcesz dodać swoje pola?",
+    "heading": "Zmapuj swoje pola",
+    "infoBox": "Lokalizacja farmy została pomyślnie zmapowana."
+  },
+  "footer": {
+    "farmSwitcher": {
+      "createButton": "Utwórz nową farmę",
+      "subTitle": "Przejdź do innej farmy lub utwórz nową",
+      "switchButton": "Przełącz farmę",
+      "title": "Twoje gospodarstwa"
+    },
+    "signOut": "Wyloguj"
+  },
+  "navConfig": {
+    "community": "Społeczność",
+    "dashboard": "Panel główny",
+    "earnings": "Zarobki",
+    "insights": "Spostrzeżenia",
+    "my-farm": "Moja farma"
+  },
+  "navigation": {
+    "analyseStep": "Analizuj pola",
+    "back": "Wróć",
+    "exploreSteps": {
+      "cropsStep": "Wybrane uprawy",
+      "earningsStep": "Szacunkowe zyski",
+      "estimateStep": "Szacunkowe zyski",
+      "farmStep": "Twoja farma",
+      "fieldsStep": "Wybierz pola"
+    },
+    "farmStep": "Utwórz gospodarstwo",
+    "fieldsStep": "Dodaj pola",
+    "restart": "Restart",
+    "steps": {
+      "analyse": "Analizuj pola",
+      "crops": "Wybrane uprawy",
+      "earnings": "Szacunkowe zyski",
+      "estimate": "Podsumowanie zysków",
+      "farm": "Twoja farma",
+      "fields": "Szczegóły recenzji"
+    },
+    "viewModeToggle": {
+      "listButton": "Lista",
+      "mapButton": "Mapa",
+      "switchToListView": "Przełączanie do widoku listy",
+      "switchToMapView": "Przełączanie do widoku mapy"
+    },
+    "wrongStepModal": {
+      "continueToDashboardButton": "Przejdź do panelu nawigacyjnego",
+      "continueToFieldsButton": "Kontynuuj do moich pól",
+      "description": "Wygląda na to, że ten etap konfiguracji farmy został już zakończony.",
+      "heading": "Chwileczkę... jesteś o krok do przodu."
+    }
+  },
+  "practices": {
+    "coverCropValues": {
+      "no": "Nie",
+      "yes": "Tak"
+    },
+    "tillage": {
+      "types": {
+        "conventional_till": "Konwencjonalna",
+        "min_till": "Uprawa uproszczona",
+        "no_data": "Nieznany",
+        "no_majority_type": "Nieznany",
+        "no_till": "Siew bezpośredni (brak uprawy)",
+        "not_enough_field_data": "Nieznany"
+      }
+    }
+  },
+  "reviewBoundaries": {
+    "form": {
+      "description": "Poniżej znajdują się zaimportowane pola. Odznacz pola, których nie chcesz importować.",
+      "footer": {
+        "continueButton": "Kontynuuj z wybranymi polami",
+        "deleteButton": "Usuń pola",
+        "deleteButtonMobile": "Usuń",
+        "deselectButton": "Odznacz wszystko",
+        "deselectButtonMobile": "Usuń zaznaczenie",
+        "selectedCount": "{count, plural, =1 {# wybrane pole} other {# wybrane pola}}"
+      },
+      "heading": "Przejrzyj swoje pola",
+      "infoBox": "Pola zostały pomyślnie zaimportowane.",
+      "list": {
+        "fieldHeader": "Pole",
+        "fieldsHa": "{{value}} ha",
+        "sizeHeader": "Powierzchnia",
+        "tinyFieldHa": "<1 ha"
+      },
+      "summary": {
+        "area": "Powierzchnia",
+        "fields": "Pola",
+        "fieldsCount": "{count, plural, =1 {# pole } other {# pola }}",
+        "fieldsHa": "{{value}} ha"
+      }
+    },
+    "infoBox": "Pola zostały pomyślnie zaimportowane."
+  },
+  "rpaImport": {
+    "card": {
+      "description": "Import granic z RPA",
+      "heading": "Wybierz swoje pola z RPA"
+    },
+    "form": {
+      "description": "Połącz się z Rural Payments Agency (RPA), aby zaimportować granice pól.",
+      "errors": {
+        "allFieldsDuplicate": "Dodałeś już wszystkie pola pasujące do tego numeru SBI",
+        "generic": "Wystąpił błąd podczas importowania pól",
+        "noFieldsFound": "Nie znaleziono pól dla podanego identyfikatora",
+        "sbiNumberRequired": "Wymagany jest numer SBI"
+      },
+      "heading": "Import z RPA",
+      "importButton": "Import granic RPA",
+      "infoBox": "Z RPA pobierane są tylko granice użytkownika.<br><\/br> Żadne inne dane nie są udostępniane.",
+      "input": {
+        "sbiNumberLabel": "Twój 9-cyfrowy numer SBI",
+        "termsLabel": "Przeczytałem i zgadzam się z Licencją Użytkownika Końcowego Sektora Publicznego (Ordinance Survey Public Sector End User License) <link>Zasady i warunki<\/link>"
+      }
+    }
+  },
+  "shapefile": {
+    "buttons": {
+      "continueToImport": "Importuj pola",
+      "importing": "Importowanie...",
+      "remove": "Usunąć"
+    },
+    "dropzone": {
+      "description": "Prześlij folder zip z plikami shapefile. Zazwyczaj zawierają one pliki w formatach shp, dbf, shx i prj.",
+      "dragText": "Przeciągnij i upuść folder shapefile (.zip)",
+      "dropText": "Upuść pliki tutaj",
+      "dropToUploadText": "Upuść plik do przesłania",
+      "selectButton": "Wybierz plik shapefile (.zip)"
+    },
+    "errors": {
+      "fileTooLarge": {
+        "description": "Prosimy o przesłanie pliku mniejszego niż 10 MB.",
+        "title": "Zbyt duży plik"
+      },
+      "invalidFileType": {
+        "description": "Prześlij folder zip zawierający pliki shapefiles (zwykle w formatach shp, dbf, shx i prj). Potrzebujesz pomocy przy dodawaniu pól, <link>skontaktuj się z obsługą klienta.<\/link>",
+        "title": "Nieprawidłowy format pliku"
+      },
+      "missingComponents": {
+        "description": "Prześlij wszystkie pliki SHP, SHX, DBF i PRJ w folderze zip. Potrzebujesz pomocy w dodawaniu pól, <link>skontaktuj się z obsługą klienta.<\/link>",
+        "title": "Wykryto brakujące pliki"
+      },
+      "uploadFailed": {
+        "description": "Napotkaliśmy błąd podczas przesyłania plików shapefiles. Spróbuj ponownie lub <link>skontaktuj się z obsługą klienta.<\/link> w celu uzyskania pomocy.",
+        "title": "Błąd przesyłania plików shapefiles"
+      }
+    },
+    "import": {
+      "description": "Prześlij plik shapefile swoich granic.",
+      "downloadPdfButton": "Pobierz przewodnik PDF",
+      "heading": "Prześlij plik shapefile",
+      "zipHelp": "Nie wiesz, jak utworzyć plik .zip?"
+    },
+    "propertySelect": {
+      "description": "Wybierz jedną z dostępnych właściwości pliku shapefile, aby przypisać nazwy pól.",
+      "heading": "Nazwij swoje pola",
+      "noPropertiesFound": "Nie znaleziono właściwości pliku shapefile. Prześlij plik shapefile z właściwościami."
+    },
+    "uploadCard": {
+      "description": "Zaimportuj granice z pliku shapefile",
+      "heading": "Prześlij plik shapefile"
+    }
+  },
+  "welcome": {
+    "continueButton": "Utwórz swoje gospodarstwo",
+    "heading": "Witaj, {{firstName}}. Skonfigurujmy Twoją farmę.",
+    "listItem1": "Lokalizacja farmy",
+    "listItem2": "Dodaj pola",
+    "listItem3": "Konfiguracja farmy",
+    "teaserMessage": "Konfiguracja w zaledwie 2 minuty"
+  },
+  "welcomeModal": {
+    "continueButton": "Utwórz swoje gospodarstwo",
+    "description": "Skonfiguruj swoje gospodarstwo w kilka minut, korzystając z technologii teledetekcji do wykrywania pól i praktyk.",
+    "heading": "Zacznij od stworzenia swojego gospodarstwa.",
+    "listItem1": "Utwórz swoje gospodarstwo",
+    "listItem2": "Łatwe importowanie pól",
+    "listItem3": "Zobacz statystyki oparte na wykrytych uprawach i praktykach rolniczych.",
+    "listItem4": "Zgoda na zarabianie na danych rolniczych",
+    "teaserMessage": "Konfiguracja w 2 minuty"
+  }
+}

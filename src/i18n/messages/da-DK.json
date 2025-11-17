@@ -1,0 +1,614 @@
+{
+  "analyse": {
+    "findOutMore": {
+      "contactUs": "Har du stadig brug for hjælp?  Kontakt os ",
+      "description": {
+        "paragraph1": "Satellitteknologi i landbruget omfatter brugen af satellitter og billedbehandlingssystemer til at indsamle og analysere data om f.eks. afgrøder, jordbundsforhold og miljømæssige forhold – alt sammen uden behov for fysisk tilstedeværelse i marken.",
+        "paragraph2": "Ved at kombinere satellitbilleder med kunstig intelligens (AI) og maskinlæring får landmænd adgang til effektive værktøjer, der gør det muligt at overvåge og optimere landbrugsaktiviteter direkte fra rummet.",
+        "paragraph3": "Teknologien kan blandt andet anvendes til at identificere markgrænser, efterafgrøder, jordbearbejdning og sædskifte, hvilket giver et præcist og opdateret overblik over markernes tilstand og udvikling.",
+        "paragraph4": "Find ud af mere om <technologyLink> Agreenas teknologi <\/technologyLink> på <websiteLink> Agreena.com. <\/websiteLink>"
+      },
+      "headline": "Hvad er fjernmålingsteknologi inden for landbrug?",
+      "infoText": "Satelitteknologi"
+    },
+    "form": {
+      "description": "Vi registrerer automatisk afgrøder og praksisser på dine marker for en lynhurtig opsætning.",
+      "footer": {
+        "continueButton": "Fortsæt"
+      },
+      "heading": "Analyser dine marker ved hjælp af satellitdata",
+      "infoPanelButton": "Find ud af mere (på engelsk)",
+      "listItem1": "Du bestemmer over dine data",
+      "listItem2": "Se dine marker grupperet efter afgrødetype",
+      "listItem3": "Identificer hurtigt jordbearbejdning på tværs af dine marker",
+      "listItem4": "Find ud af, om der blev dyrket efterafgrøder",
+      "listItem5": "Spar tid med automatisk udfyldte markdata",
+      "summary": {
+        "area": "Samlet areal",
+        "fields": "Marker",
+        "fieldsCount": "{count, plural, =1 {# felt } other {# felter }}",
+        "fieldsHa": "{{value}} ha"
+      }
+    },
+    "modal": {
+      "comingSoon": "Kommer snart",
+      "communityCTADescription": "Har du spørgsmål om landbrug? Kom i kontakt med pionerer inden for regenerativt landbrug.",
+      "communityCTATitle": "Kom i kontakt med regenerative landmænd fra dit land",
+      "earningsCTADescription": "Omsæt dine markdata til en ekstra indtægt",
+      "earningsCTATitle": "Tjen penge",
+      "fieldsCTADescription": "Se dine registrerede landbrugsmetoder via satelitteknologi",
+      "fieldsCTATitle": "Udforsk din gård og marker",
+      "heading": "Opsætning af gård fuldført",
+      "insightsCTADescription": "Få indsigter baseret på dine registrerede afgrøder og landbrugspraksis.",
+      "insightsCTATitle": "RegenAgScore og læring"
+    },
+    "pending": {
+      "description": "Dette kan tage et par minutter",
+      "heading": "Opsætning af din gård...",
+      "listItem1": "Kontrollerer markgrænser",
+      "listItem2": "Identificerer afgrøde typer",
+      "listItem3": "Analyserer markpraksis"
+    }
+  },
+  "boundaryDetection": {
+    "card": {
+      "comingSoon": "Kommer snart",
+      "description": "Vælg dine marker ud fra automatisk identificerede markgrænser.",
+      "heading": "Vælg felter på kortet"
+    },
+    "form": {
+      "continueButton": "Fortsæt med valgte felter",
+      "continueToScan": "Fortsæt med at vælge felter",
+      "continueWithSelectedFields": "Fortsæt med valgte felter",
+      "description": "Vælg dine marker ud fra automatisk identificerede markgrænser.",
+      "empty": {
+        "heading": "Du har ikke valgt nogen marker",
+        "info": "0 felter valgt",
+        "listItem1": "Find dine marker på kortet",
+        "listItem2": "Søg i et område for at finde markgrænser",
+        "listItem3": "Vælg dine markgrænser"
+      },
+      "heading": "Vælg dine marker på kortet",
+      "headingCrop": "Vælg alle dine <highlight>{{crop}}<\/highlight> felter",
+      "selectAFieldToContinue": "Vælg et felt for at fortsætte",
+      "summary": {
+        "area": "Samlet areal",
+        "fieldsHa": "{{value}} ha",
+        "selected": "Valgte marker",
+        "selectedCount": "{count, plural, =1 {# felt } other {# felter }}",
+        "topCount": "{count, plural, =1 {# mark valgt} other {# marker valgt}}",
+        "topHa": "{value, plural, =1 {# i alt ha} other {# i alt ha}}"
+      }
+    },
+    "map": {
+      "addDescription": "Klik på en grænse for at tilføje den",
+      "cantFindAddressText": "Kan du ikke finde din adresse? <button>Brug kortet i stedet<\/button>",
+      "detectingBoundaries": "At opdage grænser...",
+      "fieldHa": "{{value}} ha",
+      "geolocationNotSupported": "Geolokalisering understøttes ikke af din browser",
+      "geolocationPermissionDenied": "Tilladelse til geolokalisering er blevet afvist. Aktivér det venligst i dine browserindstillinger.",
+      "locationSearchTooltip": "Søg efter din gård",
+      "moveTooltip": "Flyt kortet, og scan derefter et område for at registrere grænser.",
+      "scanButton": "Scan efter grænser",
+      "searchPlaceholder": "Søg på kort",
+      "searchTooltip": "Søg for at registrere markgrænser",
+      "selectTooltip": "Vælg dine felter fra de skitserede grænser.",
+      "tinyFieldHa": "<1 ha",
+      "tooZoomedOut": "Kortområdet er for stort <br\/> Zoom ind på kortet før du søger.",
+      "unableToRetrieveLocation": "Ude af stand til at hente din placering",
+      "useMyLocationButton": "Brug min nuværende placering",
+      "zoomInToScanAssistiveText": "Zoom tættere på for at scanne efter grænser",
+      "zoomInToScanButton": "Zoom ind for at søge"
+    }
+  },
+  "countries": {
+    "BG": "Bulgarien",
+    "CZ": "Tjekkiet",
+    "DE": "Tyskland",
+    "DK": "Danmark",
+    "FR": "Frankrig",
+    "GB": "Storbritannien",
+    "HU": "Ungarn",
+    "LT": "Litauen",
+    "MD": "Moldova",
+    "PL": "Polen",
+    "RO": "Rumænien",
+    "SK": "Slovakiet",
+    "UA": "Ukraine"
+  },
+  "cropGroups": {
+    "barley_spring": "Vårbyg",
+    "barley_winter": "Vinterbyg",
+    "beans": "Bønner",
+    "cereals_unknown": "Korn (ukendt)",
+    "corn": "Majs",
+    "grapes": "Vindruer",
+    "grasses": "Græsser",
+    "no_data": "Ingen afgrøde fundet",
+    "no_majority_type": "Ingen primær afgrøde",
+    "not_agriculture": "Ikke landbrug",
+    "oats": "Havre",
+    "other": "Andet",
+    "other_cereals": "Andre kornsorter",
+    "other_cereals_spring": "Anden vårafgrøde",
+    "other_cereals_winter": "Andre vinterafgrøde (Korn)",
+    "peas": "Ærter",
+    "potato": "Kartofler",
+    "rapeseed_spring": "Vårraps",
+    "rapeseed_unknown": "Raps (ukendt)",
+    "rapeseed_winter": "Vinterraps",
+    "rye": "Rug",
+    "soybeans": "Sojabønner",
+    "sugar_beet": "Sukkerroer",
+    "sunflower": "Solsikke",
+    "unknown": "Ukendt",
+    "wheat_spring": "Vårafgrøde hvede",
+    "wheat_winter": "Vinterhvede"
+  },
+  "cvrImport": {
+    "card": {
+      "description": "Hent dine markgrænser via dit CVR-nummer",
+      "heading": "Vælg marker under dit CVR-nummer"
+    },
+    "form": {
+      "description": "Indtast dit CVR for at importere dine markgrænser",
+      "errors": {
+        "allFieldsDuplicate": "Du har allerede tilføjet alle de felter, der matcher dette CVR-nummer",
+        "cvrNumberRequired": "CVR-nummer er påkrævet",
+        "generic": "Der opstod en fejl under import af dine marker",
+        "noFieldsFound": "Ingen marker fundet for det angivne CVR-nummer"
+      },
+      "heading": "Importér markgrænser",
+      "importButton": "Importer CVR-grænser",
+      "infoBox": "Indtast dit CVR for at importere dine markgrænser",
+      "input": {
+        "cvrNumberLabel": "Dit 8-cifrede CVR-nummer",
+        "roleRadioGroup": {
+          "errors": {
+            "required": "Vælg venligst din rolle"
+          },
+          "label": "Hvad er din rolle på gården?",
+          "options": {
+            "contractor": "Jeg er rådgiver",
+            "farmer": "Jeg er gårdejer\/direkte ansat på gården"
+          }
+        }
+      }
+    }
+  },
+  "exploreFlow": {
+    "confirmBoundariesForEstimate": {
+      "continueButton": "Beregn estimat",
+      "description": "Vi beregner din miljøpåvirkning og dens anslåede værdi baseret på denne afgrøde, arealstørrelse og praksis.",
+      "heading": "Gennemgå dine oplysninger",
+      "pending": {
+        "heading": "Analyse af felter og beregning af estimat",
+        "listItem1": "Kontrol af felter og praksis",
+        "listItem2": "Beregning af miljøpåvirkning",
+        "listItem3": "Generering af indtjeningsestimat"
+      },
+      "summary": {
+        "crop": "Afgrøde",
+        "editLink": "Rediger",
+        "fields": "Marker",
+        "fieldsCount": "{count, plural, =1 {# felt } other {# felter }}",
+        "fieldsHa": "{{value}} ha",
+        "heading": "Afgrødeoplysninger til vurdering",
+        "totalArea": "Samlet areal"
+      },
+      "whatNext": {
+        "heading": "Sådan beregnes dit estimat",
+        "listItem1": "Vi analyserer dine marker med remote sensing",
+        "listItem2": "Vi beregner din miljøpåvirkning",
+        "listItem3": "Vi estimerer din potentielle indtjening"
+      }
+    },
+    "createFarm": {
+      "description": "Indtast din gårds placering for at finde den på kortet.",
+      "editLocation": "Rediger placering",
+      "locateFarm": "Find din gård"
+    },
+    "cropForEstimate": {
+      "continueButton": "Vælg afgrøde for at fortsætte",
+      "subTitle": "Vi beregner din estimerede indtjening ud fra landbrugspraksis og det samlede areal for denne afgrøde.",
+      "title": "Hvilken afgrøde vil du gerne have, at dit indtjeningsestimat er baseret på?"
+    },
+    "cropSelection": {
+      "continueButton": "Vælg afgrøder for at fortsætte",
+      "cropFilterPlaceholder": "Søg efter afgrøde",
+      "errors": {
+        "atLeastOneCropRequired": "Vælg venligst mindst én afgrøde",
+        "mustSelectCrop": "Vælg en afgrøde, som du ønsker at estimere indtjeningen for",
+        "noCropsFoundMatching": "Ingen afgrøder fundet, der matcher"
+      },
+      "subTitle": "Vi beregner din miljøpåvirkning ud fra denne afgrødes praksis.",
+      "title": "Vælg en afgrøde, som du dyrkede i 2024"
+    },
+    "estimate": {
+      "cropDetails": {
+        "basedOnFields": "Baseret på {count, plural, =1 {# felt} other {# felter}}, {{area}} ha",
+        "editLink": "Rediger",
+        "forCrop": "For din {{crop}}"
+      },
+      "detectablePractices": {
+        "coverCrop": {
+          "count": "<bold>{{coverCropHa}} ha<\/bold> af {{totalHa}} ha",
+          "title": "Dækafgrøde"
+        },
+        "description": "Data om landbrugspraksis registreret ved hjælp af satellitovervågning.",
+        "tillage": {
+          "count": "<bold>{{reducedNoTillHa}} ha<\/bold> af {{totalHa}} ha",
+          "title": "Reduceret\/ingen jordbearbejdning"
+        },
+        "title": "Opdaget praksis"
+      },
+      "earnings": {
+        "averagePerHa": "Det er et gennemsnit på {{amount}}\/ha",
+        "disclaimer": "Beløbene er ikke garanterede og er kun skøn. Få mere at vide om beregninger.",
+        "perYear": "\/ år",
+        "title": "Din miljøpåvirkning kan blive vurderet til"
+      },
+      "eligible": {
+        "description": "Din landbrugspraksis har en positiv miljøpåvirkning, som du kan blive betalt for.",
+        "title": "Det ser ud til, at du er kvalificeret!"
+      },
+      "footer": {
+        "createAccountButton": "Opret en gratis konto",
+        "eligible": {
+          "description": "Sæt din gård op, så du kan begynde at tjene penge på få minutter.",
+          "title": "Bliv betalt for din gårds miljøpåvirkning"
+        },
+        "notEligible": {
+          "description": "Få indsigt i gården, præcise estimater og meget mere.",
+          "title": "Maksimer din gårds indtjeningspotentiale"
+        }
+      },
+      "loadingSkeleton": {
+        "createAccountButton": "Opret en gratis konto",
+        "earningsDisclaimer": "Indtjeningen er kun et skøn og kan ikke garanteres. Baseret på registrerbar praksis (jordbearbejdning og efterafgrøder) ved hjælp af telemåling. Der er gjort rimelige antagelser om håndtering af restprodukter og brug af gødning.",
+        "earningsText": "Din miljøpåvirkning kan blive vurderet til",
+        "metrics": {
+          "analysedArea": "Analyseret område",
+          "avgEarnings": "Gennemsnitlig indtjening",
+          "regenScore": "Regen-score"
+        },
+        "pending": {
+          "heading": "Beregning af estimat...",
+          "listItem1": "Kontrol af felter og praksis",
+          "listItem2": "Beregning af miljøpåvirkning",
+          "listItem3": "Generering af indtjeningsestimat"
+        },
+        "perYear": "\/ år"
+      },
+      "map": {
+        "fieldHa": "{{value}} ha",
+        "overlay": {
+          "coverCropLabel": "Dækafgrøde dyrket",
+          "cropResidueLabel": "Afgrøderester",
+          "estimatedEarnings": "Anslået indtjening {{value}}",
+          "fertiliserLabel": "Gødning",
+          "fieldHa": "{{value}} ha",
+          "practicesHeadline": "Satellitdetekteret praksis i marken",
+          "tillageLabel": "Jordbearbejdningstype",
+          "tinyFieldHa": "<1 ha",
+          "undetectedValue": "Uopdaget",
+          "yes": "Ja"
+        },
+        "selectTooltip": "Vælg en grænse for at se detaljer",
+        "tinyFieldHa": "<1 ha"
+      },
+      "notAccurate": "Er praksis ikke korrekt? <link>Opret en konto<\/link> for at redigere praksis.",
+      "notEligible": {
+        "description": "Når du indarbejder mere miljøvenlige metoder.",
+        "title": "Maksimer dit indtjeningspotentiale."
+      },
+      "practices": {
+        "coverCrop": {
+          "count": "<bold>{{coverCropHa}} ha<\/bold> af {{totalHa}} ha",
+          "title": "Dækafgrøde"
+        },
+        "description": "Ikke-sporbare metoder som nedmuldning af restprodukter og brug af organisk\/blandet gødning er antaget ud fra nationale gennemsnit.",
+        "notAccurate": "Er det ikke korrekt? Rediger din praksis, når du <link>opretter en konto<\/link>",
+        "tillage": {
+          "count": "<bold>{{reducedNoTillHa}} ha<\/bold> af {{totalHa}} ha",
+          "title": "Reduceret\/ingen jordbearbejdning"
+        },
+        "title": "Påvirkningsfuld opdaget praksis"
+      },
+      "undetectablePractices": {
+        "description": "Restmuld og gødning kan ikke registreres ved hjælp af satellitbilleder, og følgende antagelser er blevet gjort.",
+        "fertiliser": {
+          "count": "{{fertiliserHa}} ha af {{totalHa}} ha",
+          "title": "Blandet\/organisk gødning"
+        },
+        "residueMulching": {
+          "count": "{{residueMulchingHa}} ha af {{totalHa}} ha",
+          "title": "Nedmuldning af afgrøderester"
+        },
+        "title": "Anden praksis"
+      }
+    },
+    "exploreBoundaryDetection": {
+      "continueButton": "Fortsæt med valgte felter",
+      "continueToScan": "Fortsæt med at vælge felter",
+      "continueWithSelectedFields": "Fortsæt med valgte felter",
+      "description": "Scan et område på kortet, og vælg derefter dine lucernemarker.",
+      "empty": {
+        "heading": "Du har ikke valgt nogen marker",
+        "listItem1": "Find dine marker på kortet",
+        "listItem2": "Søg i et område for at finde markgrænser",
+        "listItem3": "Vælg dine markgrænser"
+      },
+      "heading": "Scan og vælg dine {{crop}} felter",
+      "map": {
+        "addDescription": "Klik på en grænse for at tilføje den",
+        "moveTooltip": "Klik og hold musen inde for at bevæge kortet",
+        "scanButton": "Søg markgrænser",
+        "searchTooltip": "Søg for at registrere markgrænser",
+        "selectTooltip": "Tryk for at vælge grænse, tryk for at fravælge",
+        "tinyFieldHa": "<1 ha",
+        "tooZoomedOut": "Kortområdet er for stort <br\/> Zoom ind på kortet før du søger.",
+        "zoomInToScanButton": "Zoom ind for at søge"
+      },
+      "selectAFieldToContinue": "Vælg et felt for at fortsætte",
+      "summary": {
+        "area": "Samlet areal",
+        "fieldsHa": "{{value}} ha",
+        "selected": "Valgte marker",
+        "selectedCount": "{count, plural, =1 {# felt } other {# felter }}"
+      },
+      "summaryMobile": {
+        "fieldsHa": "{{value}} i alt ha",
+        "selectedCount": "{count, plural, =1 {# mark valgt} other {# marker valgt}}"
+      }
+    },
+    "getStarted": {
+      "cta": {
+        "button": "Kom i gang",
+        "subtext": "Få et overslag på få minutter"
+      },
+      "description": "Britiske landmænd kan tjene op til <bold>{{amount}}\/ha for positiv miljøpraksis.<\/bold> Se, hvad du kan tjene.",
+      "disclaimer": "De forventede værdier er kun skøn og kan ikke garanteres. <button>Find ud af mere<\/button>",
+      "earningsDisclaimerPanel": {
+        "contactUs": "Har du stadig brug for hjælp? <link> Kontakt Agreena <\/link>",
+        "description": {
+          "section1": {
+            "content": "Dette er et værktøj på et tidligt stadie, der er designet til at give dig et hurtigt, vejledende skøn baseret på en afgrøde og de metoder, der er registreret på dine udvalgte marker. Det kombinerer satellitdata med antagelser for at vise, hvad du kan tjene gennem regenerativt landbrug. Indtjeningsestimater er vejledende og kan ikke garanteres.",
+            "heading": "Om lommeregneren"
+          },
+          "section2": {
+            "content": "<p>Vi estimerer din miljøpåvirkning og indtjening baseret på følgende landbrugspraksis:<\/p><ul><li>Jordbearbejdningsmetode<\/li><li>Brug af dækafgrøder<\/li><li>Gødningstype<\/li><li>Nedmuldning af afgrøderester<\/li><\/ul> <p>Denne praksis - sammen med dit samlede markareal - bruges til at beregne din marks udledning af drivhusgasser (CO₂) og organisk kulstof i jorden (SOC). Det giver os din netto-kulstofeffekt, som vi omsætter til potentiel indtjening baseret på gennemsnitlige markedsværdier. <\/p>",
+            "heading": "Beregningsdata"
+          }
+        },
+        "headline": "Hvordan beregnes indtjeningsestimater?",
+        "infoText": "Om lommeregneren"
+      },
+      "steps": {
+        "step1": "Fastgør din gårds placering",
+        "step2": "Vælg en afgrøde",
+        "step3": "Vælg felter (registreres automatisk)",
+        "step4": "Vi analyserer din praksis ved hjælp af satellitdata",
+        "step5": "Få dit indtjeningsestimat med det samme"
+      },
+      "terms": "De forventede værdier er kun skøn og kan ikke garanteres. <link>Find ud af mere<\/link>",
+      "title": "Beregn din gårds indtjeningspotentiale"
+    }
+  },
+  "farm": {
+    "form": {
+      "countryMessage": "Vi støtter i øjeblikket farme fra følgende lande:<br><\/br> {{countries}}.<br><\/br>",
+      "countryPlaceholder": "Vælg din gårds land",
+      "createFarmButton": "Opret gård",
+      "createHeadline": "Din gård",
+      "defaultFarmName": "Min gård",
+      "description": "Indtast din gårds navn og placering",
+      "editLocation": "Rediger placering",
+      "errors": {
+        "countryRequired": "Land er påkrævet.",
+        "locationAddressInvalid": "Vælg venligst en mere specifik adresse (gade ikke fundet)",
+        "locationCityInvalid": "Vælg venligst en gyldig adresse (by ikke fundet)",
+        "locationCountryCodeInvalid": "Vi støtter ikke landbrug fra dette land i øjeblikket",
+        "locationRegionInvalid": "Vælg venligst en gyldig adresse (region ikke fundet)",
+        "locationRequired": "Adresse er påkrævet",
+        "locationZipCodeInvalid": "Vælg venligst en mere specifik adresse (postnummer ikke fundet)",
+        "nameRequired": "Gårdnavn er påkrævet."
+      },
+      "headline": "Opret din gård",
+      "locationLabel": "Gårdens placering",
+      "locationPlaceholder": "Indtast en hvilken som helst adresse eller virksomhedsnavn",
+      "nameLabel": "Gårdnavn",
+      "regionMessage": "I øjeblikket støtter vi kun gårde i Danmark, Frankrig, Tyskland, Polen og Storbritannien. Når vi udvider til andre regioner, giver vi dig besked.",
+      "submitForm": "Opret gård",
+      "successMessage": "Din gårds placering er gemt",
+      "updateFarmButton": "Opdater gården",
+      "updateHeadline": "Opdater din gård"
+    }
+  },
+  "fields": {
+    "description": "Hvordan vil du gerne fortsætte?",
+    "heading": "Tilføj dine marker",
+    "infoBox": "Din gårds placering er gemt"
+  },
+  "footer": {
+    "farmSwitcher": {
+      "createButton": "Opret ny gård",
+      "subTitle": "Skift til en anden gård eller opret en ny",
+      "switchButton": "Skift gård",
+      "title": "Dine gårde"
+    },
+    "signOut": "Log ud"
+  },
+  "navConfig": {
+    "community": "Fællesskab",
+    "dashboard": "Dashboard",
+    "earnings": "Indtjening",
+    "insights": "Indsigt",
+    "my-farm": "Min gård"
+  },
+  "navigation": {
+    "analyseStep": "Analyserer marker",
+    "back": "Tilbage",
+    "exploreSteps": {
+      "cropsStep": "Vælg afgrøder",
+      "earningsStep": "Skøn over indtjening",
+      "estimateStep": "Skøn over indtjening",
+      "farmStep": "Din gård",
+      "fieldsStep": "Vælg marker"
+    },
+    "farmStep": "Opret gård",
+    "fieldsStep": "Tilføj marker",
+    "restart": "Genstart",
+    "steps": {
+      "analyse": "Analyserer marker",
+      "crops": "Vælg afgrøder",
+      "earnings": "Skøn over indtjening",
+      "estimate": "Oversigt over indtjening",
+      "farm": "Din gård",
+      "fields": "Gennemgå detaljer"
+    },
+    "viewModeToggle": {
+      "listButton": "Liste",
+      "mapButton": "Kort",
+      "switchToListView": "Skift til listevisning",
+      "switchToMapView": "Skift til kortvisning"
+    },
+    "wrongStepModal": {
+      "continueToDashboardButton": "Fortsæt til dashboard",
+      "continueToFieldsButton": "Fortsæt til dine marker",
+      "description": "Det ser ud til, at du allerede har gennemført dette trin i opsætningen af din gård.",
+      "heading": "Vent et øjeblik... du har allerede gennemført dette trin"
+    }
+  },
+  "practices": {
+    "coverCropValues": {
+      "no": "Nej",
+      "yes": "Ja"
+    },
+    "tillage": {
+      "types": {
+        "conventional_till": "Konventionel",
+        "min_till": "Minimum",
+        "no_data": "Ukendt",
+        "no_majority_type": "Ukendt",
+        "no_till": "Pløjefri",
+        "not_enough_field_data": "Ukendt"
+      }
+    }
+  },
+  "reviewBoundaries": {
+    "form": {
+      "description": "Nedenfor er dine importerede felter. Fjern markeringen af de felter, du ikke ønsker at importere.",
+      "footer": {
+        "continueButton": "Fortsæt med valgte felter",
+        "deleteButton": "Slet marker",
+        "deleteButtonMobile": "Slet",
+        "deselectButton": "Fjern alle",
+        "deselectButtonMobile": "Fjern",
+        "selectedCount": "{count, plural, =1 {# mark valgt} other {# marker valgt}}"
+      },
+      "heading": "Gennemgå dine marker",
+      "infoBox": "Dine marker er blevet importeret",
+      "list": {
+        "fieldHeader": "Mark",
+        "fieldsHa": "{{value}} ha",
+        "sizeHeader": "Størrelse",
+        "tinyFieldHa": "<1 ha"
+      },
+      "summary": {
+        "area": "Samlet areal",
+        "fields": "Marker",
+        "fieldsCount": "{count, plural, =1 {# felt } other {# felter }}",
+        "fieldsHa": "{{value}} ha"
+      }
+    },
+    "infoBox": "Dine marker er blevet importeret"
+  },
+  "rpaImport": {
+    "card": {
+      "description": "Importer grænser fra RPA",
+      "heading": "Vælg dine marker fra RPA"
+    },
+    "form": {
+      "description": "Forbind til CVR registeret for at importere dine markgrænser.",
+      "errors": {
+        "allFieldsDuplicate": "Du har allerede tilføjet alle de felter, der matcher dette SBI-nummer",
+        "generic": "Der opstod en fejl under import af dine marker",
+        "noFieldsFound": "Ingen marker fundet for det angivne SBI-nummer",
+        "sbiNumberRequired": "SBI-nummer er påkrævet"
+      },
+      "heading": "Import fra RPA",
+      "importButton": "Importer RPA-grænser",
+      "infoBox": "Kun dine marker hentes fra RPA.<br><\/br> Ingen andre data tilgås eller deles.",
+      "input": {
+        "sbiNumberLabel": "Dit 9-cifrede SBI-nummer",
+        "termsLabel": "Jeg har læst og accepterer betingelserne og vilkårene for Ordinance Survey Public Sector End User License terms and conditions"
+      }
+    }
+  },
+  "shapefile": {
+    "buttons": {
+      "continueToImport": "Importer marker",
+      "importing": "Importerer...",
+      "remove": "Fjerne"
+    },
+    "dropzone": {
+      "description": "Upload din zip-mappe med shapefiler. De indeholder normalt filformaterne shp, dbf, shx og prj.",
+      "dragText": "Træk og slip shapefile (.zip)-mappen",
+      "dropText": "Læg filer her",
+      "dropToUploadText": "Slip filen for at uploade",
+      "selectButton": "Vælg shapefile (.zip)"
+    },
+    "errors": {
+      "fileTooLarge": {
+        "description": "Upload venligst en fil, der er mindre end 10 MB.",
+        "title": "Filen er for stor"
+      },
+      "invalidFileType": {
+        "description": "Upload en zip-mappe, der indeholder dine shapefiler (normalt i filformaterne shp, dbf, shx og prj). Har du brug for hjælp til at tilføje dine felter, <link>, så kontakt kundesupport.<\/link>",
+        "title": "Forkert format på filformularen"
+      },
+      "missingComponents": {
+        "description": "Upload venligst alle SHP-, SHX-, DBF- og PRJ-filer i zip-mappen. Har du brug for hjælp til at tilføje dine felter, <link>, så kontakt venligst kundesupport.<\/link>",
+        "title": "Manglende filer opdaget"
+      },
+      "uploadFailed": {
+        "description": "Vi stødte på en fejl ved upload af dine shapefiler. Prøv venligst igen eller <link>kontakt venligst kundesupport.<\/link> for at få hjælp.",
+        "title": "Fejl ved upload af shapefiler"
+      }
+    },
+    "import": {
+      "description": "Upload en shapefile af dine grænser.",
+      "downloadPdfButton": "Download PDF-guide",
+      "heading": "Upload en shapefil",
+      "zipHelp": "Er du ikke sikker på, hvordan du opretter en .zip?"
+    },
+    "propertySelect": {
+      "description": "Vælg mellem de tilgængelige shapefile-egenskaber for at tildele feltnavne.",
+      "heading": "Navngiv dine marker",
+      "noPropertiesFound": "Ingen shapefile-egenskaber fundet. Upload venligst en shapefile med egenskaber."
+    },
+    "uploadCard": {
+      "description": "Importer dine grænser fra en shapefile",
+      "heading": "Upload shapefile"
+    }
+  },
+  "welcome": {
+    "continueButton": "Opret din gård",
+    "heading": "Velkommen, {{firstName}}. Lad os få din gård sat op.",
+    "listItem1": "Find din gård",
+    "listItem2": "Tilføj marker",
+    "listItem3": "Etablering af gård",
+    "teaserMessage": "Kom i gang på bare 2 minutter"
+  },
+  "welcomeModal": {
+    "continueButton": "Opret din gård",
+    "description": "Opsæt din gård på få minutter ved hjælp af satellitteknologi til at opdage dine marker og praksis.",
+    "heading": "Kom nemt og hurtigt i gang",
+    "listItem1": "Opret din gård",
+    "listItem2": "Importer nemt dine marker",
+    "listItem3": "Se automatisk registreret data om din jordbrugspraksis",
+    "listItem4": "Tilmeld dig for at tjene penge på dine landbrugsdata",
+    "teaserMessage": "Kom igang på 2 minutter"
+  }
+}
