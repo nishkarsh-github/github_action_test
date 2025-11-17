@@ -1,0 +1,614 @@
+{
+  "analyse": {
+    "findOutMore": {
+      "contactUs": "Stále potřebujete pomoc? <link> Kontaktujte nás <\/link>",
+      "description": {
+        "paragraph1": "Technologie dálkového průzkumu Země se vztahuje na používání senzorů (např. satelitů) a zobrazovacích systémů ke sběru a analýze dat o plodinách, půdě a podmínkách prostředí bez přímého fyzického kontaktu.",
+        "paragraph2": "Díky integraci satelitních snímků, umělé inteligence a strojového učení je společnost Agreena schopna nabídnout zemědělcům efektivní způsob, jak monitorovat své farmy z vesmíru.",
+        "paragraph3": "Mezi klíčové aplikace naší technologie dálkového průzkumu patří například detekce hranic polí, detekce krycích plodin, detekce obdělávání půdy a detekce střídání plodin.",
+        "paragraph4": "Více informací o technologii <technologyLink> Agreena <\/technologyLink> na <websiteLink> Agreena.com. <\/websiteLink>"
+      },
+      "headline": "Co je to technologie dálkového průzkumu Země?",
+      "infoText": "Technologie dálkového průzkumu Země"
+    },
+    "form": {
+      "description": "Automatická detekce plodin a postupů používaných na polích pro rychlejší nastavení.",
+      "footer": {
+        "continueButton": "Pokračovat"
+      },
+      "heading": "Analyzujte svá pole pomocí dálkového průzkumu",
+      "infoPanelButton": "Zjistěte více",
+      "listItem1": "Mějte svá data z farmy pod kontrolou",
+      "listItem2": "Zobrazení polí seskupených podle typu plodiny",
+      "listItem3": "Rychlá identifikace typu obdělávání půdy na polích",
+      "listItem4": "Spot, pokud byly pěstovány nějaké krycí plodiny",
+      "listItem5": "Úspora času díky automaticky vyplňovaným údajům v polích",
+      "summary": {
+        "area": "Celková plocha",
+        "fields": "Pole",
+        "fieldsCount": "{count, plural, =1 {# polí } other {# polí }}",
+        "fieldsHa": "{{value}} ha"
+      }
+    },
+    "modal": {
+      "comingSoon": "Již brzy",
+      "communityCTADescription": "Máte dotazy týkající se zemědělství? Spojte se s průkopníky regenerativního zemědělství.",
+      "communityCTATitle": "Spojení s farmáři Regen",
+      "earningsCTADescription": "Na základě dopadu vašich zemědělských postupů můžete vydělávat peníze.",
+      "earningsCTATitle": "Vydělávejte peníze",
+      "fieldsCTADescription": "Vaše zjištěné zemědělské postupy na základě technologie dálkového průzkumu Země.",
+      "fieldsCTATitle": "Vaše farma a pole",
+      "heading": "Nastavení farmy je dokončeno.<br><\/br>Objevte svou farmu.",
+      "insightsCTADescription": "Získejte přehled o zjištěných plodinách a zemědělských postupech.",
+      "insightsCTATitle": "Regenerace ag skóre a poznatky"
+    },
+    "pending": {
+      "description": "To může trvat několik minut",
+      "heading": "Nastavení farmy...",
+      "listItem1": "Kontrola hranic polí",
+      "listItem2": "Identifikace pěstovaných plodin",
+      "listItem3": "Zjišťování postupů v terénu"
+    }
+  },
+  "boundaryDetection": {
+    "card": {
+      "comingSoon": "Již brzy",
+      "description": "Výběr polí z automaticky zjištěných hranic",
+      "heading": "Výběr polí na mapě"
+    },
+    "form": {
+      "continueButton": "Pokračovat s vybranými poli",
+      "continueToScan": "Pokračujte ve výběru polí",
+      "continueWithSelectedFields": "Pokračovat s vybranými poli",
+      "description": "Vyberte pole z automaticky zjištěných hranic.",
+      "empty": {
+        "heading": "Nevybrali jste žádná pole",
+        "info": "0 vybraných polí",
+        "listItem1": "Vyhledejte svá pole na mapě",
+        "listItem2": "Prohledávání oblasti za účelem zjištění hranic",
+        "listItem3": "Vyberte hranice pole"
+      },
+      "heading": "Vyberte pole na mapě",
+      "headingCrop": "Vyberte všechna pole <highlight>{{crop}}<\/highlight> ",
+      "selectAFieldToContinue": "Vyberte pole pro pokračování",
+      "summary": {
+        "area": "Celková plocha",
+        "fieldsHa": "{{value}} ha",
+        "selected": "Vybrané stránky",
+        "selectedCount": "{count, plural, =1 {# polí } other {# polí }}",
+        "topCount": "{count, plural, =1 {# vybrané pole} other {# vybraná pole}}",
+        "topHa": "{value, plural, =1 {# celkem ha} other {# celkem ha}}"
+      }
+    },
+    "map": {
+      "addDescription": "Kliknutím na hranici ji přidáte",
+      "cantFindAddressText": "Nemůžete najít svou adresu? <button>Použijte mapu<\/button>",
+      "detectingBoundaries": "Zjišťování hranic...",
+      "fieldHa": "{{value}} ha",
+      "geolocationNotSupported": "Váš prohlížeč nepodporuje zeměpisnou polohu",
+      "geolocationPermissionDenied": "Povolení ke geolokaci bylo zamítnuto. Povolte jej prosím v nastavení prohlížeče.",
+      "locationSearchTooltip": "Vyhledávání vaší farmy",
+      "moveTooltip": "Posouvejte mapu a poté prohledejte oblast, abyste zjistili hranice.",
+      "scanButton": "Vyhledávání hranic",
+      "searchPlaceholder": "Vyhledávání na mapě",
+      "searchTooltip": "Vyhledávání pro detekci hranic",
+      "selectTooltip": "Vyberte pole ze zakreslených hranic.",
+      "tinyFieldHa": "<1 ha",
+      "tooZoomedOut": "Oblast mapy je příliš velká<br\/>Pro vyhledávání si mapu přibližte.",
+      "unableToRetrieveLocation": "Nelze načíst vaši polohu",
+      "useMyLocationButton": "Použít mou aktuální polohu",
+      "zoomInToScanAssistiveText": "Přiblížení pro skenování hranic",
+      "zoomInToScanButton": "Přiblížení pro skenování"
+    }
+  },
+  "countries": {
+    "BG": "Bulharsko",
+    "CZ": "Česko",
+    "DE": "Německo",
+    "DK": "Dánsko",
+    "FR": "Francie",
+    "GB": "Velká Británie",
+    "HU": "Maďarsko",
+    "LT": "Litva",
+    "MD": "Moldavsko",
+    "PL": "Polsko",
+    "RO": "Rumunsko",
+    "SK": "Slovensko",
+    "UA": "Ukrajina"
+  },
+  "cropGroups": {
+    "barley_spring": "Jarní ječmen",
+    "barley_winter": "Ozimý ječmen",
+    "beans": "Fazole",
+    "cereals_unknown": "Neznámé obiloviny",
+    "corn": "Kukuřice",
+    "grapes": "Hrozny",
+    "grasses": "Trávy",
+    "no_data": "Nebyla nalezena žádná plodina",
+    "no_majority_type": "Žádná většinová plodina",
+    "not_agriculture": "Nezemědělský",
+    "oats": "Oves",
+    "other": "Jiné",
+    "other_cereals": "Ostatní obiloviny",
+    "other_cereals_spring": "Jarní ostatní obiloviny",
+    "other_cereals_winter": "Zimní ostatní obiloviny",
+    "peas": "Hrách",
+    "potato": "Brambory",
+    "rapeseed_spring": "Jarní řepka",
+    "rapeseed_unknown": "Neznámá řepka",
+    "rapeseed_winter": "Řepka ozimá",
+    "rye": "Žito",
+    "soybeans": "Sójové boby",
+    "sugar_beet": "Cukrová řepa",
+    "sunflower": "Slunečnice",
+    "unknown": "Neznámý",
+    "wheat_spring": "Jarní pšenice",
+    "wheat_winter": "Pšenice ozimá"
+  },
+  "cvrImport": {
+    "card": {
+      "description": "Připojení k CVR pro import vašich hranic",
+      "heading": "Vyberte pole z CVR"
+    },
+    "form": {
+      "description": "Připojte se k CVR a importujte hranice polí.",
+      "errors": {
+        "allFieldsDuplicate": "Již jste přidali všechna pole odpovídající tomuto číslu CVR",
+        "cvrNumberRequired": "Je vyžadováno číslo CVR",
+        "generic": "Při importu polí došlo k chybě",
+        "noFieldsFound": "Pro dané číslo CVR nebyla nalezena žádná pole"
+      },
+      "heading": "Importovat hranice polí CVR",
+      "importButton": "Import hranic CVR",
+      "infoBox": "Připojte se k CVR a importujte hranice polí.",
+      "input": {
+        "cvrNumberLabel": "Vaše 8místné číslo CVR",
+        "roleRadioGroup": {
+          "errors": {
+            "required": "Vyberte prosím svou roli"
+          },
+          "label": "Jaká je vaše role na farmě?",
+          "options": {
+            "contractor": "Jsem zprostředkovatel (např. agronom nebo dodavatel)",
+            "farmer": "Jsem majitelem farmy \/ přímým zaměstnancem farmy"
+          }
+        }
+      }
+    }
+  },
+  "exploreFlow": {
+    "confirmBoundariesForEstimate": {
+      "continueButton": "Výpočet odhadu",
+      "description": "Na základě této plodiny, velikosti plochy a postupů vypočítáme váš dopad na životní prostředí a jeho odhadovanou hodnotu.",
+      "heading": "Zkontrolujte své údaje",
+      "pending": {
+        "heading": "Analýza polí a výpočet odhadu",
+        "listItem1": "Kontrola polí a postupů",
+        "listItem2": "Výpočet dopadu na životní prostředí",
+        "listItem3": "Vytváření odhadu zisku"
+      },
+      "summary": {
+        "crop": "Plodiny",
+        "editLink": "Upravit",
+        "fields": "Pole",
+        "fieldsCount": "{count, plural, =1 {# polí } other {# polí }}",
+        "fieldsHa": "{{value}} ha",
+        "heading": "Údaje o plodině pro odhad",
+        "totalArea": "Celková plocha"
+      },
+      "whatNext": {
+        "heading": "Jak se vypočítá váš odhad",
+        "listItem1": "Analyzujeme vaše pole pomocí dálkového průzkumu",
+        "listItem2": "Vypočítáme váš dopad na životní prostředí",
+        "listItem3": "Odhadujeme váš potenciální výdělek"
+      }
+    },
+    "createFarm": {
+      "description": "Zadejte polohu své farmy a najděte ji na mapě.",
+      "editLocation": "Upravit umístění",
+      "locateFarm": "Vyhledejte svou farmu"
+    },
+    "cropForEstimate": {
+      "continueButton": "Pro pokračování vyberte plodinu",
+      "subTitle": "Odhadovaný výdělek vypočítáme na základě zemědělských postupů a celkové velikosti plochy pro tuto plodinu",
+      "title": "Na základě jaké plodiny byste chtěli odhadovat své příjmy?"
+    },
+    "cropSelection": {
+      "continueButton": "Vyberte plodiny a pokračujte",
+      "cropFilterPlaceholder": "Vyhledávání plodin",
+      "errors": {
+        "atLeastOneCropRequired": "Vyberte prosím alespoň jednu plodinu",
+        "mustSelectCrop": "Vyberte prosím plodinu, pro kterou chcete odhadnout příjmy",
+        "noCropsFoundMatching": "Nebyly nalezeny žádné plodiny odpovídající"
+      },
+      "subTitle": "Na základě postupů této plodiny vypočítáme váš dopad na životní prostředí.",
+      "title": "Vyberte plodinu, kterou jste pěstovali v roce 2024"
+    },
+    "estimate": {
+      "cropDetails": {
+        "basedOnFields": "Na základě pole {count, plural, =1 {# pole} other {# pole}}, {{area}} ha",
+        "editLink": "Upravit",
+        "forCrop": "Pro vaše {{crop}}"
+      },
+      "detectablePractices": {
+        "coverCrop": {
+          "count": "<bold>{{coverCropHa}} ha<\/bold> z {{totalHa}} ha",
+          "title": "Krycí plodiny"
+        },
+        "description": "Údaje o zemědělské praxi zjištěné pomocí satelitního snímání.",
+        "tillage": {
+          "count": "<bold>{{reducedNoTillHa}} ha<\/bold> z {{totalHa}} ha",
+          "title": "Snížené obdělávání půdy\/žádné obdělávání půdy"
+        },
+        "title": "Zjištěné postupy"
+      },
+      "earnings": {
+        "averagePerHa": "To je v průměru {{amount}}\/ha",
+        "disclaimer": "Částky nejsou zaručeny a jedná se pouze o odhady. Zjistěte více informací o výpočtech.",
+        "perYear": "\/ rok",
+        "title": "Váš dopad na životní prostředí může být oceněn na"
+      },
+      "eligible": {
+        "description": "Vaše zemědělské postupy mají pozitivní dopad na životní prostředí, za který můžete dostat zaplaceno.",
+        "title": "Vypadá to, že máte nárok!"
+      },
+      "footer": {
+        "createAccountButton": "Vytvoření bezplatného účtu",
+        "eligible": {
+          "description": "Nastavte si farmu a začněte vydělávat během několika minut.",
+          "title": "Získejte platbu za dopad vaší farmy na životní prostředí"
+        },
+        "notEligible": {
+          "description": "Získejte přehled o farmě, přesné odhady a další informace.",
+          "title": "Maximalizujte výdělečný potenciál své farmy"
+        }
+      },
+      "loadingSkeleton": {
+        "createAccountButton": "Vytvoření bezplatného účtu",
+        "earningsDisclaimer": "Výnosy jsou pouze odhadované a nejsou zaručeny. Na základě zjistitelných postupů (obdělávání půdy a krycí plodiny) pomocí dálkového průzkumu. Pro hospodaření s rostlinnými zbytky a používání hnojiv byly použity přiměřené předpoklady.",
+        "earningsText": "Váš dopad na životní prostředí může být oceněn na",
+        "metrics": {
+          "analysedArea": "Analyzovaná oblast",
+          "avgEarnings": "Průměrný výdělek",
+          "regenScore": "Skóre regenerace"
+        },
+        "pending": {
+          "heading": "Výpočet odhadu...",
+          "listItem1": "Kontrola polí a postupů",
+          "listItem2": "Výpočet dopadu na životní prostředí",
+          "listItem3": "Vytváření odhadu zisku"
+        },
+        "perYear": "\/ rok"
+      },
+      "map": {
+        "fieldHa": "{{value}} ha",
+        "overlay": {
+          "coverCropLabel": "Pěstované krycí plodiny",
+          "cropResidueLabel": "Zbytky plodin",
+          "estimatedEarnings": "Odhadované příjmy {{value}}",
+          "fertiliserLabel": "Hnojiva",
+          "fieldHa": "{{value}} ha",
+          "practicesHeadline": "Satelitem zjištěné polní postupy",
+          "tillageLabel": "Typ obdělávání půdy",
+          "tinyFieldHa": "<1 ha",
+          "undetectedValue": "Nezjištěné",
+          "yes": "Ano"
+        },
+        "selectTooltip": "Výběrem hranice zobrazíte podrobnosti",
+        "tinyFieldHa": "<1 ha"
+      },
+      "notAccurate": "Praxe není přesná? <link>Vytvořte si účet<\/link> a upravujte postupy.",
+      "notEligible": {
+        "description": "Když zavedete postupy šetrnější k životnímu prostředí.",
+        "title": "Maximalizujte svůj výdělečný potenciál."
+      },
+      "practices": {
+        "coverCrop": {
+          "count": "<bold>{{coverCropHa}} ha<\/bold> z {{totalHa}} ha",
+          "title": "Krycí plodiny"
+        },
+        "description": "Nezjistitelné postupy, jako je mulčování zbytků a používání organických\/smíšených hnojiv, byly předpokládány na základě národních průměrů.",
+        "notAccurate": "Není to přesné? Upravte své praktiky, když si vytvoříte účet na <link><\/link>",
+        "tillage": {
+          "count": "<bold>{{reducedNoTillHa}} ha<\/bold> z {{totalHa}} ha",
+          "title": "Snížené obdělávání půdy\/žádné obdělávání půdy"
+        },
+        "title": "Zjištěné postupy s vysokým dopadem"
+      },
+      "undetectablePractices": {
+        "description": "Mulčování zbytků a hnojení nelze pomocí satelitních snímků zjistit, a proto byly přijaty následující předpoklady.",
+        "fertiliser": {
+          "count": "{{fertiliserHa}} ha {{totalHa}} ha",
+          "title": "Smíšená\/organická hnojiva"
+        },
+        "residueMulching": {
+          "count": "{{residueMulchingHa}} ha {{totalHa}} ha",
+          "title": "Mulčování zbytků plodin"
+        },
+        "title": "Další postupy"
+      }
+    },
+    "exploreBoundaryDetection": {
+      "continueButton": "Pokračovat s vybranými poli",
+      "continueToScan": "Pokračujte ve výběru polí",
+      "continueWithSelectedFields": "Pokračovat s vybranými poli",
+      "description": "Naskenujte oblast na mapě a poté vyberte pole Alfalfa.",
+      "empty": {
+        "heading": "Nevybrali jste žádná pole",
+        "listItem1": "Vyhledejte svá pole na mapě",
+        "listItem2": "Prohledávání oblasti za účelem zjištění hranic",
+        "listItem3": "Vyberte hranice pole"
+      },
+      "heading": "Skenování a výběr polí {{crop}} ",
+      "map": {
+        "addDescription": "Kliknutím na hranici ji přidáte",
+        "moveTooltip": "Kliknutím a tažením posouváte zobrazení mapy",
+        "scanButton": "Hranice skenování",
+        "searchTooltip": "Vyhledávání pro detekci hranic",
+        "selectTooltip": "Klepnutím na vyberete hranici, klepnutím na zrušíte výběr",
+        "tinyFieldHa": "<1 ha",
+        "tooZoomedOut": "Oblast mapy je příliš velká<br\/>Pro vyhledávání si mapu přibližte.",
+        "zoomInToScanButton": "Přiblížení pro skenování"
+      },
+      "selectAFieldToContinue": "Vyberte pole pro pokračování",
+      "summary": {
+        "area": "Celková plocha",
+        "fieldsHa": "{{value}} ha",
+        "selected": "Vybrané stránky",
+        "selectedCount": "{count, plural, =1 {# polí } other {# polí }}"
+      },
+      "summaryMobile": {
+        "fieldsHa": "{{value}} celkem ha",
+        "selectedCount": "{count, plural, =1 {# vybrané pole} other {# vybraná pole}}"
+      }
+    },
+    "getStarted": {
+      "cta": {
+        "button": "Začít",
+        "subtext": "Získejte odhad během několika minut"
+      },
+      "description": "Britští zemědělci mohou za pozitivní ekologické postupy získat až <bold>{{amount}}\/ha.<\/bold> Podívejte se, kolik můžete vydělat.",
+      "disclaimer": "Předpokládané hodnoty jsou pouze odhady a nejsou zaručeny. <button>Zjistěte více<\/button>",
+      "earningsDisclaimerPanel": {
+        "contactUs": "Stále potřebujete pomoc? <link> Kontaktujte Agreenu <\/link>",
+        "description": {
+          "section1": {
+            "content": "Jedná se o nástroj pro počáteční fázi, který vám poskytne rychlý orientační odhad na základě jedné plodiny a postupů zjištěných na vybraných polích. Kombinuje satelitní data s předpoklady a ukazuje, kolik byste mohli vydělat prostřednictvím regenerativního zemědělství. Odhady výdělků jsou orientační a nejsou zaručeny.",
+            "heading": "O kalkulačce"
+          },
+          "section2": {
+            "content": "<p>Odhadujeme váš dopad na životní prostředí a příjmy na základě následujících zemědělských postupů:<\/p><ul><li>Způsob obdělávání půdy<\/li><li>Využití krycích plodin<\/li><li>Typ hnojiva<\/li><li>Mulčování rostlinných zbytků<\/li><\/ul> <p>Tyto postupy - spolu s celkovou plochou vašeho pole - se používají k výpočtu emisí skleníkových plynů (CO₂) a organického uhlíku v půdě (SOC). Tím získáme váš čistý uhlíkový efekt, který převedeme na potenciální příjmy na základě průměrných tržních hodnot. <\/p>",
+            "heading": "Údaje pro výpočet"
+          }
+        },
+        "headline": "Jak se počítají odhady zisků?",
+        "infoText": "O kalkulačce"
+      },
+      "steps": {
+        "step1": "Připněte si polohu své farmy",
+        "step2": "Výběr plodiny",
+        "step3": "Vybraná pole (automaticky detekovaná)",
+        "step4": "Analyzujeme vaše postupy pomocí satelitních dat",
+        "step5": "Okamžitě získejte odhad výdělku"
+      },
+      "terms": "Předpokládané hodnoty jsou pouze odhady a nejsou zaručeny. <link>Zjistěte více<\/link>",
+      "title": "Vypočítejte si výdělečný potenciál své farmy"
+    }
+  },
+  "farm": {
+    "form": {
+      "countryMessage": "V současné době podporujeme farmy z následujících zemí:<br><\/br> {{countries}}.<br><\/br>",
+      "countryPlaceholder": "Vyberte zemi své farmy",
+      "createFarmButton": "Vytvořit farmu",
+      "createHeadline": "Vaše farma",
+      "defaultFarmName": "Moje farma",
+      "description": "Zadejte název a umístění vaší farmy",
+      "editLocation": "Upravit umístění",
+      "errors": {
+        "countryRequired": "Země je vyžadována.",
+        "locationAddressInvalid": "Zvolte prosím přesnější adresu (ulice nebyla nalezena)",
+        "locationCityInvalid": "Vyberte prosím platnou lokalitu (město nebylo nalezeno)",
+        "locationCountryCodeInvalid": "V současné době farmy z této země nepodporujeme",
+        "locationRegionInvalid": "Vyberte prosím platnou lokalitu (region nenalezen)",
+        "locationRequired": "Umístění je vyžadováno",
+        "locationZipCodeInvalid": "Zvolte prosím přesnější adresu (poštovní směrovací číslo nebylo nalezeno)",
+        "nameRequired": "Název farmy je povinný."
+      },
+      "headline": "Vytvoření farmy",
+      "locationLabel": "Umístění farmy",
+      "locationPlaceholder": "Zadejte libovolnou adresu nebo název firmy",
+      "nameLabel": "Název farmy",
+      "regionMessage": "V současné době podporujeme pouze farmy v Dánsku, Francii, Německu, Polsku a Spojeném království. Jakmile se rozšíříme do dalších regionů, dáme vám vědět.",
+      "submitForm": "Vytvořit farmu",
+      "successMessage": "Poloha vaší farmy byla úspěšně zmapována.",
+      "updateFarmButton": "Aktualizace farmy",
+      "updateHeadline": "Aktualizujte svou farmu"
+    }
+  },
+  "fields": {
+    "description": "Jak chcete přidat pole?",
+    "heading": "Zmapujte svá pole",
+    "infoBox": "Poloha vaší farmy byla úspěšně zmapována."
+  },
+  "footer": {
+    "farmSwitcher": {
+      "createButton": "Vytvořit novou farmu",
+      "subTitle": "Přepněte na jinou farmu nebo vytvořte novou",
+      "switchButton": "Přepnout farmu",
+      "title": "Vaše farmy"
+    },
+    "signOut": "Odhlásit se"
+  },
+  "navConfig": {
+    "community": "Společenství",
+    "dashboard": "Přístrojová deska",
+    "earnings": "Zisk",
+    "insights": "Insights",
+    "my-farm": "Moje farma"
+  },
+  "navigation": {
+    "analyseStep": "Analýza polí",
+    "back": "Zpět",
+    "exploreSteps": {
+      "cropsStep": "Vybrané plodiny",
+      "earningsStep": "Odhad zisku",
+      "estimateStep": "Odhad zisku",
+      "farmStep": "Vaše farma",
+      "fieldsStep": "Vybraná pole"
+    },
+    "farmStep": "Vytvořit farmu",
+    "fieldsStep": "Přidání polí",
+    "restart": "Restartování",
+    "steps": {
+      "analyse": "Analýza polí",
+      "crops": "Vybrané plodiny",
+      "earnings": "Odhad zisku",
+      "estimate": "Shrnutí příjmů",
+      "farm": "Vaše farma",
+      "fields": "Detaily recenze"
+    },
+    "viewModeToggle": {
+      "listButton": "Seznam",
+      "mapButton": "Mapa",
+      "switchToListView": "Přepnutí na zobrazení seznamu",
+      "switchToMapView": "Přepnutí na zobrazení mapy"
+    },
+    "wrongStepModal": {
+      "continueToDashboardButton": "Pokračovat na přístrojovou desku",
+      "continueToFieldsButton": "Pokračujte na moje pole",
+      "description": "Zdá se, že tento krok nastavení farmy jste již provedli.",
+      "heading": "Počkejte... jste o krok napřed."
+    }
+  },
+  "practices": {
+    "coverCropValues": {
+      "no": "Ne",
+      "yes": "Ano"
+    },
+    "tillage": {
+      "types": {
+        "conventional_till": "Konvenční",
+        "min_till": "Minimum",
+        "no_data": "Neznámý",
+        "no_majority_type": "Neznámý",
+        "no_till": "Ne, dokud",
+        "not_enough_field_data": "Neznámý"
+      }
+    }
+  },
+  "reviewBoundaries": {
+    "form": {
+      "description": "Níže jsou uvedena importovaná pole. Zrušte výběr polí, která nechcete importovat.",
+      "footer": {
+        "continueButton": "Pokračovat s vybranými poli",
+        "deleteButton": "Odstranění polí",
+        "deleteButtonMobile": "Odstranit",
+        "deselectButton": "Zrušte výběr všech",
+        "deselectButtonMobile": "Zrušení výběru",
+        "selectedCount": "{count, plural, =1 {# vybrané pole} other {# vybraná pole}}"
+      },
+      "heading": "Zkontrolujte svá pole",
+      "infoBox": "Vaše pole byla úspěšně importována.",
+      "list": {
+        "fieldHeader": "Pole",
+        "fieldsHa": "{{value}} ha",
+        "sizeHeader": "Velikost",
+        "tinyFieldHa": "<1 ha"
+      },
+      "summary": {
+        "area": "Celková plocha",
+        "fields": "Pole",
+        "fieldsCount": "{count, plural, =1 {# polí } other {# polí }}",
+        "fieldsHa": "{{value}} ha"
+      }
+    },
+    "infoBox": "Vaše pole byla úspěšně importována."
+  },
+  "rpaImport": {
+    "card": {
+      "description": "Importovat hranice ze systému RPA",
+      "heading": "Vyberte pole z RPA"
+    },
+    "form": {
+      "description": "Připojte se k Agentuře pro platby na venkov a importujte hranice polí.",
+      "errors": {
+        "allFieldsDuplicate": "Již jste přidali všechna pole odpovídající tomuto číslu SBI",
+        "generic": "Při importu polí došlo k chybě",
+        "noFieldsFound": "Pro dané číslo SBI nebyla nalezena žádná pole",
+        "sbiNumberRequired": "Je vyžadováno číslo SBI"
+      },
+      "heading": "Import z RPA",
+      "importButton": "Import hranic RPA",
+      "infoBox": "Ze systému RPA se načítají pouze vaše hranice.<br><\/br> Žádná jiná data nejsou zpřístupněna ani sdílena.",
+      "input": {
+        "sbiNumberLabel": "Vaše 9místné číslo SBI",
+        "termsLabel": "Přečetl\/a jsem si podmínky licence pro koncové uživatele Ordinance Survey Public Sector <link>a souhlasím s nimi<\/link>"
+      }
+    }
+  },
+  "shapefile": {
+    "buttons": {
+      "continueToImport": "Importní pole",
+      "importing": "Importování...",
+      "remove": "Odstranění stránky"
+    },
+    "dropzone": {
+      "description": "Nahrajte složku shapefile zip. Ty obvykle obsahují formáty shp, dbf, shx a prj.",
+      "dragText": "Přetažení složky shapefile (.zip)",
+      "dropText": "Zde můžete nahrát soubory",
+      "dropToUploadText": "Upustit soubor k nahrání",
+      "selectButton": "Vyberte shapefile (.zip)"
+    },
+    "errors": {
+      "fileTooLarge": {
+        "description": "Nahrajte prosím soubor menší než 10 MB.",
+        "title": "Příliš velký soubor"
+      },
+      "invalidFileType": {
+        "description": "Nahrajte prosím složku zip obsahující vaše soubory shapefile (obvykle ve formátech shp, dbf, shx a prj.) Potřebujete pomoc s přidáním polí, <link>kontaktujte prosím zákaznickou podporu.<\/link>",
+        "title": "Nesprávný formát formuláře souboru"
+      },
+      "missingComponents": {
+        "description": "Ve složce zip nahrajte všechny soubory SHP, SHX, DBF a PRJ. Potřebujete pomoc s přidáním polí, <link>kontaktujte prosím zákaznickou podporu.<\/link>",
+        "title": "Zjištěny chybějící soubory"
+      },
+      "uploadFailed": {
+        "description": "Při nahrávání vašich shapefile jsme narazili na chybu. <link>Zkuste to prosím znovu nebo se prosím obraťte na zákaznickou podporu.<\/link> pro pomoc.",
+        "title": "Chyba při nahrávání shapefile"
+      }
+    },
+    "import": {
+      "description": "Nahrajte shapefile svých hranic.",
+      "downloadPdfButton": "Stáhnout průvodce ve formátu PDF",
+      "heading": "Nahrání souboru tvaru",
+      "zipHelp": "Nevíte, jak vytvořit soubor .zip?"
+    },
+    "propertySelect": {
+      "description": "Pro přiřazení názvů polí vyberte z dostupných vlastností souboru shapefile.",
+      "heading": "Pojmenujte svá pole",
+      "noPropertiesFound": "Nebyly nalezeny žádné vlastnosti souboru shapefile. Nahrajte prosím shapefile s vlastnostmi."
+    },
+    "uploadCard": {
+      "description": "Importovat hranice ze souboru shapefile",
+      "heading": "Nahrát shapefile"
+    }
+  },
+  "welcome": {
+    "continueButton": "Vytvoření farmy",
+    "heading": "Vítejte, {{firstName}}. Připravíme vaši farmu.",
+    "listItem1": "Vyhledejte farmu",
+    "listItem2": "Přidání polí",
+    "listItem3": "Zřízení farmy",
+    "teaserMessage": "Nastavení během pouhých 2 minut"
+  },
+  "welcomeModal": {
+    "continueButton": "Vytvoření farmy",
+    "description": "Nastavte si farmu během několika minut pomocí technologie dálkového snímání pro detekci vašich polí a postupů.",
+    "heading": "Začněte tím, že si vytvoříte farmu.",
+    "listItem1": "Vytvoření farmy",
+    "listItem2": "Snadný import polí",
+    "listItem3": "Podívejte se na zjištěné postupy a poznatky",
+    "listItem4": "Přihlaste se k výdělku ze svých zemědělských údajů",
+    "teaserMessage": "Nastavení za 2 minuty"
+  }
+}

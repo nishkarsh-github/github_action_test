@@ -1,0 +1,614 @@
+{
+  "analyse": {
+    "findOutMore": {
+      "contactUs": "Vis dar reikia pagalbos? <link> Susisiekite su mumis <\/link>",
+      "description": {
+        "paragraph1": "Nuotolinio stebėjimo technologijos žemės ūkyje reiškia jutiklių (pvz., palydovų) ir vaizdo gavimo sistemų naudojimą duomenims apie pasėlius, dirvožemį ir aplinkos sąlygas rinkti ir analizuoti be tiesioginio fizinio kontakto.",
+        "paragraph2": "Integruodama palydovinius vaizdus, dirbtinį intelektą (DI) ir mašininį mokymąsi, „Agreena“ gali pasiūlyti ūkininkams efektyvų būdą stebėti savo ūkį iš kosmoso.",
+        "paragraph3": "Pagrindinės mūsų nuotolinio stebėjimo technologijos taikymo sritys apima lauko ribų aptikimą, dengiančių pasėlių aptikimą, žemės dirbimo aptikimą, taip pat sėjomainos aptikimą.",
+        "paragraph4": "Sužinokite daugiau apie <technologyLink> „Agreena“ technologiją <\/technologyLink> adresu <websiteLink> Agreena.com. <\/websiteLink>"
+      },
+      "headline": "Kas yra nuotolinio stebėjimo technologija žemės ūkyje?",
+      "infoText": "Nuotolinio stebėjimo technologija"
+    },
+    "form": {
+      "description": "Automatiškai aptikite laukuose auginamus pasėlius ir taikomas praktikas, kad galėtumėte greičiau atlikti nustatymus.",
+      "footer": {
+        "continueButton": "Tęsti"
+      },
+      "heading": "Analizuokite savo laukus naudodami nuotolinį stebėjimą",
+      "infoPanelButton": "Sužinokite daugiau",
+      "listItem1": "Kontroliuokite savo ūkio duomenis",
+      "listItem2": "Peržiūrėkite savo laukus, sugrupuotus pagal pasėlių tipą",
+      "listItem3": "Greitai nustatykite žemės dirbimo būdą savo laukuose",
+      "listItem4": "Pastebėkite, ar buvo auginami dengiamieji augalai",
+      "listItem5": "Sutaupykite laiko naudodami automatiškai užpildytus lauko duomenis",
+      "summary": {
+        "area": "Plotas",
+        "fields": "Laukai",
+        "fieldsCount": "{count, plural, =1 {# laukas } other {# laukai }}",
+        "fieldsHa": "{{value}} ha"
+      }
+    },
+    "modal": {
+      "comingSoon": "Netrukus pasirodys",
+      "communityCTADescription": "Turite klausimų apie ūkininkavimą? Susisiekite su regeneracinių ūkių pradininkais.",
+      "communityCTATitle": "Susisiekite su \"Regen\" ūkininkais",
+      "earningsCTADescription": "Galėtumėte užsidirbti pinigų, remdamiesi savo ūkininkavimo praktikų poveikiu.",
+      "earningsCTATitle": "Užsidirbkite pinigų",
+      "fieldsCTADescription": "Jūsų aptiktos ūkininkavimo praktikos naudojant nuotolinio stebėjimo technologijas.",
+      "fieldsCTATitle": "Jūsų ūkis ir laukai",
+      "heading": "Užbaigti ūkio nustatymai.<br><\/br> Atraskite savo ūkį.",
+      "insightsCTADescription": "Peržiūrėkite įžvalgas, pagrįstas jūsų aptiktais pasėliais ir ūkininkavimo praktikomis.",
+      "insightsCTATitle": "„Regen ag“ balas ir įžvalgos"
+    },
+    "pending": {
+      "description": "Tai gali užtrukti kelias minutes",
+      "heading": "Ūkio kūrimas...",
+      "listItem1": "Lauko ribų tikrinimas",
+      "listItem2": "Augintų kultūrų identifikavimas",
+      "listItem3": "Lauko praktikų nustatymas"
+    }
+  },
+  "boundaryDetection": {
+    "card": {
+      "comingSoon": "Netrukus pasirodys",
+      "description": "Pasirinkite laukus iš automatiškai aptiktų ribų",
+      "heading": "Žemėlapyje pasirinkite laukus"
+    },
+    "form": {
+      "continueButton": "Tęsti pasirinktus laukus",
+      "continueToScan": "Tęsti laukų pasirinkimą",
+      "continueWithSelectedFields": "Tęsti pasirinktus laukus",
+      "description": "Pasirinkite laukus iš automatiškai aptiktų ribų.",
+      "empty": {
+        "heading": "Nepasirinkote jokių laukų",
+        "info": "pasirinkta 0 laukų",
+        "listItem1": "Raskite savo laukus žemėlapyje",
+        "listItem2": "Ieškokite norint aptikti ribas",
+        "listItem3": "Pasirinkite lauko ribas"
+      },
+      "heading": "Pasirinkite savo laukus žemėlapyje",
+      "headingCrop": "Pasirinkite visus <highlight>{{crop}}<\/highlight> laukus",
+      "selectAFieldToContinue": "Pasirinkite lauką, jei norite tęsti",
+      "summary": {
+        "area": "Plotas",
+        "fieldsHa": "{{value}} ha",
+        "selected": "Pasirinkta",
+        "selectedCount": "{count, plural, =1 {# laukas } other {# laukai }}",
+        "topCount": "{count, plural, =1 {# pasirinktas laukas } other {# pasirinkti laukai }}",
+        "topHa": "{value, plural, =1 {# iš viso ha} other {# iš viso ha}}"
+      }
+    },
+    "map": {
+      "addDescription": "Spustelėkite ribą, kad ją pridėtumėte",
+      "cantFindAddressText": "Nerandate savo adreso? <button>Vietoj to naudokite žemėlapį<\/button>",
+      "detectingBoundaries": "Aptikti ribas...",
+      "fieldHa": "{{value}} ha",
+      "geolocationNotSupported": "Jūsų naršyklė nepalaiko geografinės vietos nustatymo",
+      "geolocationPermissionDenied": "Geografinės vietos nustatymo leidimas buvo atmestas. Įgalinkite jį naršyklės nustatymuose.",
+      "locationSearchTooltip": "Ieškoti savo ūkio",
+      "moveTooltip": "Perkelkite žemėlapį, tada nuskaitykite sritį, kad nustatytumėte ribas.",
+      "scanButton": "Nuskaityti ribas",
+      "searchPlaceholder": "Žemėlapio paieška",
+      "searchTooltip": "Ieškokite norint aptikti ribas",
+      "selectTooltip": "Pasirinkite laukus iš nubrėžtų ribų.",
+      "tinyFieldHa": "<1 ha",
+      "tooZoomedOut": "Žemėlapio plotas per didelis <br\/> Priartinkite žemėlapį, kad galėtumėte ieškoti.",
+      "unableToRetrieveLocation": "Nepavyksta atkurti jūsų buvimo vietos",
+      "useMyLocationButton": "Naudoti mano dabartinę buvimo vietą",
+      "zoomInToScanAssistiveText": "Priartinkite vaizdą ir ieškokite ribų",
+      "zoomInToScanButton": "Priartinkite, kad nuskaitytumėte"
+    }
+  },
+  "countries": {
+    "BG": "Bulgarija",
+    "CZ": "Čekija",
+    "DE": "Vokietija",
+    "DK": "Danija",
+    "FR": "Prancūzija",
+    "GB": "Jungtinė Karalystė",
+    "HU": "Vengrija",
+    "LT": "Lietuva",
+    "MD": "Moldova",
+    "PL": "Lenkija",
+    "RO": "Rumunija",
+    "SK": "Slovakija",
+    "UA": "Ukraina"
+  },
+  "cropGroups": {
+    "barley_spring": "Vasariniai miežiai",
+    "barley_winter": "Žieminiai miežiai",
+    "beans": "Pupos",
+    "cereals_unknown": "Nežinomi grūdai",
+    "corn": "Kukurūzai",
+    "grapes": "Vynuogės",
+    "grasses": "Žolės",
+    "no_data": "Nerasta jokių pasėlių",
+    "no_majority_type": "Nėra daugumos pasėlio",
+    "not_agriculture": "Ne žemės ūkio",
+    "oats": "Avižos",
+    "other": "Kita",
+    "other_cereals": "Kiti grūdai",
+    "other_cereals_spring": "Kiti pavasariniai javai",
+    "other_cereals_winter": "Kiti žieminiai javai",
+    "peas": "Žirniai",
+    "potato": "Bulvė",
+    "rapeseed_spring": "Vasariniai rapsai",
+    "rapeseed_unknown": "Nežinomas rapsas",
+    "rapeseed_winter": "Žieminiai rapsai",
+    "rye": "Rugiai",
+    "soybeans": "Sojų pupelės",
+    "sugar_beet": "Cukriniai runkeliai",
+    "sunflower": "Saulėgrąža",
+    "unknown": "Nežinoma",
+    "wheat_spring": "Vasariniai kviečiai",
+    "wheat_winter": "Žieminiai kviečiai"
+  },
+  "cvrImport": {
+    "card": {
+      "description": "Prisijunkite prie CVR, kad importuotumėte savo ribas",
+      "heading": "Pasirinkite laukus iš CVR"
+    },
+    "form": {
+      "description": "Prisijunkite prie CVR, kad importuotumėte lauko ribas.",
+      "errors": {
+        "allFieldsDuplicate": "Jau pridėjote visus laukus, atitinkančius šį CVR numerį",
+        "cvrNumberRequired": "Būtinas CVR numeris",
+        "generic": "Importuojant laukus įvyko klaida",
+        "noFieldsFound": "Nerasta jokių laukų su nurodytu CVR numeriu"
+      },
+      "heading": "Importuoti CVR lauko ribas",
+      "importButton": "Importuoti CVR ribas",
+      "infoBox": "Prisijunkite prie CVR, kad importuotumėte lauko ribas.",
+      "input": {
+        "cvrNumberLabel": "Jūsų 8 skaitmenų CVR numeris",
+        "roleRadioGroup": {
+          "errors": {
+            "required": "Pasirinkite savo pareigą"
+          },
+          "label": "Kokia jūsų pareiga ūkyje?",
+          "options": {
+            "contractor": "Esu agentas (pvz., agronomas arba rangovas)",
+            "farmer": "Esu ūkio savininkas \/ tiesiogiai jame dirbantis asmuo"
+          }
+        }
+      }
+    }
+  },
+  "exploreFlow": {
+    "confirmBoundariesForEstimate": {
+      "continueButton": "Apskaičiuoti sąmatą",
+      "description": "Apskaičiuosime jūsų poveikį aplinkai ir jo apytikslę vertę, remdamiesi šia kultūra, ploto dydžiu ir praktika.",
+      "heading": "Peržiūrėkite savo duomenis",
+      "pending": {
+        "heading": "Laukų analizė ir sąmatos apskaičiavimas",
+        "listItem1": "Laukų ir praktikos tikrinimas",
+        "listItem2": "Poveikio aplinkai apskaičiavimas",
+        "listItem3": "Pajamų įverčio sudarymas"
+      },
+      "summary": {
+        "crop": "Pasėliai",
+        "editLink": "Redaguoti",
+        "fields": "Laukai",
+        "fieldsCount": "{count, plural, =1 {# laukas } other {# laukai }}",
+        "fieldsHa": "{{value}} ha",
+        "heading": "Duomenys apie pasėlius",
+        "totalArea": "Plotas"
+      },
+      "whatNext": {
+        "heading": "Kaip apskaičiuojama jūsų sąmata",
+        "listItem1": "Analizuojame jūsų laukus naudodami nuotolinį stebėjimą",
+        "listItem2": "Apskaičiuojame jūsų poveikį aplinkai",
+        "listItem3": "Apskaičiuojame jūsų galimą uždarbį"
+      }
+    },
+    "createFarm": {
+      "description": "Įveskite savo ūkio buvimo vietą, kad jį rastumėte žemėlapyje.",
+      "editLocation": "Redaguoti vietą",
+      "locateFarm": "Suraskite savo ūkį"
+    },
+    "cropForEstimate": {
+      "continueButton": "Norėdami tęsti, pasirinkite pasėlį",
+      "subTitle": "Apskaičiuosime jūsų prognozuojamas pajamas pagal ūkininkavimo praktiką ir bendrą šios kultūros plotą",
+      "title": "Kokiu derliumi norėtumėte pagrįsti savo pajamų įvertinimą?"
+    },
+    "cropSelection": {
+      "continueButton": "Pasirinkite pasėlius, kad galėtumėte tęsti",
+      "cropFilterPlaceholder": "Ieškoti pasėlių",
+      "errors": {
+        "atLeastOneCropRequired": "Pasirinkite bent vieną pasėlį",
+        "mustSelectCrop": "Pasirinkite pasėlį, kurio pajamas norite įvertinti",
+        "noCropsFoundMatching": "Nerasta jokių atitinkančių pasėlių"
+      },
+      "subTitle": "Apskaičiuosime jūsų poveikį aplinkai, remdamiesi šio derliaus praktika.",
+      "title": "Pasirinkite pasėlį, kurį auginote 2024 m"
+    },
+    "estimate": {
+      "cropDetails": {
+        "basedOnFields": "Remiantis {count, plural, =1 {# lauku} other {# laukais}}, {{area}} ha",
+        "editLink": "Redaguoti",
+        "forCrop": "Jūsų {{crop}}"
+      },
+      "detectablePractices": {
+        "coverCrop": {
+          "count": "<bold>{{coverCropHa}} ha<\/bold> iš {{totalHa}} ha",
+          "title": "Dengiamieji augalai"
+        },
+        "description": "Ūkininkavimo praktikos duomenys, nustatyti naudojant palydovinius jutiklius.",
+        "tillage": {
+          "count": "<bold>{{reducedNoTillHa}} ha<\/bold> iš {{totalHa}} ha",
+          "title": "Mažesnio žemės dirbimo ir (arba) neariminės žemdirbystės"
+        },
+        "title": "Nustatyta praktika"
+      },
+      "earnings": {
+        "averagePerHa": "Tai vidutiniškai {{amount}}\/ha",
+        "disclaimer": "Sumos negarantuojamos ir yra tik apytikrės. Sužinokite daugiau apie skaičiavimus.",
+        "perYear": "\/ metus",
+        "title": "Jūsų poveikis aplinkai gali būti įvertintas"
+      },
+      "eligible": {
+        "description": "Jūsų ūkininkavimo praktika daro teigiamą poveikį aplinkai, už kurį galite gauti atlyginimą.",
+        "title": "Atrodo, kad turite teisę dalyvauti konkurse!"
+      },
+      "footer": {
+        "createAccountButton": "Sukurti nemokamą paskyrą",
+        "eligible": {
+          "description": "Nustatykite savo ūkį ir pradėkite uždirbti per kelias minutes.",
+          "title": "Gaukite atlyginimą už savo ūkio poveikį aplinkai"
+        },
+        "notEligible": {
+          "description": "Gaukite įžvalgų apie ūkį, tikslius apskaičiavimus ir dar daugiau.",
+          "title": "Maksimaliai padidinkite savo ūkio pajamų potencialą"
+        }
+      },
+      "loadingSkeleton": {
+        "createAccountButton": "Sukurti nemokamą paskyrą",
+        "earningsDisclaimer": "Pelnas yra tik apytikris ir nėra garantuotas. Remiantis nuotolinio stebėjimo metodais (žemės dirbimas ir dengiamieji augalai). Padarytos pagrįstos prielaidos dėl liekanų tvarkymo ir trąšų naudojimo.",
+        "earningsText": "Jūsų poveikis aplinkai gali būti įvertintas",
+        "metrics": {
+          "analysedArea": "Analizuojamas plotas",
+          "avgEarnings": "Vidutinis uždarbis",
+          "regenScore": "Regeneracijos rezultatas"
+        },
+        "pending": {
+          "heading": "Apskaičiuoti sąmatą...",
+          "listItem1": "Laukų ir praktikos tikrinimas",
+          "listItem2": "Poveikio aplinkai apskaičiavimas",
+          "listItem3": "Pajamų įverčio sudarymas"
+        },
+        "perYear": "\/ metus"
+      },
+      "map": {
+        "fieldHa": "{{value}} ha",
+        "overlay": {
+          "coverCropLabel": "Auginami dengiamieji augalai",
+          "cropResidueLabel": "Pasėlių likučiai",
+          "estimatedEarnings": "Numatomas uždarbis {{value}}",
+          "fertiliserLabel": "Trąšos",
+          "fieldHa": "{{value}} ha",
+          "practicesHeadline": "Palydovu aptikta lauko praktika",
+          "tillageLabel": "Žemės dirbimo tipas",
+          "tinyFieldHa": "<1 ha",
+          "undetectedValue": "Nepastebėtas",
+          "yes": "Taip"
+        },
+        "selectTooltip": "Pasirinkite ribą, kad pamatytumėte išsamią informaciją",
+        "tinyFieldHa": "<1 ha"
+      },
+      "notAccurate": "Praktika nėra tiksli? <link>Sukurkite paskyrą<\/link>, kad galėtumėte redaguoti praktiką.",
+      "notEligible": {
+        "description": "Kai pradedate taikyti aplinkai draugiškesnę praktiką.",
+        "title": "Maksimaliai padidinkite savo uždarbio potencialą."
+      },
+      "practices": {
+        "coverCrop": {
+          "count": "<bold>{{coverCropHa}} ha<\/bold> iš {{totalHa}} ha",
+          "title": "Dengiamieji augalai"
+        },
+        "description": "Tokia nenustatoma praktika, kaip liekanų mulčiavimas ir organinių\/mišrių trąšų naudojimas, buvo priimta remiantis nacionaliniais vidurkiais.",
+        "notAccurate": "Netikslus? Redaguokite savo praktiką, kai <link>susikursite paskyrą<\/link>",
+        "tillage": {
+          "count": "<bold>{{reducedNoTillHa}} ha<\/bold> iš {{totalHa}} ha",
+          "title": "Mažesnio žemės dirbimo ir (arba) neariminės žemdirbystės"
+        },
+        "title": "Didelį poveikį turinti aptikta praktika"
+      },
+      "undetectablePractices": {
+        "description": "Mulčiavimo liekanų ir trąšų negalima aptikti naudojant palydovines nuotraukas, todėl buvo daromos šios prielaidos.",
+        "fertiliser": {
+          "count": "{{fertiliserHa}} ha {{totalHa}} ha",
+          "title": "Mišrios\/organinės trąšos"
+        },
+        "residueMulching": {
+          "count": "{{residueMulchingHa}} ha {{totalHa}} ha",
+          "title": "Augalinių liekanų mulčiavimas"
+        },
+        "title": "Kita praktika"
+      }
+    },
+    "exploreBoundaryDetection": {
+      "continueButton": "Tęsti pasirinktus laukus",
+      "continueToScan": "Tęsti laukų pasirinkimą",
+      "continueWithSelectedFields": "Tęsti pasirinktus laukus",
+      "description": "Nuskaitykite vietovę žemėlapyje ir pasirinkite liucernos laukus.",
+      "empty": {
+        "heading": "Nepasirinkote jokių laukų",
+        "listItem1": "Raskite savo laukus žemėlapyje",
+        "listItem2": "Ieškokite norint aptikti ribas",
+        "listItem3": "Pasirinkite lauko ribas"
+      },
+      "heading": "Nuskaitykite ir pasirinkite {{crop}} laukus",
+      "map": {
+        "addDescription": "Spustelėkite ribą, kad ją pridėtumėte",
+        "moveTooltip": "Spustelėkite ir vilkite, kad pastumtumėte žemėlapio rodinį",
+        "scanButton": "Nuskaitykite ribas",
+        "searchTooltip": "Ieškokite norint aptikti ribas",
+        "selectTooltip": "Bakstelėkite, kad pasirinktumėte ribą, bakstelėkite, kad panaikintumėte pasirinkimą",
+        "tinyFieldHa": "<1 ha",
+        "tooZoomedOut": "Žemėlapio plotas per didelis <br\/> Priartinkite žemėlapį, kad galėtumėte ieškoti.",
+        "zoomInToScanButton": "Priartinkite, kad nuskaitytumėte"
+      },
+      "selectAFieldToContinue": "Pasirinkite lauką, jei norite tęsti",
+      "summary": {
+        "area": "Plotas",
+        "fieldsHa": "{{value}} ha",
+        "selected": "Pasirinkta",
+        "selectedCount": "{count, plural, =1 {# laukas } other {# laukai }}"
+      },
+      "summaryMobile": {
+        "fieldsHa": "{{value}} iš viso ha",
+        "selectedCount": "{count, plural, =1 {# pasirinktas laukas } other {# pasirinkti laukai }}"
+      }
+    },
+    "getStarted": {
+      "cta": {
+        "button": "Pradėti",
+        "subtext": "Gaukite sąmatą per kelias minutes"
+      },
+      "description": "Didžiosios Britanijos ūkininkai už teigiamą aplinkosaugos praktiką gali uždirbti iki <bold>{{amount}}\/ha.<\/bold> Sužinokite, kiek galite uždirbti.",
+      "disclaimer": "Prognozuojamos vertės yra tik apytikrės ir negarantuojamos. <button>Sužinokite daugiau<\/button>",
+      "earningsDisclaimerPanel": {
+        "contactUs": "Vis dar reikia pagalbos? <link> Susisiekite su Agreena <\/link>",
+        "description": {
+          "section1": {
+            "content": "Tai ankstyvojo etapo įrankis, skirtas pateikti greitą orientacinį įvertį, pagrįstą vienu pasėliu ir pasirinktuose laukuose nustatyta praktika. Joje palydoviniai duomenys derinami su prielaidomis, kad būtų parodyta, kiek galėtumėte uždirbti iš atkuriamojo ūkininkavimo. Pajamų įverčiai yra orientaciniai ir nėra garantuoti.",
+            "heading": "Apie skaičiuotuvą"
+          },
+          "section2": {
+            "content": "<p>Poveikį aplinkai ir pajamas apskaičiuojame remdamiesi šia ūkininkavimo praktika:<\/p><ul><li>Žemės dirbimo būdas<\/li><li>Dengiamųjų augalų naudojimas<\/li><li>Trąšų tipas<\/li><li>Augalinių liekanų mulčiavimas<\/li><\/ul> <p>Pagal šią praktiką ir bendrą lauko plotą apskaičiuojamas jūsų lauko išmetamų šiltnamio efektą sukeliančių dujų (CO₂) ir dirvožemio organinės anglies (SOC) kiekis. Taip gauname jūsų grynąjį anglies dioksido poveikį, kurį, remdamiesi vidutinėmis rinkos vertėmis, perskaičiuojame į galimas pajamas. <\/p>",
+            "heading": "Skaičiavimo duomenys"
+          }
+        },
+        "headline": "Kaip apskaičiuojami pelno įverčiai?",
+        "infoText": "Apie skaičiuotuvą"
+      },
+      "steps": {
+        "step1": "Prisekite savo ūkio vietą",
+        "step2": "Pasirinkite pasėlį",
+        "step3": "Pasirinkti laukai (automatiškai aptinkami)",
+        "step4": "Analizuojame jūsų praktiką naudodami palydovinius duomenis",
+        "step5": "Iš karto gaukite pajamų įvertinimą"
+      },
+      "terms": "Prognozuojamos vertės yra tik apytikrės ir negarantuojamos. <link>Sužinokite daugiau<\/link>",
+      "title": "Apskaičiuokite savo ūkio pajamų potencialą"
+    }
+  },
+  "farm": {
+    "form": {
+      "countryMessage": "Šiuo metu remiame ūkius iš šių šalių:<br><\/br> {{countries}}.<br><\/br>",
+      "countryPlaceholder": "Pasirinkite savo ūkio šalį",
+      "createFarmButton": "Sukurti ūkį",
+      "createHeadline": "Jūsų ūkis",
+      "defaultFarmName": "Mano ūkis",
+      "description": "Įveskite savo ūkio pavadinimą ir vietą",
+      "editLocation": "Redaguoti vietą",
+      "errors": {
+        "countryRequired": "Reikia nurodyti šalį.",
+        "locationAddressInvalid": "Pasirinkite tikslesnį adresą (gatvė nerasta)",
+        "locationCityInvalid": "Pasirinkite tinkamą vietą (miestas nerastas)",
+        "locationCountryCodeInvalid": "Šiuo metu neremiame šios šalies ūkių.",
+        "locationRegionInvalid": "Pasirinkite tinkamą vietą (regionas nerastas)",
+        "locationRequired": "Būtina nurodyti vietą",
+        "locationZipCodeInvalid": "Pasirinkite tikslesnį adresą (pašto kodas nerastas)",
+        "nameRequired": "Būtina nurodyti ūkio pavadinimą."
+      },
+      "headline": "Sukurkite savo ūkį",
+      "locationLabel": "Ūkio vieta",
+      "locationPlaceholder": "Įveskite adresą arba įmonės pavadinimą",
+      "nameLabel": "Ūkio pavadinimas",
+      "regionMessage": "Šiuo metu palaikome tik Danijoje, Prancūzijoje, Vokietijoje, Lenkijoje ir Jungtinėje Karalystėje įsikūrusius ūkius. Kai plėsimės į kitus regionus, pranešime jums.",
+      "submitForm": "Sukurti ūkį",
+      "successMessage": "Jūsų ūkio vieta sėkmingai pažymėta žemėlapyje.",
+      "updateFarmButton": "Atnaujinti ūkį",
+      "updateHeadline": "Atnaujinkite savo ūkį"
+    }
+  },
+  "fields": {
+    "description": "Kaip norėtumėte pridėti savo laukus?",
+    "heading": "Žemėlapyje nustatykite savo laukus",
+    "infoBox": "Jūsų ūkio vieta sėkmingai pažymėta žemėlapyje."
+  },
+  "footer": {
+    "farmSwitcher": {
+      "createButton": "Sukurti naują ūkį",
+      "subTitle": "Persijunkite į kitą ūkį arba sukurkite naują",
+      "switchButton": "Perjungti ūkį",
+      "title": "Jūsų ūkiai"
+    },
+    "signOut": "Atsijungti"
+  },
+  "navConfig": {
+    "community": "Bendruomenė",
+    "dashboard": "Skydelis",
+    "earnings": "Pajamos",
+    "insights": "Įžvalgos",
+    "my-farm": "Mano ūkis"
+  },
+  "navigation": {
+    "analyseStep": "Analizuoti laukus",
+    "back": "Atgal",
+    "exploreSteps": {
+      "cropsStep": "Pasirinkite pasėlį",
+      "earningsStep": "Pajamų įvertinimas",
+      "estimateStep": "Pajamų įvertinimas",
+      "farmStep": "Jūsų ūkis",
+      "fieldsStep": "Pasirinkite laukus"
+    },
+    "farmStep": "Sukurti ūkį",
+    "fieldsStep": "Pridėti laukus",
+    "restart": "Iš naujo paleiskite",
+    "steps": {
+      "analyse": "Analizuoti laukus",
+      "crops": "Pasirinkite pasėlį",
+      "earnings": "Pajamų įvertinimas",
+      "estimate": "Pajamų suvestinė",
+      "farm": "Jūsų ūkis",
+      "fields": "Peržiūros informacija"
+    },
+    "viewModeToggle": {
+      "listButton": "Sąrašas",
+      "mapButton": "Žemėlapis",
+      "switchToListView": "Perjungimas į sąrašo rodinį",
+      "switchToMapView": "Perjungimas į žemėlapio rodinį"
+    },
+    "wrongStepModal": {
+      "continueToDashboardButton": "Eiti į skydelį",
+      "continueToFieldsButton": "Toliau į mano laukus",
+      "description": "Panašu, kad šį ūkio kūrimo žingsnį jau atlikote.",
+      "heading": "Palaukite minutėlę... jūs esate vienu žingsniu priekyje."
+    }
+  },
+  "practices": {
+    "coverCropValues": {
+      "no": "Ne",
+      "yes": "Taip"
+    },
+    "tillage": {
+      "types": {
+        "conventional_till": "Ariminė",
+        "min_till": "Sekli",
+        "no_data": "Nežinoma",
+        "no_majority_type": "Nežinoma",
+        "no_till": "Neariminė",
+        "not_enough_field_data": "Nežinoma"
+      }
+    }
+  },
+  "reviewBoundaries": {
+    "form": {
+      "description": "Toliau pateikiami importuoti laukai. Panaikinkite visų laukų, kurių nenorite importuoti, žymėjimą.",
+      "footer": {
+        "continueButton": "Tęsti pasirinktus laukus",
+        "deleteButton": "Ištrinti laukus",
+        "deleteButtonMobile": "Ištrinti",
+        "deselectButton": "Atšaukti visų žymėjimą",
+        "deselectButtonMobile": "Atšaukti pasirinkimą",
+        "selectedCount": "{count, plural, =1 {# pasirinktas laukas } other {# pasirinkti laukai }}"
+      },
+      "heading": "Peržiūrėkite savo laukus",
+      "infoBox": "Jūsų laukai sėkmingai importuoti.",
+      "list": {
+        "fieldHeader": "Laukas",
+        "fieldsHa": "{{value}} ha",
+        "sizeHeader": "Dydis",
+        "tinyFieldHa": "<1 ha"
+      },
+      "summary": {
+        "area": "Plotas",
+        "fields": "Laukai",
+        "fieldsCount": "{count, plural, =1 {# laukas } other {# laukai }}",
+        "fieldsHa": "{{value}} ha"
+      }
+    },
+    "infoBox": "Jūsų laukai sėkmingai importuoti."
+  },
+  "rpaImport": {
+    "card": {
+      "description": "Importuoti ribas iš RPA",
+      "heading": "Pasirinkite laukus iš RPA"
+    },
+    "form": {
+      "description": "Prisijunkite prie Kaimo mokėjimų agentūros, kad importuotumėte savo lauko ribas.",
+      "errors": {
+        "allFieldsDuplicate": "Jau pridėjote visus laukus, atitinkančius šį SBI numerį",
+        "generic": "Importuojant laukus įvyko klaida",
+        "noFieldsFound": "Nerasta jokių laukų su nurodytu SBI numeriu",
+        "sbiNumberRequired": "SBI numeris būtinas"
+      },
+      "heading": "Importas iš RPA",
+      "importButton": "Importuoti RPA ribas",
+      "infoBox": "Iš RPA gaunamos tik jūsų ribos. <br> <\/br> Jokie kiti duomenys nepasiekiami ir nebendrinami.",
+      "input": {
+        "sbiNumberLabel": "Jūsų 9 skaitmenų SBI numeris",
+        "termsLabel": "Perskaičiau ir sutinku su „Ordinance Survey“ viešojo sektoriaus galutinio vartotojo licencijos <link> sąlygomis ir nuostatomis <\/link>"
+      }
+    }
+  },
+  "shapefile": {
+    "buttons": {
+      "continueToImport": "Importo laukai",
+      "importing": "Importuoti...",
+      "remove": "Pašalinti"
+    },
+    "dropzone": {
+      "description": "Įkelkite savo shapefile zip aplanką. Paprastai tai būna shp, dbf, shx ir prj formatų failai.",
+      "dragText": "Vilkite ir nuleiskite shapefile (.zip) aplanką",
+      "dropText": "Įmeskite failus čia",
+      "dropToUploadText": "Nuleiskite failą, kad jį įkeltumėte",
+      "selectButton": "Pasirinkite shapefile (.zip)"
+    },
+    "errors": {
+      "fileTooLarge": {
+        "description": "Įkelkite mažesnį nei 10 MB failą.",
+        "title": "Per didelis failas"
+      },
+      "invalidFileType": {
+        "description": "Įkelkite zip aplanką, kuriame yra jūsų shape failai (paprastai shp, dbf, shx ir prj formatų failai.) Reikia pagalbos pridedant laukus, <link>kreipkitės į klientų aptarnavimo skyrių.<\/link>",
+        "title": "Neteisingas failo formos formatas"
+      },
+      "missingComponents": {
+        "description": "Įkelkite visus SHP, SHX, DBF ir PRJ failus į zip aplanką. Jei reikia pagalbos pridedant laukus, <link>kreipkitės į klientų aptarnavimo skyrių.<\/link>",
+        "title": "Aptikti trūkstami failai"
+      },
+      "uploadFailed": {
+        "description": "Susidūrėme su klaida įkeliant jūsų shape failus. Prašome bandyti dar kartą arba <link>kreipkitės pagalbos į klientų aptarnavimo skyrių.<\/link> pagalbos.",
+        "title": "Klaida įkeliant shape failus"
+      }
+    },
+    "import": {
+      "description": "Įkelkite savo ribų shapefile.",
+      "downloadPdfButton": "Atsisiųsti PDF vadovą",
+      "heading": "Įkelti shapefile",
+      "zipHelp": "Nežinote, kaip sukurti .zip failą?"
+    },
+    "propertySelect": {
+      "description": "Pasirinkite iš galimų shapefile savybių, kad priskirtumėte laukų pavadinimus.",
+      "heading": "Pavadinkite savo laukus",
+      "noPropertiesFound": "Nerasta jokių shapefile savybių. Įkelkite shapefile su savybėmis."
+    },
+    "uploadCard": {
+      "description": "Importuokite ribas iš shapefile",
+      "heading": "Įkelti shapefile"
+    }
+  },
+  "welcome": {
+    "continueButton": "Sukurkite savo ūkį",
+    "heading": "Sveiki atvykę, {{firstName}}. Sukurkime jūsų ūkį.",
+    "listItem1": "Suraskite ūkį",
+    "listItem2": "Pridėti laukus",
+    "listItem3": "Įsteigti ūkį",
+    "teaserMessage": "Susikurkite vos per 2 minutes"
+  },
+  "welcomeModal": {
+    "continueButton": "Sukurkite savo ūkį",
+    "description": "Įkurkite savo ūkį per kelias minutes, naudodami nuotolinio stebėjimo technologiją, skirtą jūsų laukams ir praktikoms aptikti.",
+    "heading": "Pradėkite kurdami savo ūkį.",
+    "listItem1": "Sukurkite savo ūkį",
+    "listItem2": "Lengvai importuokite savo laukus",
+    "listItem3": "Peržiūrėkite aptiktas praktikas ir įžvalgas",
+    "listItem4": "Pasirinkite uždirbti iš savo ūkininkavimo duomenų",
+    "teaserMessage": "Nustatymas per kelias minutes"
+  }
+}
